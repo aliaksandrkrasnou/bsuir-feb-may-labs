@@ -1,14 +1,19 @@
 header {
     background: #373c3f;
     height: 100px;
-    padding: 0px;
-    margin: 0 auto;
     font-weight: bold;    
 }
 
 body {
     margin: 0px;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigator style */
 
 nav {
     float: left;
@@ -21,44 +26,56 @@ nav ul {
     display: block;
 }
 
-header li {
+nav li {
     float: left;
     display: block;
     margin-right: 55px;
 }
 
-header ul:first-child {
+nav ul:first-child {
     margin-left: 55px;
 }
 
-header li a {
+nav a {
     color: #ebebeb;
-    text-decoration: none;
     text-transform: uppercase;
 }
 
-header li a:hover {
+nav a:hover {
     color: #fff;
 }
 
-.banner-full-img > img {
-    display: block;
-    width: 100%;
+/* Main banner style */
+
+.main-banner {
+    background: linear-gradient(to bottom right, #12abc0, #078aa4);
+    height: 580px;
 }
 
-.banner-small-img > img {
-    padding: 0px;
-    margin: 0px;
-    width: 33.33%;
-    border: 0;
+.main-banner-content {
+    position: absolute;
+    left: 15%;
+    top: 35%;
+}
+
+.main-banner-text {
+    font-weight: bold;
+    font-size: 45px; /* Need to remove to relative css*/
+    letter-spacing: 0.10em;
+}
+
+.main-banner-link, .main-banner-arrow {
+    padding-top: 1.5em;
+}
+
+.main-banner-link {
+    color: #a7d4dd; 
+    width: 90%;
     float: left;
 }
 
-
-.banner-small-img {
-    display: inline;
-    margin: 0px;
-    padding: 0px;
+.main-banner-arrow {
+    float: right;
+    width: 10%;
+    text-align: right;
 }
-
-
