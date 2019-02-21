@@ -61,15 +61,16 @@ main div a:hover {
 }
 
 .main-first-div i {
-	display: inline-block;
-	padding-left: 50%;
+	float: right;
+	padding-right: 5%;
 }
 
 .main-second-div {
 	display: flex;
+	align-items: center;
 	font-size: 3em;
 	width: 70%;
-	height: 3em;
+	height: 10vw;
 	background-color: #27212c;
 	color: #9383a1;
 	padding: 0% 5%;
@@ -92,7 +93,7 @@ main div a:hover {
 	background-color: #bc3183;	
 	float: right;
 	width: 20%;
-	height: 90px;
+	height: 10vw;
 }
 
 .purple {
@@ -137,8 +138,10 @@ h2 {
   	font-size: 1em;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 980px) and (min-width: 1024px) {
+
 	body {
 		font-size: 10px;
 	}
+
 }
