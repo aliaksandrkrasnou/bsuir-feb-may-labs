@@ -10,12 +10,19 @@ body {
 	padding-left: 10%;
 }
 
+.small-topnav {
+	color: #f2f2f2;
+	text-align: left;
+	font-size: 4em;
+	padding: 1em 0.1em;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
 	float: left;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 1.4em 1.6em;
 	text-decoration: none;
 	font-size: 2em;
 	text-transform: uppercase;
@@ -49,7 +56,7 @@ body {
 main div a {
 	color: #96cdd8;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 3em;
 }
 
 main div a:hover {
@@ -138,10 +145,66 @@ h2 {
   	font-size: 1em;
 }
 
-@media (min-width: 980px) and (min-width: 1024px) {
+@media (min-width: 1000px) {
 
 	body {
 		font-size: 10px;
+	}
+
+	.small-topnav {
+		display: none;
+	}
+
+	.topnav a {
+		display: block;
+	}
+
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+
+	body {
+		font-size: 7px;
+	}
+
+	.small-topnav {
+		display: none;
+	}
+
+	.topnav a {
+		display: block;
+	}
+
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+
+	body {
+		font-size: 5px;
+	}	
+
+	.small-topnav {
+		display: block;
+	}
+
+	.topnav a {
+		display: none;
+	}
+
+}
+
+@media (max-width: 599px) {
+
+	body {
+		font-size: 3px;
+	}	
+
+	.small-topnav {
+		display: block;
+	}
+
+	.topnav a {
+		display: none;
 	}
 
 }
