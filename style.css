@@ -48,6 +48,7 @@ nav a:hover {
 /* Main banner style */
 
 .main-banner {
+    position: relative;
     background: linear-gradient(to bottom right, #12abc0, #078aa4);
     height: 580px;
 }
@@ -78,4 +79,82 @@ nav a:hover {
     float: right;
     width: 10%;
     text-align: right;
+}
+
+/* Text box */
+
+.text-box {
+    height: 240px;
+    line-height: 240px; /* dirty hack */
+}
+
+.text-box-text {
+    position: absolute;
+    height: inherit;
+    background: #27212C;
+    float: left;
+    width: 80%;
+    text-align: center;
+    color: #a7d4dd;
+}
+
+.text-box-arrow {
+    float: right;
+    width: 20%;
+    height: inherit;
+    background: #bc3183;
+    text-align: center;
+    color: white;
+}
+
+/* Gallery */
+
+.gallery {
+    height: auto;
+    display: table;
+    margin: 0px;
+}
+
+.gallery img {
+    display: block;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    
+    width: 33.3333%;
+    height: auto;
+    float: left;
+}
+
+/* Main Text */
+
+.text {
+    display: table;
+    background: #ebebeb;
+}
+
+.text h1, 
+.text > article:nth-child(even) {
+    padding-left: 8%;
+    padding-right: 4%;
+}
+
+.text > article:nth-child(odd) {
+    padding-left: 4%;
+    padding-right: 8%;
+}
+
+.text h1 {
+    display: block;
+    color: #088ca5;
+    padding-top: 1%;
+    font-weight: bold;
+}
+
+.text > article {
+    width: 49.9%;
+    float: left;
+    padding-bottom: 2%;
+    box-sizing: border-box;
+    color: #515151;
 }
