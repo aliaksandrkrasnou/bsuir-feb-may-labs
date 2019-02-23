@@ -16,6 +16,10 @@ a {
 /* Navigator style */
 
 nav {
+    height: inherit;
+}
+
+nav > .bigger{
     float: left;
     margin-top: 40px;
 }
@@ -45,12 +49,41 @@ nav a:hover {
     color: #fff;
 }
 
+nav > .lower {
+    font-size: 40px;
+    display: none;
+    height: inherit;
+}
+
+nav > .lower > .caption {   
+    box-sizing: border-box;
+    float: left;
+    color: #ebebeb;
+    padding-left: 40px;
+    padding-top: 25px;
+    width: calc(100% - 120px);
+    height: inherit;
+}
+
+nav > .lower > .menu-icon {
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    background: #202529;
+    float: right;
+    padding-top: 26px;
+    width: 120px;
+    height: inherit;
+    color: white;
+}
+
 /* Main banner style */
 
 .main-banner {
+    display: flex;
     position: relative;
     background: linear-gradient(to bottom right, #12abc0, #078aa4);
-    height: 580px;
+    height: 50vw;
 }
 
 .main-banner-content {
@@ -61,11 +94,12 @@ nav a:hover {
 
 .main-banner-text {
     font-weight: bold;
-    font-size: 45px; /* Need to remove to relative css*/
+    font-size: 5.3vw;
     letter-spacing: 0.10em;
 }
 
 .main-banner-link, .main-banner-arrow {
+    font-size: 3vw;
     padding-top: 1.5em;
 }
 
@@ -85,7 +119,10 @@ nav a:hover {
 
 .text-box {
     height: 240px;
-    line-height: 240px; /* dirty hack */
+    height: 20vw;
+    line-height: 20vw; /* -_- */
+    font-size: 3vw;
+
 }
 
 .text-box-text {
@@ -149,6 +186,7 @@ nav a:hover {
     color: #088ca5;
     padding-top: 1%;
     font-weight: bold;
+    font-size: 40px;
 }
 
 .text > article {
@@ -157,4 +195,26 @@ nav a:hover {
     padding-bottom: 2%;
     box-sizing: border-box;
     color: #515151;
+    font-size: 1.8vw;
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 830px ) {
+    .gallery img {
+        width: 100%;
+    }
+    .text > article {
+        width: 100%;
+    }
+    .text > article:nth-child(odd) {
+        padding-left: 8%;
+        padding-right: 4%;
+    }
+    nav > .bigger {
+        display: none;
+    }
+    nav > .lower {
+        display: block;  
+    }
 }
