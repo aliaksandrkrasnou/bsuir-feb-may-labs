@@ -4,11 +4,18 @@
   font-family: "Montserrat";
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d5d5d8; 
+}
+
 .fa-angle-right{
     color: white;
 }
 
-a{
+a, a:visited, a:active {
+    outline: none;
     text-decoration: none;
 }
 
@@ -31,6 +38,7 @@ nav .home{
     display: inline-block;
     padding: 2% 0 0 5%;
 }
+
 nav .home :active,:link,:visited{
     color: #ebebeb;
 }
@@ -81,12 +89,6 @@ nav .home :active,:link,:visited{
   
 .dropdown:hover .drop-links {
     display: block;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #d5d5d8; 
 }
 
 .banner{
@@ -141,6 +143,7 @@ body {
     width: 100%;
     display: flex;
     flex-flow: column;
+    overflow: hidden;
 }
 
 .imgs img{
