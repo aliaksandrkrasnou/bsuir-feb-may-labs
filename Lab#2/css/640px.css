@@ -38,14 +38,15 @@
     .imgs{
         flex-flow: row;
     }
-            
-    .imgs img + i{
-        width: 33.333%;
-    }
 
     .imgs a{
         height: auto;
+        width: 33.333%;
         font-size: 4vw;
+    }
+    
+    .imgs img{
+        width: 33.333%;
     }
 
     .text h2{
