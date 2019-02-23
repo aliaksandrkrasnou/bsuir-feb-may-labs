@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.header {
+    /*todo - get it out from flow*/
+    text-transform: uppercase; 
+    background-color: rgb(49, 49, 49);
+    color: #c9b8b8;
+    font-family: sans-serif;
+}
+
+.header ul.menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    /*float: left;*/
+}
+
+.header ul.menu li {
+    margin: 10px;
+    float: left;
+}
+
+.page-1 {
+   height: 100vh;
+   background-color: rgb(72, 157, 183);
+   
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   
+    /*todo - gradient*/
+}
+
+.page-1 .content {
+   padding: 100px;
+   color: white;
+   font-family: sans-serif;
+   font-size: 6.5vw
+   
+}
+
+.page-1  h1 {   
+   font-weight: 300;
+   margin: 3vh 0;
+   font-size: 1em;
+}
+
+.page-1 .content a {
+   color: #a1c0cb;
+   
+}
+
+.page-1 .content a:hover {
+   color: #90acb5;
+}
+
+.page-1 .content .link {
+   font-size: 0.5em;
+}
