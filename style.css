@@ -24,7 +24,7 @@ body {
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav > a {
 	float: left;
 	color: #f2f2f2;
 	text-align: center;
@@ -35,15 +35,19 @@ body {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav > a:hover {
 	background-color: #ddd;
 	color: black;
 	cursor: pointer;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.topnav > a.active {
 	background-color: #4CAF50;
+	color: white;
+}
+
+.small-topnav a {
 	color: white;
 }
 
@@ -159,7 +163,7 @@ h2 {
 		display: none;
 	}
 
-	.topnav a {
+	.topnav > a {
 		display: block;
 	}
 
@@ -180,7 +184,7 @@ h2 {
 		display: none;
 	}
 
-	.topnav a {
+	.topnav > a {
 		display: block;
 	}
 
@@ -200,12 +204,16 @@ h2 {
 		display: block;
 	}
 
-	.topnav a {
+	.topnav > a {
 		display: none;
 	}
 
 	.purple,.img-container {
 		width: 100%
+	}
+
+	.purple {
+		height: 50vw;
 	}
 
 }
@@ -220,7 +228,7 @@ h2 {
 		display: block;
 	}
 
-	.topnav a {
+	.topnav > a {
 		display: none;
 	}
 
