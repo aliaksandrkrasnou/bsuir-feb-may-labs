@@ -7,23 +7,23 @@ a {
 }
 
 header {
-   /*todo - get it out from flow*/
-   position: absolute;
+   position: fixed;
+   box-sizing: border-box;
+   width: 100%;
    text-transform: uppercase; 
-   background-color: rgb(49, 49, 49);
+   background-color: rgba(49, 49, 49, 0.87);
    color: #c9b8b8;
    font-family: sans-serif;
-   width: 100vw;
+   padding-bottom: 1vh;
+   padding: 1vh 1vw 1vh 1vw;
+   /*padding-left increases height????*/
 }
 
 header .menu {
-   width: inherit;
-   height: inherit;
    display: flex;
    align-content: center;
    justify-content: flex-start;
    flex-wrap: wrap;
-   padding: 2vh;
 }
 
 header .menu .menu-item {
@@ -32,14 +32,16 @@ header .menu .menu-item {
    display: inline-block;
 }
 
+.page {
+   height: 100vh;   
+}
+
 .page-1 {
-   height: 100vh;
    background-color: rgb(72, 157, 183);
    
    display: flex;
    justify-content: flex-start;
    align-items: center;
-   
     /*todo - gradient*/
 }
 
