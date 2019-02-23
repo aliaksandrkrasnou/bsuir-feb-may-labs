@@ -1,11 +1,11 @@
 .nav-btns a {
-    font-size: 1.8vw;
-    float: left;
-    color: white;
-    text-decoration: none;
     display: block;
-    text-align: center;
     padding: 4vw 1vw;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8vw;
+    color: white;
     transition: font-size 0.5s;
 }
 .nav-btns a:hover {

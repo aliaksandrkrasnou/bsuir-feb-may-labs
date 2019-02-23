@@ -1,0 +1,15 @@
+.sidenav {
+    width: 0;
+    position: fixed;
+    flex-direction: column;
+    z-index: 1;
+    margin: 8px;
+    top: 10vw;
+    right: 0;
+    background-color: #373C3F;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.sidenav .nav-btns {
+    flex-direction: column;
+}

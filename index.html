@@ -2,21 +2,19 @@
 <html>
   <head>
     <title>LAB-2</title>
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/nav-panel.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/topnav.css" />
+    <link rel="stylesheet" href="css/sidenav.css" />
+    <link rel="stylesheet" href="css/nav-btn.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"/>
   </head>
   <body>
-    <div class="menu-btn" id="main-menu" onclick="clickMenu()">
+    <nav class="menu-btn" id="main-menu" onclick="clickMenu()">
       <i class="fas fa-bars"></i>
-    </div>
-    <div class="sidenav" id="side-nav">
+    </nav>
+    <nav class="sidenav" id="side-nav">
       <div class="nav-btns">
           <a href="">PSD WEBSITES</a>
           <a href="">UI KITS</a>
@@ -24,8 +22,9 @@
           <a href="">ABOUT</a>
           <a href="">BLOG</a>
         </div>
-    </div>
-    <div class="topnav">
+      </nav>
+    <nav class="topnav">
+      <span>Navigation</span>
       <div class="nav-btns">
         <a href="">PSD WEBSITES</a>
         <a href="">UI KITS</a>
@@ -33,31 +32,32 @@
         <a href="">ABOUT</a>
         <a href="">BLOG</a>
       </div>
+    </nav>
     </div>
-    </div>
-    <div class="banner">
+    <section class="banner">
       <div>Awesome Free PSD<br />templates & Resources</div>
       <div class="link-text">
         www.BlazRobar.com
+        <i class="fas fa-angle-right"></i>
       </div>
-    </div>
-    <div class="text-box">
-      <div class="text-box-text">
+    </section>
+    <section class="link-box">
+      <div class="link-box-text">
         I'm like the Robin Hood of PSD files.
       </div>
       <div class="arrow-box">
         <i class="fas fa-angle-right"></i>
       </div>
-    </div>
-    <div class="media">
+    </section>
+    <section class="media">
       <img src="img/1.png" class="item" />
       <img src="img/2.png" class="item" />
       <img src="img/3.png" class="item" />
-    </div>
-    <div class="info">
+    </section>
+    <article class="info">
       <h1>BlazRobar.com</h1>
       <div class="content">
-        <div>
+        <span>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
             vehicula ipsum non leo tristique eget facilisis lacus commodo.
@@ -71,8 +71,8 @@
             blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu
             vulputate lacus.
           </p>
-        </div>
-        <div>
+        </span>
+        <span>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
             vehicula ipsum non leo tristique eget facilisis lacus commodo.
@@ -86,9 +86,9 @@
             blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu
             vulputate lacus.
           </p>
-        </div>
+        </span>
       </div>
-    </div>
+    </article>
     <script>
       var sidenavOpened = false;
       var sideNavBar = document.getElementById("side-nav");

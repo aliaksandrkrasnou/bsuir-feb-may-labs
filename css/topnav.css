@@ -1,0 +1,24 @@
+.topnav {
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 3vw;
+    background-color: #373C3F;
+}
+.topnav span {
+    display: none;
+    font-size: 4vw;
+}
+@media screen and (max-width: 640px){
+    .topnav {
+        padding-left: var( --left-pad);
+        height: 10vw;
+        background-color: #373C3F;
+        color: #FFFFFF;
+    }
+    .topnav .nav-btns {
+        display: none;
+    }
+    .topnav span {
+        display: inline;
+    }
+}
