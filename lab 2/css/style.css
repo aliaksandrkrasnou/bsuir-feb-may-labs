@@ -4,56 +4,67 @@ body {
 }
 
 a {
+   text-decoration: none;
    color: white;
+}
+
+a:hover {
+   color: #c4c4c4;
 }
 
 header {
    position: fixed;
    box-sizing: border-box;
    width: 100%;
-   height: 7vh;
+   height: 8vh;
    text-transform: uppercase; 
    background-color: #313131;
    color: #c9b8b8;
    font-family: sans-serif;
-   padding-bottom: 1vh;
-   padding: 1vh 1vw 1vh 1vw;
    display: flex;
    align-content: center;
 }
 
 header .menu {
+   width: inherit;
    display: flex;
-   align-content: center;
+   align-items: center;
    justify-content: flex-start;
    flex-wrap: wrap;
 }
 
-header .menu .menu-item {
-   padding: 0.7em;
-   height: 1em;
-   display: inline-block;
+header .menu-item {
+   padding: 2vh;
+}
+
+header .collapsed-menu {
+   width: inherit;
+   display: none;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+header .collapsed-menu .button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 5vh;
+   width: 5vh;
+   box-sizing: border-box;
+   background-color: #212121;
 }
 
 .page {
    min-height: 100vh;   
 }
 
-.content {
-   padding: 0;
-   margin: 0;
-}
 
 .arrow {
    display: flex;
    align-items: center;
    justify-content: center;
    color: white;
-}
-
-.collapsed-menu {
-   visibility: hidden;
-   flex-grow: 0;
 }
 
 .page-1 {
@@ -64,7 +75,7 @@ header .menu .menu-item {
    justify-content: flex-start;
     /*todo - gradient*/
 }
-.page-1 .content {
+.page-1 section {
    padding: 100px;
    color: white;
    font-size: 6.5vw;
@@ -84,7 +95,7 @@ header .menu .menu-item {
 }
 
 .page-1 a:hover {
-   color: #90acb5;
+   color: #526165;
 }
 
 .page-2 .first-line {
@@ -151,14 +162,21 @@ header .menu .menu-item {
 
 
 @media screen and (max-width: 980px) {
-   .collapsed-menu {
-      visibility: visible;
-      display: flex;
-      align-content: space-between;
-      
+   
+   header {
+      height: 5vh;
    }
    
-   .menu {
+   header .menu  {
+      display: none;
+   }
+   
+   header .menu-item {
+      padding: 1vh;
+   }
+   
+   header .collapsed-menu {
+      display: flex;
    }
    
    .page-1 {
