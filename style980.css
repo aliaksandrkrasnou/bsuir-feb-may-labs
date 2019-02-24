@@ -1,0 +1,48 @@
+@media only screen and (min-width: 980px) {
+
+.item a,
+.text-area a,
+.row,
+.article p {
+	font-size: 20px;
+}
+.text-area p,
+.flex-arrow a,
+.content h1 {
+	font-size: 46px;
+}
+.item-dropdown {
+	display: none;
+}
+.item-large, .home {
+	display: block;
+	width: 20%;
+}
+.item-large a, .home a {
+	width: 100%;
+}
+.item .fa-home {
+	display: inline;
+}
+.flex {
+    flex-direction: row;
+}
+.flex-col {
+	flex-wrap: 1;
+	height: 400px;
+}
+.content {
+	padding: 50px;
+}
+.content h1 {
+	padding: 0 30px 0 30px;
+}
+.artice {
+}
+.article .col {
+	float: left;
+	width: 50%;
+	padding: 0 30px 30px 30px;
+}
+
+}

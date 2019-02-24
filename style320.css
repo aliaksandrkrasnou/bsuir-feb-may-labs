@@ -1,0 +1,15 @@
+@media only screen and (min-width: 320px) {
+
+.item a,
+.text-area a,
+.row,
+.article ps{
+	font-size: 15px;
+}
+.text-area p,
+.flex-arrow a,
+.content h1 {
+	font-size: 20px;
+}
+
+}

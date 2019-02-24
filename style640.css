@@ -1,0 +1,17 @@
+@media only screen and (min-width:640px) {
+
+.item a,
+.text-area a,
+.row,
+.article p{
+	font-size: 18px;
+}
+.text-area p,
+.flex-arrow a,
+.content h1 {
+	font-size: 34px;
+}
+.flex-col {
+  	height: 500px;
+}
+}
