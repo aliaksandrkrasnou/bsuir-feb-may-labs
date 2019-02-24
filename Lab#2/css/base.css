@@ -14,8 +14,9 @@ body {
     color: white;
 }
 
-a, a:visited, a:active {
+a, a:visited, a:active, a:link {
     outline: none;
+    color: #ebebeb;
     text-decoration: none;
 }
 
@@ -24,7 +25,9 @@ nav .hidden-panel{
 }
 
 nav{
-    /* position: fixed; */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     width: 100%;
     background-color: #373c3f;
     height: 9vw;
@@ -37,10 +40,6 @@ nav .home{
     margin: 0;
     display: inline-block;
     padding: 2% 0 0 5%;
-}
-
-nav .home :active,:link,:visited{
-    color: #ebebeb;
 }
 
 .dropdown {
@@ -58,7 +57,6 @@ nav .home :active,:link,:visited{
     align-items: center;
     color: white;
     text-align: center;
-    text-decoration: none;
 }
   
 .dropdown:hover .drop {
@@ -70,21 +68,19 @@ nav .home :active,:link,:visited{
     display: none;
     position: absolute;
     background-color: #373c3f;
-    /* min-width: 160px; */
     z-index: 1;
 }
   
 .drop-links a {
     color: #ebebeb;
     padding: 12px 16px;
-    text-decoration: none;
     display: block;
     text-align: left;
 }
   
 .drop-links a:hover {
-      background-color: #000000;
-      color: red;
+    background-color: #000000;
+    color: red;
 }
   
 .dropdown:hover .drop-links {

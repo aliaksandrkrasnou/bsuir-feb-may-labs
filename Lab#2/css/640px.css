@@ -27,7 +27,6 @@
         color: white;
         font-size: calc(10px + 0.25vw);
         text-align: center;
-        text-decoration: none;
     }
       
     .hidden-panel li a:hover {
