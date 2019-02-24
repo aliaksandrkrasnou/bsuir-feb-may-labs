@@ -23,16 +23,11 @@
     height: 30vw;
   }
 
-  .third-block {
-    display: inline-flex;
-    width: calc(100% / 3);
-    height: 100%;
-  }
-
   .third-block-arrow {
     font-size: 5vw;
   }
 
+  .third-block,
   .bridge-block,
   .girl-block {
     display: inline-flex;
@@ -55,7 +50,7 @@
     padding: 0 2vw;
   }
 
-  .text-block-paragraph
+  .text-block-article
   {
     font-size: 2vw;
   }

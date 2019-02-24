@@ -1,10 +1,10 @@
 @media (max-width: 979px)
 {
   .nav-narrow {
-    justify-content: space-between;
     height: 11.5vw;
-    display: flex;
     padding-left: 4vw;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
   }
@@ -19,7 +19,6 @@
   }
 
   .nav-text {
-    display: inline;
     font-size: 4vw;
     color: rgb(235, 235, 235);
   }
@@ -39,29 +38,19 @@
   .nav-button {
     height: 100%;
     width: 15vw;
-    display: inline;
   }
 
   .center {
     flex-direction: column;
   }
 
-  .third-block {
-    display: flex;
-    width: 100%;
-    height: 86vw;
-  }
-
   .third-block-arrow {
     font-size: 15vw;
   }
 
-  .bridge-block {
-    width: 100%;
-    height: 86vw;
-  }
-
-  .girl-block {
+  .bridge-block,
+  .girl-block,
+  .third-block {
     width: 100%;
     height: 86vw;
   }
@@ -78,7 +67,7 @@
     display: none;
   }
 
-  .text-block-paragraph {
+  .text-block-article {
     font-size: 4vw;
   }
 }

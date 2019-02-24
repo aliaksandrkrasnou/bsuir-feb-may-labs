@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 .menu {
   list-style-type: none;
 }
@@ -43,6 +39,7 @@ nav {
 }
 
 .first-block {
+  box-sizing: border-box;
   height: 60vw;
   width: 100%;
   background: linear-gradient(to bottom right, rgb(81, 179, 197), rgb(34, 139, 161));
@@ -67,13 +64,11 @@ nav {
 }
 
 .first-block-link {
-  display: inline;
   font-size: 3vw;
   margin: 2.5vw 0;
 }
 
 .first-block-arrow {
-  display: inline;
   font-size: 3.5vw;
   margin: 2vw 0;
   margin-right: 8vw;
@@ -128,19 +123,13 @@ nav {
   align-items: center;
 }
 
-.bridge-block,
-.girl-block {
-  height: 100%;
-  width: calc(100% / 3);
-}
-
 main {
   color: rgb(100, 100, 100);
   background-color: rgb(235, 235, 235);
 }
 
 .text-block-title {
-  margin-top: 0;
+  margin: 0;
 }
 
 .text-block-article {
