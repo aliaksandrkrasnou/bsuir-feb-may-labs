@@ -94,12 +94,31 @@ header .menu .menu-item {
    color: #9f82af;
 }
 
-.page-2 .first-line .arrow {
-   width: 20vh;
-   height: inherit;
+.page-2 .arrow {
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: #db4696;
    color: white;
+}
+
+.page-2 .first-line .arrow {
+   width: 20vh;
+   background-color: #db4696;
+}
+
+.page-2 .second-line {
+   display: flex;
+   justify-content: flex-end;
+   height: 21vw;
+}
+
+
+.page-2 .second-line .arrow {
+   background-color: #6914a7;
+   flex-grow: 1;
+}
+
+
+.page-2 .second-line img {
+   height: 100%;
 }
