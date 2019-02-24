@@ -1,0 +1,384 @@
+.top-menu{
+    height: 97px;
+    display: flex;
+    background-color: #373c3f;
+    color: #ebebeb;
+    padding-left: 5%;
+}
+
+.top-menu ul{
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    height: 12px;
+}
+
+.top-menu li{
+    padding: 0.5rem;
+    margin-top: 1.7rem;
+    font-size: 12px;
+    font-weight: 100px;
+    font-family: Arial;
+}
+
+.top-menu li:nth-child(1){
+    display: none;
+}
+
+.Navigation-menu{
+    display: none;
+}
+
+.Awesome-PSD{
+    background-color: #0ca3b9;
+    color: #ffffff;
+    height: 578px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7%;
+    justify-content: center;
+}
+
+.Awesome-PSD h1{
+    font-size: 50px;
+    width: 60%;
+}
+
+.Link-Arrow{
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Link-Arrow a{
+    color: #8acad5;
+    width: 60%;
+}
+
+.Link-Arrow i{
+    color: #ffffff;
+    width: 55%;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.RobinHood-PSD{
+    height: 245px;
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between; 
+    background-color: #27212c;
+    padding: 0;
+}
+
+.Left-section{
+    background-color: #27212c;
+    color: #9383a1;
+    width: 75%;
+    font-size: 32px;
+    margin: auto;
+    padding-left: 7%;
+}
+
+.Right-section{
+    display: flex;
+    background-color: #bc3183;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.Right-section i{
+    color: #ffffff;
+}
+
+.PhotosCollection{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 341px;
+}
+
+.PhotosCollection div{
+    display: flex;
+    flex: 1;
+}
+
+.PhotosCollection__Arrow{
+    display: flex;
+    background-color: #5b0fa1;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.PhotosCollection__Arrow i{
+    color: #ffffff;
+}
+
+.PhotosCollection img{
+    width: 100%;
+    object-fit: cover;
+    /*Элемент увеличивается или уменьшается, 
+    чтобы целиком заполнить заданную область 
+    с сохранением пропорций.*/
+}
+
+.Footer{
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer__site{
+    color: #088ca5;
+    font-size: 32px;
+	margin-top: 35px;
+	margin-left: 40px;
+	margin-bottom: 0;
+}
+
+.Footer__text{
+    color: #6e6e6e;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.Footer__text li{
+    height: auto;
+    flex-wrap: wrap;
+    width: 40%;
+	margin-right: 35px;
+    margin-left: 40px;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 980px){
+    .top-menu{
+        height: 97px;
+    }
+    
+    .Awesome-PSD{
+        height: 549px;
+    }
+    
+    .RobinHood-PSD{
+        height: 234px;
+    }
+
+    .PhotosCollection{
+        height: 327px;
+    }
+} 
+
+
+@media screen and (max-width: 640px){
+    .top-menu{
+        height: 74px;
+        justify-content: space-between;
+    }
+    
+    .top-menu ul{
+        text-transform: none;
+    }
+    
+    .top-menu li{
+        display: none;
+    }
+    
+    .top-menu li:nth-child(1){
+        display: flex;
+        font-size: 17px;
+        font-weight: 100px;
+        font-family: Arial;
+        padding: 0.1rem;
+    }
+    
+    .Navigation-menu{
+        display: flex;
+        flex-direction: row;
+        font-size: 28px;
+        justify-content: center;
+        align-items: center;
+        padding-right: 4%; 
+        background-color: #202529;
+    }
+
+    .Navigation-menu i{
+        color: #ffffff;
+        width: 40px;
+        padding-left: 50%;
+    }
+    
+    .Awesome-PSD{
+        height: 348px;
+        padding-bottom: 0;
+    }
+    
+    .Awesome-PSD h1{
+        font-size: 40px;
+        width: 80%;
+    }
+    
+    .Link-Arrow{
+        font-size: 26px;
+    }
+    
+    .RobinHood-PSD{
+        height: 153px;
+    }
+    
+    .Left-section{
+        font-size: 22px;
+    }
+    
+    .Right-section{
+        font-size: 32px;
+    }
+    
+    .PhotosCollection{
+        flex-direction: column;
+        height: 1668px;
+    }
+    
+    .PhotosCollection div{
+        height: 556px;
+    }
+    
+    .PhotosCollection__Arrow{
+        font-size: 80px;
+    }    
+    
+    .Footer__site{
+        font-size: 22px;
+        margin-top: 35px;
+        margin-left: 35px;
+    }
+    
+    .Footer__text{
+        flex-direction: column;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    
+    .Footer__text li{
+        width: 90%;
+        margin-right: 1px;
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .top-menu{
+        height: 37px;
+        justify-content: space-between;
+    }
+    
+    .top-menu ul{
+        height: 6px;
+        text-transform: none;
+    }
+    
+    .top-menu li{
+        display: none;
+        margin-top: 0.6rem;
+    }
+    
+    .top-menu li:nth-child(1){
+        display: flex;
+        font-size: 12px;
+        font-weight: 90px;
+        font-family: Arial;
+    }
+    
+    .Navigation-menu{
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+        padding-right: 4%; 
+        background-color: #202529;
+    }
+
+    .Navigation-menu i{
+        color: #ffffff;
+        width: 30px;
+        padding-left: 50%;
+    }
+    
+    .Awesome-PSD{
+        height: 174px;
+        padding-bottom: 0;
+    }
+    
+    .Awesome-PSD h1{
+        font-size: 20px;
+        width: 80%;
+    }
+    
+    .Link-Arrow{
+        font-size: 16px;
+    }
+    
+    .Link-Arrow a{
+        width: 60%;
+    }
+    
+    .RobinHood-PSD{
+        height: 77px;
+    }
+    
+    .Left-section{
+        font-size: 13px;
+    }
+    
+    .Right-section{
+        font-size: 18px;
+    }
+    
+    .PhotosCollection{
+        flex-direction: column;
+        height: 834px;
+    }
+    
+    .PhotosCollection div{
+        height: 278px;
+    }
+    
+    .PhotosCollection__Arrow{
+        font-size: 50px;
+    }    
+    
+    .Footer__site{
+        font-size: 22px;
+        margin-top: 35px;
+        margin-left: 35px;
+    }
+    
+    .Footer__text{
+        flex-direction: column;
+        font-size: 16px;
+        margin-top: 0;
+    }
+    
+    .Footer__text li{
+        width: 80%;
+        margin-right: 2px;
+        margin-left: 35px;
+    }
+}
+
+
+
+
