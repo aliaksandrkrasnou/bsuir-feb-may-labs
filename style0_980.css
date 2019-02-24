@@ -1,13 +1,13 @@
 @media (max-width: 979px)
 {
   .nav-narrow {
-		justify-content: space-between;
-		height: 11.5vw;
+    justify-content: space-between;
+    height: 11.5vw;
     display: flex;
     padding-left: 4vw;
-		align-items: center;
-		flex-direction: row;
-	}
+    align-items: center;
+    flex-direction: row;
+  }
 
   .nav {
     display: none;
@@ -19,16 +19,16 @@
   }
 
   .nav-text {
-		display: inline;
+    display: inline;
     font-size: 4vw;
     color: rgb(235, 235, 235);
-	}
+  }
 
   .menu {
     padding: 2vw 0 2vw 2vw;
     font-size: 2.5vw;
     background-color: rgb(60, 60, 60);
-  	color: rgb(235, 235, 235);
+    color: rgb(235, 235, 235);
     border-top: 0.1vw solid rgb(235, 235, 235);
   }
 
@@ -36,49 +36,49 @@
     display: block;
   }
 
-	.nav-button {
-		height: 100%;
+  .nav-button {
+    height: 100%;
     width: 15vw;
     display: inline;
-	}
+  }
 
-	.center {
-		flex-direction: column;
-	}
+  .center {
+    flex-direction: column;
+  }
 
-	.third-block {
-		display: flex;
-		width: 100%;
-		height: 86vw;
-	}
+  .third-block {
+    display: flex;
+    width: 100%;
+    height: 86vw;
+  }
 
   .third-block-arrow {
-  	font-size: 15vw;
+    font-size: 15vw;
   }
 
-	.bridge-block {
-		width: 100%;
-		height: 86vw;
-	}
-
-	.girl-block {
-		width: 100%;
-		height: 86vw;
-	}
-
-	main {
-		padding: 12vw;
-	}
-
-	.text-block-title {
-		font-size: 6vw;
+  .bridge-block {
+    width: 100%;
+    height: 86vw;
   }
 
-	.second-text-column {
-		display: none;
-	}
+  .girl-block {
+    width: 100%;
+    height: 86vw;
+  }
 
-	.text-block-paragraph {
-		font-size: 4vw;
-	}
+  main {
+    padding: 12vw;
+  }
+
+  .text-block-title {
+    font-size: 6vw;
+  }
+
+  .second-text-column {
+    display: none;
+  }
+
+  .text-block-paragraph {
+    font-size: 4vw;
+  }
 }

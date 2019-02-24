@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .menu {
@@ -7,16 +7,16 @@
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .arrow-link {
-	color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .nav-link,
 .website-link {
-	color: rgb(235, 235, 235);
+  color: rgb(235, 235, 235);
 }
 
 .title-link {
@@ -47,45 +47,45 @@ nav {
   width: 100%;
   background: linear-gradient(to bottom right, rgb(81, 179, 197), rgb(34, 139, 161));
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   justify-content: center;
   padding-left: 8vw;
-	padding-right: 15vw;
+  padding-right: 15vw;
 }
 
 .first-block-line {
-	display: flex;
-	width: 100%;
-	flex-direction: row;
-	justify-content: space-between;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .website-description {
-	font-size: 6vw;
-	margin: 3vw 0;
-	color: white;
+  font-size: 6vw;
+  margin: 3vw 0;
+  color: white;
 }
 
 .first-block-link {
-	display: inline;
-	font-size: 3vw;
-	margin: 2.5vw 0;
+  display: inline;
+  font-size: 3vw;
+  margin: 2.5vw 0;
 }
 
 .first-block-arrow {
-	display: inline;
-	font-size: 3.5vw;
-	margin: 2vw 0;
+  display: inline;
+  font-size: 3.5vw;
+  margin: 2vw 0;
   margin-right: 8vw;
-	color: white;
+  color: white;
 }
 
 .second-block {
   height: 25vw;
   width: 100%;
   display: flex;
-	justify-content: center;
-	flex-direction: row;
+  justify-content: center;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -96,7 +96,7 @@ nav {
   color: rgb(140, 130, 160);
   display: inline-flex;
   justify-content: center;
-	align-items: center;
+  align-items: center;
   font-size: 3vw;
 }
 
@@ -117,15 +117,15 @@ nav {
 
 .bridge-image,
 .girl-image {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .third-block {
   background-color: rgb(80, 30, 155);
   display: inline-flex;
   justify-content: center;
-	align-items: center;
+  align-items: center;
 }
 
 .bridge-block,
@@ -140,11 +140,11 @@ main {
 }
 
 .text-block-title {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 .text-block-article {
-	height: 100%;
-	display: flex;
-	flex-direction: row;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }
