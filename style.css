@@ -1,0 +1,215 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.topmenu p{
+	opacity: 0;
+	position: absolute;
+	z-index: 1;
+	color:white;
+	font-size: 4vw;
+	padding-left: 5%;
+}
+.arrow_pic1{
+position: absolute;
+z-index: 1;
+font-size:6vw;
+left: 15%;
+color: white;
+padding-top: 28vw;
+}
+.arrow_banner{
+	position: absolute;
+	font-size:6vw;
+	color: white;
+	right: 15%;
+	padding-top: 41vw;
+}
+.arrow_under_banner{
+	position: absolute;
+	font-size:10vw;
+	color: white;
+	right: 7%;
+	top: 82vw;
+}
+.topmenu  label.toggle_menu .fas {	
+	position: absolute;
+	opacity: 0;
+	font-size:4vw;
+	left: 91%;
+
+	color:white;
+	background-color: black;
+	padding:3vw;	
+}
+.text_at_the_end {
+	position: relative;
+	padding-left: 5%;
+	padding-top:50vw;
+	color: black;
+	width: 40%;
+	float: left;
+	font-size: 3vw;
+
+}
+.text_at_the_end p{
+	padding-bottom: 4vw;
+}
+.link_at_the_end{
+	position: relative;
+	padding-left: 5%;
+	font-size: 7vw;
+	color: #009999;
+	text-decoration: none;
+	top:50vw;
+	
+}
+.FonForText{
+	position: absolute;
+	padding-top:42vw;
+	width: 100%;
+	height: 110vw;
+}
+.pic1{
+	position: absolute;
+	width: 33%;
+	padding-top:15vw;
+	left: 0px;
+}
+.pic2{
+	position: absolute;
+	width: 33%;
+	padding-top:15vw;
+	padding-left: 33%;
+	left: 0px;
+}
+.pic3{
+	position: absolute;
+	width: 34%;
+	padding-top:15vw;
+	padding-left: 66%;
+	left: 0px;
+}
+
+.underbanner{
+    position: absolute;	
+	height: 32vw;
+	width: 100%;
+	top:72vw;	
+}
+.textunderbanner{
+	position: relative;
+	top: 9vw;
+	padding-left: 10vw;
+	color: #999;
+	font-size: 4vw;
+}
+.maintext{
+	position: relative;
+	margin: 0px;
+	font-size: 9vw;
+	padding-top: 19%; 
+	padding-left: 10vw;
+	color: white;
+
+}
+.linktosite{
+	position: relative;
+	margin: 0px;
+	font-size: 5vw;
+	padding-top: 3vw; 
+	padding-left: 10vw;
+	padding-bottom: 17vw;
+	color: #99cccc;
+}
+.nav_img_on_text{
+	position: absolute;	
+	height: 97px;
+	width: 100%;
+}
+.banner{
+	position: absolute;
+	left: 0px;
+	top: 97px;
+	width: 100%;
+	height: 67vw;
+}
+.topmenu ul{
+	margin: 0px;
+	position: relative;
+	list-style: none;	
+	padding: 40px 40px;
+}
+.topmenu li{	
+	display: inline;
+	float: left;	
+	font-size: 16px;
+}
+.topmenu{
+	width: 100%;
+}
+.topmenu a{
+	color: white;
+	text-decoration: none;
+	padding: 40px 10px; 
+	
+}
+.topmenu li a:hover{
+    background-color: grey;
+}
+
+ .image ul{
+	position: relative;
+	list-style: none;	
+
+}
+.topmenu [type="checkbox"]{
+		display: none;
+	}
+@media screen and (max-width: 768px) {
+	
+	.topmenu a{padding:0px;}
+	.topmenu li{
+		left:  50vw; 
+		width: 50.8%;
+		text-align: right;padding-left: 10px;
+		background-color: black;
+		margin-left: 48vw;
+		padding: 0;		 
+		font-size: 4vw; 
+
+	}	
+	.topmenu  label.toggle_menu .fas{
+		opacity: 1;
+	}
+	.topmenu ul{display: none;position: absolute;
+		margin: 0;
+		padding: 0;
+		top: 10vw;
+	}
+	.image ul{position: relative; margin: 0;padding: 0; padding-top: 7%;}
+	.image li{ padding: 0;padding: 0; border: 0;} 
+	.pic1{width:100%; padding-top: 14vw;margin: 0px;}
+	.pic2{width:100%;position: static; padding-top: 97vw;margin: 0px;padding-left: 0;}
+	.pic3{width:100%;padding: 0;top: 180vw; margin: 0px;}
+	.arrow_pic1{font-size:15vw;left: 49%;padding-top: 50vw;}
+	.FonForText{top: 295vw; }
+	.link_at_the_end{top: 80vw;}
+	.text_at_the_end{width: 90%; padding-top: 80vw;}
+	.second_text {padding: 0; top:0;margin: 0; display: none}
+	.topmenu p{opacity: 1}
+	.nav_img_on_text{height: 10vw}
+	.banner{z-index: -2;
+		top:10vw;}
+	.textunderbanner{top: 12vw;}
+	.maintext{z-index: -1;}
+	input.toggle_menu:checked ~ ul{
+		display: block;
+	}
+	.topmenu li a:hover{
+    background-color: black;
+    color: grey; }
+.arrow_under_banner{
+		top:80vw;
+    }	
+}
