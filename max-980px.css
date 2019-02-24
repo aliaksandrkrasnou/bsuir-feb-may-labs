@@ -1,0 +1,61 @@
+header ul {
+	display: none;
+}
+
+.header-title {	
+	height: 18px;
+	padding: 16px 3em;
+}
+
+header div i {
+	padding: 16px;
+	width: 18px;
+	height: auto;
+}
+
+.menu {
+	position: relative;
+	display: inline-block;
+	float: right;
+}
+
+.menu-content {
+	display: none;
+	position: absolute;
+	right: 0;
+	background-color: white;
+	color: #455360;
+}
+
+.menu-content li {
+	padding: 12px 16px;
+	word-wrap: normal;
+}
+
+.menu:hover .menu-content {
+	display: block;
+	margin-top: 50px;
+} 
+
+.galery-section {
+	flex-direction: column;
+}
+
+.galery-section div {
+	width: 100%;
+}
+
+.galery-section div i {
+	padding: 49%;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.text {
+	flex-direction: column;
+}
+
+.article-col {
+	flex: 1;
+	height: 50%;
+}
