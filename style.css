@@ -177,6 +177,71 @@ main article{
     padding-right: 2%;
 }
 
+@media (max-width:640px)
+{
+    nav ul{
+        padding: 0;
+        margin: 0;
+        display: none;
+        position: absolute;
+        right: 0;
+    }
+    
+    nav ul li{
+        width: 100%;
+        border-bottom: 1px solid grey;
+    }
+    
+    nav ul li:first-child{
+        border-top: 1px solid grey;
+    }
+    
+    nav ul li:last-child{
+        border-bottom: none;
+    }
+    
+    .menu_open{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: right;
+        height: 100%;
+    }
+    
+    .menu_open:hover ul{
+        display: block;
+    }
+}
+
+@media (min-width:641px)
+{
+    nav ul{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        justify-content: flex-start;
+    }
+    
+    nav ul li{
+        display: flex;
+        height: 100%;
+        padding-left: 2em;
+        padding-right: 2em;
+        align-items:center;
+    }
+    
+    .menu_open{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .menu_open i{
+        display: none;
+    }
+}
+
 @media (max-width:320px)
 {
     nav{
