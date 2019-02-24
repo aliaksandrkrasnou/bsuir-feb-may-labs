@@ -1,0 +1,289 @@
+.menu
+{
+	color: red;
+	background-color: #333333;
+	padding: 0px;
+	margin: 0px;	
+}
+
+.navigation h2, 
+.navigation div {
+	display: none;
+}
+
+.menu-list {
+	display: none;
+}
+
+.menu-icon ul {
+	display: none;
+}
+
+div {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+	display: inline-block;
+	padding: 2%;
+	margin: 0px;
+}
+
+img {
+	width: 100%;
+	/*height: 100%;*/
+	border-width: 0px;
+	margin: 0px;
+}
+
+.navigation {
+	margin: 0px;
+}
+
+/*большой голубой блок*/
+.first-block { 
+	background-color: darkturquoise;
+	padding: 10%;
+	color: white;
+	padding: 10% 0% 10% 15%;
+}
+
+/*черный прямоугольник*/
+.second-block {
+	background-color: #333333;	
+	color: lightblue;
+
+	display: inline-block;
+	box-sizing: border-box;
+	height: 150px;
+	width: 85%;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: top;
+	padding: 2% 0%;
+}
+
+/*красная стрелочка*/
+.third-block {
+	background-color: mediumvioletred;
+
+	display: inline-block;
+	box-sizing: border-box;
+	height: 150px;
+	width: 15%;
+	text-align: center;
+}
+
+.first-block h1 {
+	font-size: 80px;
+}
+
+.first-block p{
+	font-size: 30px;	
+	display: inline-block;
+	width: 70%;
+	color: lightblue;
+}
+
+.first-block div {
+	display: inline-block;
+	width: 15%;
+	font-size: 300%;
+}
+
+.third-block i {
+	font-size: 50px;
+	padding-top: 25%;
+	color: white;
+}
+/*-------------------------------------------*/
+.row {
+	background-color: #333333;
+	border-width: 0px;
+	padding: 0px;
+	height: 1px;
+}
+
+/*фиолетовая стрелочка*/
+.first-cube {
+	width: 34%;
+	background-color: indigo;
+	float: left;
+	/*min-height: 300px;*/
+	font-size: 300%;
+	color: white;
+	padding: 9% 15% 14% 15%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*мост*/
+.second-cube {
+	width: 33%;
+	float: left;
+}
+
+/*олень*/
+.third-cube {
+	width: 33%;
+	float: right;
+}
+/*----------------------------------------------*/
+.text-block {
+	background: lightgray;
+}
+
+/*левая колонка*/
+.text-block div:nth-of-type(1) {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0% 3% 3% 3%;
+	background: lightgray;
+	vertical-align: top;
+}
+
+/*правая колонка*/
+.text-block div:nth-of-type(2) {
+	float: right;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0% 3% 3% 3%;
+	background: lightgray;
+}
+
+.text-block h2 {
+	box-sizing: border-box;
+	padding: 2% 0% 0% 5%;
+	margin-bottom: 0px;
+}
+
+@media screen and (max-width: 990px){
+	
+.first-block h1 {
+	font-size: 50px;
+}
+
+.first-block div {
+	font-size: 200%;
+}
+
+.second-block {
+	font-size: 25px;
+	padding: 1% 0%;
+	height: 100px;
+}
+
+.third-block {
+	height: 100px;
+}
+
+.third-block i {
+	font-size: 40px;
+}
+
+}
+
+@media screen and (max-width: 640px){
+	.menu{
+		color: blue;
+		display: none;
+	}
+
+.first-block h1 {
+	font-size: 30px;
+}
+
+.second-block {
+	font-size: 20px;
+	padding: 1% 0%;
+	height: 75px;
+}
+
+.third-block i {
+	font-size: 30px;
+}
+
+.third-block {
+	height: 75px;
+	padding: 1% 0%;
+}
+
+.first-block div {
+	font-size: 200%;
+}
+
+.navigation h2, 
+.navigation div {
+	display: inline-block;
+	background-color: #333333;
+	color: white;
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+.navigation h2 {
+	width: 85%;
+	top: 0px;
+	padding: 3% 3%;
+	font-size: 200%;
+}
+
+.navigation div {
+	width: 15%;
+	font-size: 200%;
+	text-align: center;
+	padding: 3% 0%;
+}
+
+.first-cube, 
+.second-cube, 
+.third-cube {
+	display: block;
+	width: 100%;
+}
+
+.first-cube {
+	padding: 50% 0%;
+}
+
+.text-block div:nth-of-type(1) {
+	float: none;
+	width: 100%;
+	padding-bottom: 0%;
+}
+
+.text-block div:nth-of-type(2) {
+	float: none;
+	width: 100%;
+}
+
+.menu-icon:hover .menu-list ul{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #333333;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+}
+
+li {
+	display: block;
+	font-size: 20px;
+}
+
+}
