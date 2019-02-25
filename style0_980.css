@@ -9,7 +9,7 @@
     flex-direction: row;
   }
 
-  .nav {
+  .nav-menu {
     display: none;
     position: absolute;
     width: 27vw;
@@ -31,7 +31,7 @@
     border-top: 0.1vw solid rgb(235, 235, 235);
   }
 
-  header:hover .nav{
+  nav:hover .nav-menu{
     display: block;
   }
 
@@ -55,7 +55,7 @@
     height: 86vw;
   }
 
-  main {
+  .main-block {
     padding: 12vw;
   }
 
@@ -67,7 +67,7 @@
     display: none;
   }
 
-  .text-block-article {
+  .text-block {
     font-size: 4vw;
   }
 }

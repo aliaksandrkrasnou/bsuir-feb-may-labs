@@ -3,7 +3,7 @@
     display: none;
   }
 
-  .nav {
+  .nav-menu {
     height: 10vw;
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@
     height: 100%;
   }
 
-  main {
+  .main-block {
     padding: 6vw;
   }
 
@@ -50,7 +50,7 @@
     padding: 0 2vw;
   }
 
-  .text-block-article
+  .text-block
   {
     font-size: 2vw;
   }

@@ -2,21 +2,20 @@
   list-style-type: none;
 }
 
-a {
-  text-decoration: none;
-}
-
 .arrow-link {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .nav-link,
 .website-link {
   color: rgb(235, 235, 235);
+  text-decoration: none;
 }
 
 .title-link {
   color: rgb(40, 130, 160);
+  text-decoration: none;
 }
 
 body {
@@ -34,6 +33,12 @@ nav {
   flex-direction: column;
 }
 
+.nav-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 .menu:hover {
   background-color: rgb(95, 95, 95);
 }
@@ -47,7 +52,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   padding-left: 8vw;
-  padding-right: 15vw;
+  padding-right: 10vw;
 }
 
 .first-block-line {
@@ -57,13 +62,13 @@ nav {
   justify-content: space-between;
 }
 
-.website-description {
-  font-size: 6vw;
+.first-block-title {
+  font-size: 5.5vw;
   margin: 3vw 0;
   color: white;
 }
 
-.first-block-link {
+.first-block-subtitle {
   font-size: 3vw;
   margin: 2.5vw 0;
 }
@@ -71,7 +76,7 @@ nav {
 .first-block-arrow {
   font-size: 3.5vw;
   margin: 2vw 0;
-  margin-right: 8vw;
+  margin-right: 11vw;
   color: white;
 }
 
@@ -92,7 +97,7 @@ nav {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  font-size: 3vw;
+  font-size: 2.9vw;
 }
 
 .second-block-arrow {
@@ -123,7 +128,7 @@ nav {
   align-items: center;
 }
 
-main {
+.main-block {
   color: rgb(100, 100, 100);
   background-color: rgb(235, 235, 235);
 }
@@ -132,7 +137,7 @@ main {
   margin: 0;
 }
 
-.text-block-article {
+.text-block {
   height: 100%;
   display: flex;
   flex-direction: row;
