@@ -12,49 +12,52 @@
 </head>
 <body>
         <nav class="navigation">
-            <ul class="hidden-panel">
-                <li class="nav-element"><a class="nav-link" href="#">PSD WEBSITES</a></li>
-                <li class="nav-element"><a class="nav-link" href="#">UI KITS</a></li>
-                <li class="nav-element"><a class="nav-link" href="#">PREMIUM PSD FILES</a></li>
-                <li class="nav-element"><a class="nav-link" href="#">ABOUT</a></li>
-                <li class="nav-element"><a class="nav-link" href="#">BLOG</a></li>
+            <ul class="navigation__panel navigation__panel_hidden">
+                <li class="navigation__panel-item"><a class="navigation__panel-link" href="#">PSD WEBSITES</a></li>
+                <li class="navigation__panel-item"><a class="navigation__panel-link" href="#">UI KITS</a></li>
+                <li class="navigation__panel-item"><a class="navigation__panel-link" href="#">PREMIUM PSD FILES</a></li>
+                <li class="navigation__panel-item"><a class="navigation__panel-link" href="#">ABOUT</a></li>
+                <li class="navigation__panel-item"><a class="navigation__panel-link" href="#">BLOG</a></li>
             </ul>
             <!--Renamed link. Was Navigation, now howe. That's why i leaved <a> instead of <h2>-->
-            <a class="home big-hidden" href="#">Home</a>
-            <div class="dropdown big-hidden">
-                <a href="javascript:void(0)" class="drop"><i class="big-hidden fas fa-bars"></i></a>
-                <ul class="drop-content">
-                    <li><a class="drop-link" href="#">PSD WEBSITES</a></li>
-                    <li><a class="drop-link" href="#">UI KITS</a></li>
-                    <li><a class="drop-link" href="#">PREMIUM PSD FILES</a></li>
-                    <li><a class="drop-link" href="#">ABOUT</a></li>
-                    <li><a class="drop-link" href="#">BLOG</a></li>
+            <a class="navigation__home-link navigation__panel_visible" href="#">Home</a>
+            <div class="navigation__dropdown navigation__panel_visible">
+                <a href="javascript:void(0)" class="dropdown__link"><i class="fas fa-bars"></i></a>
+                <ul class="dropdown__items">
+                    <li><a class="dropdown__items-link" href="#">PSD WEBSITES</a></li>
+                    <li><a class="dropdown__items-link" href="#">UI KITS</a></li>
+                    <li><a class="dropdown__items-link" href="#">PREMIUM PSD FILES</a></li>
+                    <li><a class="dropdown__items-link" href="#">ABOUT</a></li>
+                    <li><a class="dropdown__items-link" href="#">BLOG</a></li>
                 </ul>
             </div>
         </nav>
 
         <section class="banner">
-            <div class="banner-content"> 
-                <h2 class="banner-title">Awesome Free PSD tempaltes & Resources</h2>
-                <a  class="banner-link" href="http://blazrobar.com">www.BlazRobar.com<i class="banner-arrow fas fa-angle-right"></i></a>
+            <div class="banner__content"> 
+                <h2 class="banner__content-title">Awesome Free PSD tempaltes & Resources</h2>
+                <a  class="banner__content-link" href="http://blazrobar.com">
+                    www.BlazRobar.com
+                    <i class="banner__content-arrow fas fa-angle-right"></i>
+                </a>
             </div>          
         </section>
         
         <section class="box">
-            <h2 class="box-title">I'm like the Robin Hood of PSD files</h2>
-            <a class="box-link" href="http://blazrobar.com/"><i class="fas fa-angle-right"></i></a>
+            <h2 class="box__title">I'm like the Robin Hood of PSD files</h2>
+            <a class="box__link" href="http://blazrobar.com/"><i class="fas fa-angle-right"></i></a>
         </section>
         
         <section class="imgs">
-            <a class="img-link" href="http://blazrobar.com/"><i class="fas fa-angle-right"></i></a>
-            <img class="img-content" src="img/bridge.png" alt="bridge">
-            <img class="img-content" src="img/girl.png" alt="girl">
+            <a class="imgs__link" href="http://blazrobar.com/"><i class="fas fa-angle-right"></i></a>
+            <img class="imgs__item" src="img/bridge.png" alt="bridge">
+            <img class="imgs__item" src="img/girl.png" alt="girl">
         </section>
             
         <article class="text">
-            <h2 class="text-title">BlazRobar.com</h2>
-            <div class="text-paragraphs">
-                <p class="par-gf">
+            <h2 class="text__title">BlazRobar.com</h2>
+            <div class="text__paragraphs">
+                <p class="text__paragraphs-content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nam vehicula ipsum non leo tristique eget facilisis lacus commodo.  
                     Curabitur vitae justo lorem, non ornare nibh.  
@@ -65,7 +68,7 @@
                     Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. 
                     Suspendisse eu vulputate lacus.
                 </p> 
-                <p class="par-gf">
+                <p class="text__paragraphs-content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nam vehicula ipsum non leo tristique eget facilisis lacus commodo.  
                     Curabitur vitae justo lorem, non ornare nibh.  
