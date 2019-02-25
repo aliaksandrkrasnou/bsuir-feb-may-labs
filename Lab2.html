@@ -1,66 +1,74 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
-  	<header>
-  		<div class="topnav">
-  			<div class="small-topnav">
-  				<span>Navigation</span>
-  				<a href="">
-  					<i class="fas fa-bars"></i>
-  				</a>
-  			</div>
-		  	<a>PSD Websites</a>
-		  	<a>UI Kits</a>
-		  	<a>Premium PSD Files</a>
-		  	<a>About</a>
-		  	<a>Blog</a>
-		</div>
-  	</header>
-  	<main>
-  		<div class="main-first-div">
-  			<span>Awesome Free PSD Templates & Resources</span>
-  			<br>
-  			<a href="">
-  				www.BlazRobar.com
-  				<i class="fas fa-angle-right fa-1x"></i> 
-  			</a>
-  		</div>
-  		<div class="main-second-div">
-  			<span>I'm like the Robin Hood of PSD files.</span>
-  		</div>
-  		<div class="right-angle pink">
-  			<a href="">
-  				<i class="fas fa-angle-right fa-2x"></i> 
-  			</a>
-  		</div>
-  		<div class="right-angle purple">
-			<a href="">
-				<i class="fas fa-angle-right fa-2x"></i> 
+
+	<nav class="navigation">
+		<div class="navigation__panel_hidden">
+			<span>Navigation</span>
+			<a class="hamburger-button" href="">
+				<i class="fas fa-bars"></i>
 			</a>
+		</div>
+		<ul class="navigation__panel">
+			<li class="navigation__panel-item"><a>PSD Websites</a></li>
+			<li class="navigation__panel-item"><a>UI Kits</a></li>
+			<li class="navigation__panel-item"><a>Premium PSD Files</a></li>
+			<li class="navigation__panel-item"><a>About</a></li>
+			<li class="navigation__panel-item"><a>Blog</a></li>
+		</ul>
+	</nav>
+  
+  		<div class="banner">
+  			<h1 class="banner__content-title">Awesome Free PSD Templates & Resources</h1>
+  			<br>
+  			<a class="banner__content-link"href="">
+  				www.BlazRobar.com
+  				<i class="banner__content-arrow fas fa-angle-right fa-1x"></i> 
+  			</a>
   		</div>
-  		<div class="main-third-div">
+
+  		<div class="box">
+  			<span class="box__title">I'm like the Robin Hood of PSD files.</span>
+  		</div>
+
+  		<div>
+	  		<div class="angle box-angle">
+	  			<a href="">
+	  				<i class="fas fa-angle-right fa-2x"></i> 
+	  			</a>
+	  		</div>
+	  		<div class="angle img-angle">
+				<a href="">
+					<i class="fas fa-angle-right fa-2x"></i> 
+				</a>
+	  		</div>
+	  	</div>
+
+  		<section class="imgs">
   			<div class="img-container">
-  				<img src="2.jpg">
+  				<img class="imgs__item" src="2.jpg">
   			</div>
   			<div class="img-container">
-  				<img src="invisalign.jpg">
+  				<img class="imgs__item" src="invisalign.jpg">
   			</div>
   		</div>
-  		<div class="main-forth-div">
+
+  		<article class="text">
   			<div>
-	  			<h2>BlazRobar.com</h2>
+	  			<h2 class="text__title">BlazRobar.com</h2>
 	  		</div>
-  			<div class="column">
+  			<div class="text__paragraphs">
 	  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula ipsum non leo tristique eget facilisis lacus commodo. Curabitur vitae justo lorem, non ornare nibh. Pellentesque pretium, tellus ac ultrices faucibus, nibh mauris dapibus lorem, vitae viverra nisl elit sit amet libero. Nam eu blandit risus.</p>
 	  			<p>Phasellus imperdiet mattis nulla. Integer gravida imperdiet congue. Proin vitae pretium augue. Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu vulputate lacus.</p>
 	  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula ipsum non leo tristique eget facilisis lacus commodo. Curabitur vitae justo lorem, non ornare nibh. Pellentesque pretium, tellus ac ultrices faucibus, nibh mauris dapibus lorem, vitae viverra nisl elit sit amet libero. Nam eu blandit risus.</p>
 	  			<p>Phasellus imperdiet mattis nulla. Integer gravida imperdiet congue. Proin vitae pretium augue. Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu vulputate lacus.</p>
 	  		</div>
-  		</div>
+  		</article>
   	</main>
   </body>
 </html>
