@@ -16,7 +16,7 @@
     height: 12px;
 }
 
-.top-menu li{
+.top-menu .top-menu__item{
     padding: 0.5rem;
     margin-top: 1.7rem;
     font-size: 14px;
@@ -25,7 +25,7 @@
     font-family: Arial;
 }
 
-.top-menu li:nth-child(1){
+.top-menu .top-menu__item:nth-child(1){
     display: none;
 }
 
@@ -33,7 +33,7 @@
     display: none;
 }
 
-.awesome-PSD{
+.awesome-pds{
     background-color: #0ca3b9;
     color: #ffffff;
     height: 578px;
@@ -43,23 +43,23 @@
     justify-content: center;
 }
 
-.awesome-PSD h1{
+.awesome-pds h1{
     font-size: 50px;
     width: 60%;
 }
 
-.link-Arrow{
+.link-arrow{
     font-size: 32px;
     display: flex;
     flex-direction: row;
 }
 
-.link-Arrow a{
+.link-arrow a{
     color: #8acad5;
     width: 60%;
 }
 
-.link-Arrow i{
+.link-arrow i{
     color: #ffffff;
     width: 55%;
 }
@@ -69,7 +69,7 @@ body{
     width: 100%;
 }
 
-.robinHood-PSD{
+.robin-hood-psd__section{
     height: 245px;
     display: flex;
 	flex-direction: row;
@@ -78,7 +78,7 @@ body{
     padding: 0;
 }
 
-.robinHood-PSD__left-section{
+.robin-hood-psd__section--left{
     background-color: #27212c;
     color: #9383a1;
     width: 75%;
@@ -87,7 +87,7 @@ body{
     padding-left: 7%;
 }
 
-.robinHood-PSD__right-section{
+.robin-hood-psd__section--right{
     display: flex;
     background-color: #bc3183;
     width: 25%;
@@ -96,23 +96,23 @@ body{
     font-size: 32px;
 }
 
-.robinHood-PSD__right-section i{
+.robin-hood-psd__section--right i{
     color: #ffffff;
 }
 
-.photosCollection{
+.photos-collection{
     display: flex;
     flex-direction: row;
     margin: 0;
     height: 341px;
 }
 
-.photosCollection div{
+.photos-collection div{
     display: flex;
     flex: 1;
 }
 
-.photosCollection__Arrow{
+.photos-collection__arrow{
     display: flex;
     background-color: #5b0fa1;
     justify-content: center;
@@ -120,11 +120,11 @@ body{
     font-size: 32px;
 }
 
-.photosCollection__Arrow i{
+.photos-collection__arrow i{
     color: #ffffff;
 }
 
-.photosCollection img{
+.photos-collection img{
     width: 100%;
     object-fit: cover;
 }
@@ -166,15 +166,15 @@ body{
         height: 97px;
     }
     
-    .awesome-PSD{
+    .awesome-pds{
         height: 549px;
     }
     
-    .robinHood-PSD{
+    .robin-hood-psd__section{
         height: 234px;
     }
 
-    .photosCollection{
+    .photos-collection{
         height: 327px;
     }
 } 
@@ -190,11 +190,11 @@ body{
         text-transform: none;
     }
     
-    .top-menu li{
+    .top-menu .top-menu__item{
         display: none;
     }
     
-    .top-menu li:nth-child(1){
+    .top-menu .top-menu__item:nth-child(1){
         display: flex;
         font-size: 17px;
         font-weight: 100px;
@@ -218,42 +218,42 @@ body{
         padding-left: 50%;
     }
     
-    .awesome-PSD{
+    .awesome-pds{
         height: 348px;
         padding-bottom: 0;
     }
     
-    .awesome-PSD h1{
+    .awesome-pds h1{
         font-size: 40px;
         width: 80%;
     }
     
-    .link-Arrow{
+    .link-arrow{
         font-size: 26px;
     }
     
-    .robinHood-PSD{
+    .robin-hood-psd__section{
         height: 153px;
     }
     
-    .robinHood-PSD__left-section{
+    .robin-hood-psd__section--left{
         font-size: 22px;
     }
     
-    .robinHood-PSD__right-section{
+    .robin-hood-psd__section--right{
         font-size: 32px;
     }
     
-    .photosCollection{
+    .photos-collection{
         flex-direction: column;
         height: 1668px;
     }
     
-    .photosCollection div{
+    .photos-collection div{
         height: 556px;
     }
     
-    .photosCollection__Arrow{
+    .photos-collection__arrow{
         font-size: 80px;
     }    
     
@@ -291,12 +291,12 @@ body{
         text-transform: none;
     }
     
-    .top-menu li{
+    .top-menu .top-menu__item{
         display: none;
         margin-top: 0.6rem;
     }
     
-    .top-menu li:nth-child(1){
+    .top-menu .top-menu__item:nth-child(1){
         display: flex;
         font-size: 12px;
         font-weight: 90px;
@@ -319,46 +319,46 @@ body{
         padding-left: 50%;
     }
     
-    .awesome-PSD{
+    .awesome-pds{
         height: 174px;
         padding-bottom: 0;
     }
     
-    .awesome-PSD h1{
+    .awesome-pds h1{
         font-size: 20px;
         width: 80%;
     }
     
-    .link-Arrow{
+    .link-arrow{
         font-size: 16px;
     }
     
-    .link-Arrow a{
+    .link-arrow a{
         width: 60%;
     }
     
-    .robinHood-PSD{
+    .robin-hood-psd__section{
         height: 77px;
     }
     
-    .robinHood-PSD__left-section{
+    .robin-hood-psd__section--left{
         font-size: 13px;
     }
     
-    .robinHood-PSD__right-section{
+    .robin-hood-psd__section--right{
         font-size: 18px;
     }
     
-    .photosCollection{
+    .photos-collection{
         flex-direction: column;
         height: 834px;
     }
     
-    .photosCollection div{
+    .photos-collection div{
         height: 278px;
     }
     
-    .photosCollection__Arrow{
+    .photos-collection__arrow{
         font-size: 50px;
     }    
     
