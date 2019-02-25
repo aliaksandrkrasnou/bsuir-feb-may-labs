@@ -2,7 +2,7 @@ body {
 	font-family: Georgia, serif;
 	color: white;
 	margin: 0;
-    background-color:  #1B99B9;
+        background-color:  #1B99B9;
 }
 
 header {
@@ -15,8 +15,7 @@ header {
 	float: left;
 }
 
-header div i {
-	float: right;
+.button i {
 	background-color: #455360;
 }
 
@@ -32,7 +31,7 @@ header li:hover {
 	background: linear-gradient(to top left, #1B99B9, #56D4F4);
 }
 
-main i {
+.fas {
 	float: right;
 }
 

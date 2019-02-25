@@ -7,7 +7,7 @@ header ul {
 	padding: 16px 3em;
 }
 
-header div i {
+.button i {
 	padding: 16px;
 	width: 18px;
 	height: auto;
@@ -30,6 +30,11 @@ header div i {
 .menu-content li {
 	padding: 12px 16px;
 	word-wrap: normal;
+}
+
+.menu:hover {
+	color: #FF1493;
+	cursor: pointer;
 }
 
 .menu:hover .menu-content {
