@@ -2,6 +2,7 @@ body{
 	font-style: normal;
 	font-family: Arial;
 	margin: 0;
+	min-width: 320px;
 }
 
 .main-header{
@@ -101,9 +102,9 @@ body{
 	border: solid white;
 	border-width: 0 4px 4px 0;
 	display: inline-block;
-	padding: 10px;
+	padding: 7px;
 	transform: rotate(-45deg);
-	border-radius: 3px;
+	border-radius: 2px;
 }
 
 .panel{
@@ -156,6 +157,17 @@ body{
 	display: flex;
 	flex-grow: 1;
 	width: 33%;
+}
+
+@media screen and (max-width: 980px){
+
+	.robin-Hood{
+		height: 200px;
+	}
+
+	.robin-Hood p{
+		font-size: 25px;
+	}
 }
 
 @media screen and (max-width: 660px) {
@@ -226,6 +238,12 @@ body{
 	
 	.robin-Hood{
 		height: 153px;	
+	}
+
+	.robin-Hood__arrow__arrow-right{
+		border-width: 0 3px 3px 0;
+		padding: 5px;
+		border-radius: 1px;
 	}
 
 	.panel div{
