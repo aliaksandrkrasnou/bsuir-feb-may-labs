@@ -104,6 +104,7 @@ body{
 .box__title{
 	padding: 2% 3%;
 	white-space: nowrap;
+	font-weight: normal;
 }
 
 .angle{
