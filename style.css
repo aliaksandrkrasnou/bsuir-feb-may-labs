@@ -80,14 +80,14 @@ a{
     color: #b9dbe3;
 }
 
-.block1-ico{
+.banner-ico{
     float: right;
     width: 20%;
     color: white;
     text-align: right;
 }
 
-.block1-link, .block1-ico{
+.block1-link, .banner-ico{
     display: block;
     padding-top: 1.5em;
 }
@@ -281,7 +281,7 @@ main article{
         font-size: 15px;
     }
     
-    .block1-link, .block1-ico{
+    .block1-link, .banner-ico{
         font-size: 10px;
     }
     
@@ -354,7 +354,7 @@ main article{
         font-size: 30px;
     }
     
-    .block1-link, .block1-ico{
+    .block1-link, .banner-ico{
         font-size: 15px;
     }
     
@@ -410,7 +410,7 @@ main article{
         font-size: 40px;
     }
     
-    .block1-link, .block1-ico{
+    .block1-link, .banner-ico{
         font-size: 25px;
     }
     
@@ -476,7 +476,7 @@ main article{
         font-size: 45px;
     }
     
-    .block1-link, .block1-ico{
+    .block1-link, .banner-ico{
         font-size: 25px;
     }
     
