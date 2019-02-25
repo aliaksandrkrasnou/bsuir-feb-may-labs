@@ -1,10 +1,10 @@
 @media only screen and (min-width: 641px){
 
-    nav .big-hidden{
+    .navigation .big-hidden{
         display: none;
     }
 
-    nav .hidden-panel{
+    .navigation .hidden-panel{
         display: unset;
         list-style-type: none;
         margin: 0;
@@ -13,13 +13,13 @@
         height: 100%;
     }
       
-    .hidden-panel li {
+    .hidden-panel .nav-element {
         float: left;
         width: 20%;
         height: 100%;
     }
       
-    .hidden-panel li a {
+    .hidden-panel .nav-element .nav-link {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -29,7 +29,7 @@
         text-align: center;
     }
       
-    .hidden-panel li a:hover {
+    .hidden-panel .nav-element .nav-link:hover {
         background-color: black;
         color: red;
     }
@@ -38,17 +38,17 @@
         flex-flow: row;
     }
 
-    .imgs a{
+    .imgs .img-link{
         height: auto;
         width: 33.333%;
         font-size: 4vw;
     }
     
-    .imgs img{
+    .imgs .img-content{
         width: 33.333%;
     }
 
-    .text h2{
+    .text .text-title{
         font-size: 30px;
     }
 
@@ -59,17 +59,17 @@
         justify-content: center;
     }
 
-    .text-paragraphs p{
+    .text-paragraphs .par-gf{
         font-size: 14px;
         width: 50%;
     }
 
-    .text-paragraphs p:not(:last-child){
+    .text-paragraphs .par-gf:not(:last-child){
         margin-right: 50px;
         padding-left: 20px;
     }
 
-    .text-paragraphs p:last-child{
+    .text-paragraphs .par-gf:last-child{
         margin-right: 20px;
     }
 }

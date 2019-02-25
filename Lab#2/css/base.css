@@ -13,18 +13,18 @@ body {
 .fa-angle-right{
     color: white;
 }
-
+/* bcz i need simular style for all links */
 a, a:visited, a:active, a:link {
     outline: none;
     color: #ebebeb;
     text-decoration: none;
 }
 
-nav .hidden-panel{
+.navigation .hidden-panel{
     display: none;
 }
 
-nav{
+.navigation{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -36,7 +36,7 @@ nav{
     font-size: 4vw;
 }
 
-nav .home{
+.navigation .home{
     margin: 0;
     display: inline-block;
     padding: 2% 0 0 5%;
@@ -63,7 +63,10 @@ nav .home{
     background-color: red;
 }
   
-.drop-links {
+.drop-content {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     right: 0;
     display: none;
     position: absolute;
@@ -71,19 +74,19 @@ nav .home{
     z-index: 1;
 }
   
-.drop-links a {
+.drop-content a {
     color: #ebebeb;
     padding: 12px 16px;
     display: block;
     text-align: left;
 }
   
-.drop-links a:hover {
+.drop-content a:hover {
     background-color: #000000;
     color: red;
 }
   
-.dropdown:hover .drop-links {
+.dropdown:hover .drop-content {
     display: block;
 }
 
@@ -94,17 +97,17 @@ nav .home{
     width: 100%;
     height: 50vw;
 }
-.banner div{
+.banner .banner-content{
     width: 75%;
     padding: 10%;
 }
 
-.banner div h2{
+.banner .banner-content .banner-title{
     font-size: 5vw;
     color: #ffffff;
 }
 
-.banner div a i{
+.banner .banner-content .banner-link .banner-arrow{
     float: right;
     padding-right: 20%;
 }
@@ -115,7 +118,7 @@ nav .home{
     height: 20vw;
 }
 
-.box h2{
+.box .box-title{
     margin: 0;
     background-color: #27212c;
     color: #9282a0;
@@ -126,7 +129,7 @@ nav .home{
     width: 75%;
 }
 
-.box a {
+.box .box-link{
     width: 25%;
     justify-content: center;
     display: inline-flex;
@@ -142,13 +145,13 @@ nav .home{
     overflow: hidden;
 }
 
-.imgs img{
+.imgs .img-content{
     margin: 0;
     width: 100%;
     height: 100%;
 }
 
-.imgs a{
+.imgs .img-link{
     justify-content: center;
     display: inline-flex;
     align-items: center;
@@ -164,7 +167,7 @@ nav .home{
     background-color: #d5d5d8;
 }
 
-.text h2{
+.text .text-title{
     color: #088ca5;
     font-size: calc(19px + 1vw);
     padding: 0px 18px;

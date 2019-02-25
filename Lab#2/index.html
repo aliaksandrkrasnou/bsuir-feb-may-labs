@@ -11,49 +11,50 @@
     <title>Awesome Free PSD tempaltes & Resources</title>
 </head>
 <body>
-        <nav>
+        <nav class="navigation">
             <ul class="hidden-panel">
-                <li><a href="#">PSD WEBSITES</a></li>
-                <li><a href="#">UI KITS</a></li>
-                <li><a href="#">PREMIUM PSD FILES</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">BLOG</a></li>
+                <li class="nav-element"><a class="nav-link" href="#">PSD WEBSITES</a></li>
+                <li class="nav-element"><a class="nav-link" href="#">UI KITS</a></li>
+                <li class="nav-element"><a class="nav-link" href="#">PREMIUM PSD FILES</a></li>
+                <li class="nav-element"><a class="nav-link" href="#">ABOUT</a></li>
+                <li class="nav-element"><a class="nav-link" href="#">BLOG</a></li>
             </ul>
-            <a class="home big-hidden" href="#">Navigation</a>
+            <!--Renamed link. Was Navigation, now howe. That's why i leaved <a> instead of <h2>-->
+            <a class="home big-hidden" href="#">Home</a>
             <div class="dropdown big-hidden">
                 <a href="javascript:void(0)" class="drop"><i class="big-hidden fas fa-bars"></i></a>
-                <div class="drop-links">
-                    <a href="#">PSD WEBSITES</a>
-                    <a href="#">UI KITS</a>
-                    <a href="#">PREMIUM PSD FILES</a>
-                    <a href="#">ABOUT</a>
-                    <a href="#">BLOG</a>
-                </div>
+                <ul class="drop-content">
+                    <li><a href="#">PSD WEBSITES</a></li>
+                    <li><a href="#">UI KITS</a></li>
+                    <li><a href="#">PREMIUM PSD FILES</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">BLOG</a></li>
+                </ul>
             </div>
         </nav>
 
         <section class="banner">
-            <div>
-                <h2>Awesome Free PSD tempaltes & Resources</h2>
-                <a href="http://blazrobar.com">www.BlazRobar.com<i class="fas fa-angle-right"></i></a>
+            <div class="banner-content"> 
+                <h2 class="banner-title">Awesome Free PSD tempaltes & Resources</h2>
+                <a  class="banner-link" href="http://blazrobar.com">www.BlazRobar.com<i class="banner-arrow fas fa-angle-right"></i></a>
             </div>          
         </section>
         
         <section class="box">
-            <h2>I'm like the Robin Hood of PSD files</h2>
-            <a href="http://blazrobar.com/"><i class="fas fa-angle-right"></i></a>
+            <h2 class="box-title">I'm like the Robin Hood of PSD files</h2>
+            <a class="box-link" href="http://blazrobar.com/"><i class="fas fa-angle-right"></i></a>
         </section>
         
         <section class="imgs">
-            <a href="http://blazrobar.com/"><i class="fas fa-angle-right"></i></a>
-            <img src="img/bridge.png" alt="bridge">
-            <img src="img/girl.png" alt="girl">
+            <a class="img-link" href="http://blazrobar.com/"><i class="fas fa-angle-right"></i></a>
+            <img class="img-content" src="img/bridge.png" alt="bridge">
+            <img class="img-content" src="img/girl.png" alt="girl">
         </section>
             
         <article class="text">
-            <h2>BlazRobar.com</h2>
+            <h2 class="text-title">BlazRobar.com</h2>
             <div class="text-paragraphs">
-                <p>
+                <p class="par-gf">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nam vehicula ipsum non leo tristique eget facilisis lacus commodo.  
                     Curabitur vitae justo lorem, non ornare nibh.  
@@ -64,7 +65,7 @@
                     Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. 
                     Suspendisse eu vulputate lacus.
                 </p> 
-                <p>
+                <p class="par-gf">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nam vehicula ipsum non leo tristique eget facilisis lacus commodo.  
                     Curabitur vitae justo lorem, non ornare nibh.  
