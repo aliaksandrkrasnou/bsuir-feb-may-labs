@@ -5,7 +5,8 @@
 .row {
 	font-size: 23px;
 }
-.text-area p,
+.text-area h1,
+.text-area h2,
 .flex-arrow a {
 	font-size: 60px;
 }
