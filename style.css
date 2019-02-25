@@ -1,0 +1,269 @@
+header {
+    background: #373c3f;
+    height: 100px;
+    font-weight: bold;    
+}
+
+body {
+    margin: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    height: inherit;
+}
+
+nav > .menu > .menu-icon,
+nav > .menu-caption {
+    display: none;
+}
+
+nav > .menu{
+    box-sizing: content-box;
+    float: left;
+    margin-top: 40px;
+
+    height: 60px;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+nav li {
+    float: left;
+    display: block;
+    margin-left: 55px;
+}
+
+nav a {
+    color: #ebebeb;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+nav .lower-menu,
+nav .menu > .lower-menu{
+    font-size: 40px;
+    display: none;
+    height: inherit;
+}
+
+nav .menu-caption {   
+    box-sizing: border-box;
+    float: left;
+    color: #ebebeb;
+    padding-left: 40px;
+    padding-top: 25px;
+    width: calc(100% - 120px);
+    height: inherit;
+}
+
+nav > .menu > .menu-icon {
+    box-sizing: border-box;
+    text-align: center;
+    background: #202529;
+    float: right;
+    padding-top: 26px;
+    margin-top: -40px;
+    width: 120px;
+    height: 100px;
+    color: white;
+}
+
+
+
+.banner {
+    display: flex;
+    position: relative;
+    background: blue;
+    height: 50vw;
+}
+
+.banner-content {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+.banner-text {
+    font-weight: bold;
+    font-size: 5.3vw;
+    letter-spacing: 0.10em;
+}
+
+.banner-link, .banner-arrow {
+    font-size: 3vw;
+    padding-top: 1.5em;
+}
+
+.banner-link {
+    color: #a7d4dd; 
+    width: 90%;
+    float: left;
+}
+
+.banner-arrow {
+    float: right;
+    width: 10%;
+    text-align: right;
+}
+
+
+
+.text-box {
+    height: 240px;
+    height: 20vw;
+    line-height: 20vw; 
+    font-size: 3vw;
+
+}
+
+.text-box-text {
+    position: absolute;
+    height: inherit;
+    background: #27212C;
+    float: left;
+    width: 80%;
+    text-align: center;
+    color: #a7d4dd;
+}
+
+.text-box-arrow {
+    float: right;
+    width: 20%;
+    height: inherit;
+    background: #bc3183;
+    text-align: center;
+    color: white;
+}
+
+
+.pics {
+    height: auto;
+    display: table;
+    margin: 0px;
+}
+
+.pics img {
+    display: block;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    
+    width: 33.3333%;
+    height: auto;
+    float: left;
+}
+
+
+.text {
+    display: table;
+    background: #ebebeb;
+}
+
+.text h1, 
+.text > article:nth-child(even) {
+    padding-left: 8%;
+    padding-right: 4%;
+}
+
+.text > article:nth-child(odd) {
+    padding-left: 4%;
+    padding-right: 8%;
+}
+
+.text h1 {
+    display: block;
+    color: #088ca5;
+    padding-top: 1%;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text > article {
+    width: 49.9%;
+    float: left;
+    padding-bottom: 2%;
+    box-sizing: border-box;
+    color: #515151;
+    font-size: 1.8vw;
+}
+
+@media only screen and (max-width: 830px ) {
+    /* Main content view */
+    .pics img {
+        width: 100%;
+    }
+    .text > article {
+        width: 100%;
+    }
+    .text > article:nth-child(odd) {
+        padding-left: 8%;
+        padding-right: 4%;
+    }
+    
+    /* Navigation visible */
+    
+    nav ul {
+        display: none;
+    }
+    
+    nav > .menu-caption {
+        display: block;
+    }
+    
+    nav > .menu > .menu-icon {
+        display: block;
+    }
+    
+    /* Change menu style */
+    
+    .menu {
+        position: absolute;
+        right: 0px;
+        float: right;
+        height: 100%;
+    }
+    
+    .menu ul{
+        top: 60px;
+        padding: 0px;
+        margin: 0px;
+        display: none;
+        position: absolute;
+        z-index: 1;
+        right: 85px;
+        float: right;
+    }
+
+    .menu ul li{
+        display: flex;
+        justify-content: center;
+        background: #373c3f;
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .menu ul li {
+        border-bottom: 2px solid gray;
+    }
+    
+    .menu ul li:first-child {
+        border-top: 2px solid gray;
+    }
+
+    .menu:hover ul{
+        display: block;
+    }
+
+}
