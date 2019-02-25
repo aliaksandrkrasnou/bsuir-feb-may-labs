@@ -3,62 +3,72 @@ body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
+    font-weight: normal;
     overflow-x: hidden;
 }
 header{
     background-color: #727288;
 }
-.menu{
+.header,
+.address{
+    margin: 0%;
+}
+.navigation{
     padding: 1%;
 }
-.menu .fas{
-    display: none;
-
-}
-.menu span{
+.navigation .fas{
     display: none;
 }
+.navigation .links>li>a{
+    text-decoration: none;
+    color: white;
+}
+.navigation>.header{
+    display: none;
+    margin: 0%;
+}
 
-ul{
+.navigation>.menu>.links{
     list-style: none;
 }
-ul>li{
+.menu>.links>li{
     padding-right: 10px;
     display: inline;
 }
-ul>li:hover{
+.menu>.links>li>a:hover{
     color: lightgray;
 }
 
 
 
-
-.block-1{
+.block-first{
     background-color: #00cccc;
     height: 350px;
     padding-left: 10%;
     padding-top: 10%;
 }
-.block-1>div{
+.block-first>div{
     display: inline-flex;
     flex-direction: column;
+    align-content: center;
 }
-.block-1 .link{
+.block-first .link{
     display: inline-flex;
     justify-content: space-between;
 }
-.block-1 .link:hover{
+.block-first .link:hover{
     color: lightgray;
 }
 
-.block-1 .header{
+.block-first .header{
     font-size: 60px;
 }
 
-.block-1 .address{
+.block-first .link>.address{
     font-size: 30px;
+    margin: 0%;
 }
-.block-2{
+.block-second{
     display: flex;
     height: 150px;
     padding-left: 10%;
@@ -66,57 +76,57 @@ ul>li:hover{
 }
 
 
-.block-2>.link{
+.block-second>.link{
     display: flex;
     width: 100%;
     min-width: 0%;
     background-color: mediumvioletred;
 }
-.block-2>.header{
+.block-second>.header-block{
     display: flex;
-    font-size: 30px;
     width: 100%;
     background-color: black;
 }
-.block-2>.header>span{
+.block-second>.header-block>.header{
     align-self: center;
     white-space: nowrap;
     padding-right: 5%;
+    font-size: 30px;
 }
-.block-2>.link>i{
+.block-second>.link>.fas{
     align-self: center;
     padding-right: 50%;
     padding-left: 50%;
     overflow: hidden;
 }
-.block-2>.link:hover{
+.block-second>.link:hover{
     color: lightgray;
 }
 
-.block-3{
+.block-third{
     display: flex;
     flex-flow: row;
     height: 200px;
 }
-.block-3>.link{
+.block-third>.link{
     display: flex;
     background-color: darkslateblue;
     width: 100%;
     min-width: 0%;
     min-height: 0%;
 }
-.block-3>.link>i{
+.block-third>.link>.fas{
     align-self: center;
     padding-left: 50%;
     padding-right: 50%;
 }
-.block-3>.link:hover{
+.block-third>.link:hover{
     color: lightgray;
 }
-.block-3>img{
+.block-third>.pic{
     height: 100%;
 }
-.article{
+.content{
     background-color: lightgray;
     color: black;
     padding-left: 10%;
@@ -124,74 +134,76 @@ ul>li:hover{
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.article span{
+.content>.header{
     font-size: 30px;
     color: cadetblue;
     margin: 0%;
 }
-.text{
+.content>.text{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     line-height: 170%;
 }
-.text p{
+.content>.text>p{
     width: 45%;
 }
 
 @media screen and (max-width: 860px){
-    .block-3{
+    .block-third{
         height: 170px;
     }
 
 }
 
-@media screen and (max-width: 700px)
+@media screen and (max-width: 750px)
 {
-    .block-1 .header{
+    .block-first .header{
         font-size: 50px;
     }
+    .block-first .address{
+        font-size: 25px;
+    }
+
 }
 
 @media screen and (max-width: 640px){
-    .menu div{
+    .navigation>.menu{
         display: flex;
         overflow: hidden;
     }
-    .menu ul
+    .navigation>.menu>.links
     {
         display: none;
     }
-    .menu{
+    .navigation{
         display: flex;
         justify-content: space-between;
         padding: 0%;
         position: relative;
     }
-    .menu>span{
+    .navigation>.header{
         display: inline-flex;
         font-size: 160%;
         padding-top: 3%;
         padding-bottom: 3%;
         padding-left: 5%;
-
     }
-    .menu .fas{
+    .navigation>.menu>.fas{
         display: flex;
         background-color: #404040;
-
     }
-    .menu .fas::before
+    .navigation>.menu>.fas::before
     {
         display: inline;
         align-self: center;
         padding: 10px;
     }
-    .menu .fas:hover{
+    .navigation>.menu>.fas:hover{
         background-color:lightgrey;
         color: #727288;
     }
-    .menu div:hover>ul{
+    .navigation>.menu:hover>.links{
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -201,51 +213,56 @@ ul>li:hover{
         width: 100%;
         padding: 0%;
     }
-    .menu>div>ul>li{
+    .navigation>.menu>.links>li{
         padding-left: 5%;
         padding-top: 1%;
         padding-bottom: 1%;
     }
-    .menu>div>ul>li:hover{
+    .navigation>.menu>.links>li:hover{
         background-color: #404040;
         color: white;
     }
+    .navigation>.menu>.links>li>a{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
 
-    .block-1{
+    .block-first{
         height: 230px;
     }
-    .block-1 .header{
+    .block-first .header{
         font-size: 35px;
     }
 
-    .block-1 .address{
+    .block-first .link>.address{
         font-size: 16px;
     }
-    .block-2{
+    .block-second{
         height: 75px;
     }
-    .block-2>.header{
+    .block-second>.header-block>.header{
         font-size: 16px;
     }
-    .block-2 .link .fas{
-        font-size: 3em;
+    .block-second>.link>.fas{
+        font-size: 2em;
     }
-    .block-3{
+    .block-third{
         flex-direction: column;
         height: fit-content;
     }
-    .block-3>.link{
+    .block-third>.link{
         padding-top: 45%;
         padding-bottom: 45%;
     }
-    .block-3 img{
+    .block-third>.pic{
         max-width: 100%;
         height: auto;
     }
-    .block-3 .link .fas{
+    .block-third>.link>.fas{
         font-size: 5em;
     }
-    .text p{
+    .content>.text>p{
         width: 100%;
     }
 
@@ -253,47 +270,71 @@ ul>li:hover{
 
 
 
-
 @media screen and (max-width: 320px)
 {
-    .menu .fas{
+    .navigation .fas{
         font-size: 1em;
     }
-    .menu span{
+    .navigation>.header{
         font-size: 50%;
     }
-    .menu>div>ul>li{
+    .navigation>div>ul>li{
         font-size: 0.7em;
     }
-    .block-1{
+    .block-first{
         height: 100px;
     }
-    .block-1 .header{
-        font-size: 20px;
+    .block-first .header{
+        font-size: 18px;
     }
 
-    .block-1 .address{
+    .block-first .link>.address{
         font-size: 10px;
     }
-    .block-1 .link i{
+    .block-first .link>.fas{
         font-size: 1em;
     }
-    .block-2{
+    .block-second{
         height: 50px;
     }
-    .block-2>.header{
+    .block-second>.header-block>.header{
         font-size: 10px;
     }
-    .block-2 .link .fas{
+    .block-second .link>.fas{
         font-size: 1em;
     }
-    .block-3 .link .fas{
+    .block-third .link>.fas{
         font-size: 2em;
     }
-    .article span{
+    .content>.header{
         font-size: 40%;
     }
-    .article .text{
+    .content>.text{
         font-size: 0.5em;
+    }
+
+    @media screen and (max-width: 290px){
+        .block-first{
+            height: 70px;
+        }
+        .block-second{
+            height: 30px;
+        }
+        .block-first .header{
+            font-size: 10px;
+        }
+        .block-first .link>.address{
+            font-size: 5px;
+        }
+        .block-first .link>.fas{
+            font-size: 0.5em;
+        }
+        .block-second>.header-block>.header{
+            font-size: 5px;
+        }
+        .block-second .link>.fas{
+            font-size: 0.5em;
+        }
+
     }
 }
