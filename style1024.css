@@ -1,16 +1,7 @@
 @media only screen and (min-width: 1024px) {
 
-.item a,
-.text-area a,
-.row {
+.menu__item {
 	font-size: 23px;
 }
-.text-area h1,
-.text-area h2,
-.flex-arrow a {
-	font-size: 60px;
-}
-.flex-col {
-  	height: 450px;
-}
+
 }

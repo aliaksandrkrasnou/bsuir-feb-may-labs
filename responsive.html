@@ -12,98 +12,68 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
-	<nav class="navigation">
-		<ul class="list-nav">
-			<li class="item item-small home">
-				<a>
-					<i class="fas fa-home"></i>
-					<p>Home</p>
-				</a>
-			</li>
-			<li class="item item-large">
-				<a>
-					<i class="fas fa-gift"></i>
-					<p>Free PSD</p>
-				</a>
-			</li>
-			<li class="item item-large">
-				<a>
-					<i class="fas fa-store"></i>
-					<p>PSD Store</p>
-				</a>
-			</li>
-			<li class="item item-large">
-				<a>
-					<i class="fas fa-question"></i>
-					<p>About</p>
-				</a>
-			</li>
-			<li class="item item-large">
-				<a>
-					<i class="fas fa-quote-right"></i>
-					<p>Blog</p>
-				</a>
-			</li>
-			<li class="item item-small item-dropdown">
-				<a class="">
-					<i class="fa fa-bars"></i>
-				</a>
-				<ul class="content-list">		
-					<a>Free PSD</a>
-					<a>PSD Store</a>
-					<a>About</a>
-					<a>Blog</a>
-				</ul>
-			</li>
-		</ul>
+	<nav class="menu">
+		<a class="menu__item menu__item_home">
+			<i class="fas fa-home"></i>
+			<span>Home</span>
+		</a>
+		<a class="menu__item menu__item_hidden">
+			<i class="fas fa-gift"></i>
+			<span>Free PSD</span>
+		</a>
+		<a class="menu__item menu__item_hidden">
+			<i class="fas fa-store"></i>
+			<span>PSD Store</span>
+		</a>
+		<a class="menu__item menu__item_hidden">
+			<i class="fas fa-question"></i>
+			<span>About</span>
+		</a>
+		<a class="menu__item menu__item_hidden">
+			<i class="fas fa-quote-right"></i>
+			<span>Blog</span>
+		</a>
+		<a class="menu__item menu__item_bars">
+			<i class="fas fa-bars"></i><br>
+		</a>
 	</nav>
 	<header class="header">
-		<div class="top">
-			<div class="text-area">
-				<h1>Awesome Free PSD</h2>
-				<h2>templates & Resources</h2>
-				<a href="">
-					www.BlazRobar.com
-					<i class="fas fa-angle-right"></i>
-				</a>
+		<div class="header__top">
+			<div class="header__top__text-area">
+				<h1>Awesome Free PSD<br>templates & Resources</h1>
+				<a href="http://blazrobar.com/">www.BlazRobar.com<i class="fas fa-angle-right"></i></a>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-text">
-				<p>I'm like a Robin Hood of PSD files</p>	
+		<div class="header__middle">
+			<div class="header__middle__col_left">
+				<h2>I'm like a Robin Hood of PSD files</h2>	
 			</div>
-			<div class="col-arrow">
-				<a href="">
-					<i class="fas fa-angle-right"></i>
-				</a>
-			</div>
+			<a class="header__middle__col_right">
+				<i class="fas fa-angle-right"></i>
+			</a>
 		</div>
-		<div class="flex">
-			<div class="flex-arrow flex-col">
-				<a href="">
-					<div class="center-arrow">
-						<i class="fas fa-angle-right"></i>
-					</div>
-				</a>	
-			</div>
-			<div class="flex-img-top flex-col"></div>
-			<div class="flex-img-bottom flex-col"></div>
+		<div class="header__bottom">
+			<a class="header__bottom__col header__bottom__col_left">
+				<i class="fas fa-angle-right"></i>
+			</a>	
+			<div class="header__bottom__col header__bottom__col_center"></div>
+			<div class="header__bottom__col header__bottom__col_right"></div>
 		</div>
 	</header> 
-	<main class="content">
+	<main class="main">
 		<h1>BlazRobar.com</h1>
-		<div class="article">
-			<div class="col">
+		<content class="main__content">
+			<div class="main__content__col">
 				<p>This website is dedicated to sharing my passion for graphic design to the world. From the very beginning of my graphic design career, I have benefited from hundreds of free graphic design resources, which have been generously shared by a thriving online design community.</p>
 				<p>BlazRobar.com is a way for me to give back to this community, by sharing design tips and tricks that I have learnt throughout my 7 years of being a graphic designer. The focus of this site is to give away free PSDs, free PSD templates, website templates and Photoshop files for designers and developers to enjoy and use.</p>
 				<p>All files on this website are free for you to use in anyway you see fit. I’m so relaxed with how you use the files that even Creative Commons is too strict! No attribution is required, you can even use it commercially; all I ask is that you don’t distribute the files on other websites without permission.</p>
 			</div>
-			<div class="col">
+			<div class="main__content__col">
 				<p>This website is dedicated to sharing my passion for graphic design to the world. From the very beginning of my graphic design career, I have benefited from hundreds of free graphic design resources, which have been generously shared by a thriving online design community.</p>
 				<p>BlazRobar.com is a way for me to give back to this community, by sharing design tips and tricks that I have learnt throughout my 7 years of being a graphic designer. The focus of this site is to give away free PSDs, free PSD templates, website templates and Photoshop files for designers and developers to enjoy and use.</p>
 				<p>All files on this website are free for you to use in anyway you see fit. I’m so relaxed with how you use the files that even Creative Commons is too strict! No attribution is required, you can even use it commercially; all I ask is that you don’t distribute the files on other websites without permission.</p>
 			</div>
-		</div>
+		</content>
 	</main>
 </body>
 </html>
