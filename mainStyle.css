@@ -9,44 +9,42 @@ body{
     padding: 0px;
 }
 
-a:link {
+.reference:link {
     color: white;
 }
   
-a:visited {
+.reference:visited {
     color: white;
 }
   
-a:hover {
+.reference:hover {
     color: white;
 }
   
-a:active {
+.reference:active {
     color: white;
-  }
-
-textarea:focus, input:focus{
-    outline: none;
 }
 
-.OpenMenu > i{
+
+.smallmenu--open .smallmenu__icon{
     display: none;
 }
 
-.SearchBoxContent > i{
+.searchbox__content .searchbox__icon{
     display: none;
 }
 
-.navigation #menu{
+.navigation .navigation__menu{
     display: none;
 }
 
 
-.navigation #NavLabel{
+.navigation .navigation__label{
     display: none;
+    float:left;
 }
 
-.navigation .OpenMenu {
+.navigation .smallmenu--open {
     display: none;
 }
 
@@ -54,20 +52,20 @@ textarea:focus, input:focus{
     background-color: #373c3f;
 }
 
-.navigation #menu{
+.navigation .navigation__menu{
     display: block;
 }
 
-.navigation #menu{
+.navigation .navigation__menu{
     list-style-type: none;
     overflow: hidden;
 }
 
-.navigation #menu li{
+.navigation .navigation__menu li{
     float:left;
 }
 
-.navigation #menu li a{
+.navigationmenu__reference{
     transition: all 0.3s ease 0s;
     display: block;
     color: white;
@@ -75,7 +73,7 @@ textarea:focus, input:focus{
     text-decoration: none;
 }
 
-.navigation #menu li a:hover{
+.navigationmenu__reference:hover{
     transition: all 0.3s ease 0s;
     display: block;
     background-color: #555c61;
@@ -84,37 +82,40 @@ textarea:focus, input:focus{
     text-decoration: none;
 }
 
-.navigation .OpenMenu{
+.navigation .smallmenu--open{
     transition: all 0.3s ease 0s;
     float: right;
     background-color: #16181a;
 }
 
-.navigation .OpenMenu:hover{
+.navigation .smallmenu--open:hover{
     transition: all 0.3s ease 0s;
     background-color: #373c3f;
 }
 
-.navigation #NavLabel{
+.navigation .navigation--label{
     float: left;
 }
 
-.SearchBox{
+.searchbox{
     height: 250px;
 }
 
-.SearchBox input[type="text"]{
+.searchbox .searchbox__leftside{
     float: left;
     color:#9585a4;
     background-color: #27212c;
     border:none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
     text-align: center;
+    display:table;
 }
 
-.SearchBox .SearchBoxContent{
+.searchbox__leftside .searchbox__text{
+    display:table-cell;
+    vertical-align: middle;
+}
+
+.searchbox .searchbox__content{
     transition: all 0.3s ease 0s;
     float: left;
     color:white;
@@ -122,7 +123,7 @@ textarea:focus, input:focus{
     text-align: center;
 }
 
-.SearchBox .SearchBoxContent:hover{
+.searchbox .searchbox__content:hover{
     transition: all 0.3s ease 0s;
     float: left;
     color:white;
@@ -130,74 +131,68 @@ textarea:focus, input:focus{
     text-align: center;
 }
 
-.SearchBox .SearchBoxContent > i{
+.searchbox .searchbox__content .searchbox__icon{
     position:relative;
 }
 
-.Banner{
+.banner{
     background-color: #13adc1;
 }
 
-.Banner .BannerText{
+.banner .banner__text{
     display: block;
     color:white;
 }
 
-.BannerLink{
+.banner__link{
     display: block;
     font-weight: lighter;
 }
 
-.BannerContent{
+.banner__content{
     position: absolute;
     display: block;
     word-wrap: break-word;
 }
 
-.BannerLink,
-.BannerIcon{
+.banner__link,
+.banner__icon{
     float: left;
 }
 
-.Gallery{
+.gallery{
     width: 100%;
 }
 
-.Gallery::after{
+.gallery::after{
   content: "";
   clear: both;
   display: table;  
 }
 
-.GalleryImage{
+.gallery__image{
     float:left;
     display: block;
 }
 
 
-.Info{
+.info{
     color:black;
     background-color: #ebebeb;
 }
 
-.Info > div{
+.info .info__paragraph{
     float: left;
     position: absolute; 
 }
 
 
-.Info > div > article{
+.info__paragraph .paragraph__text{
     overflow-wrap: break-word;
 }
 
-.Info h2{
-    padding-left: 7.5%; 
-    padding-bottom: 2%;
-    font-size: 60px;
-}
 
-
-.Info h2{
+.info .info__header{
     font-weight: lighter;
     color:#439cb0;
 }

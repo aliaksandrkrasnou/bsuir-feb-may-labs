@@ -1,26 +1,28 @@
-.SearchBoxContent .SearchlittleIcon{
+.searchbox__content .searchbox__icon--little{
     display: block;
 }
 
-.navigation #NavLabel{
+.navigation .navigation__label{
     display: block;
 }
 
-.navigation #menu{
+.navigation .navigation__menu{
     display: none;
 }
 
-.navigation #NavLabel{
+.navigation .navigation__label{
+    float: left;
     font-size: 12px;
+    font-weight: lighter;
     padding: 10px;
 }
 
-.navigation .OpenMenu .OpenMenuSmallIcon{
+.navigation .smallmenu--open .smallmenu__icon--small{
     display: block;
     padding: 10px;
 }
 
-.navigation .OpenMenu{
+.navigation .smallmenu--open{
     display: block;
 }
 
@@ -29,84 +31,84 @@
 }
 
 
-.SearchBox{
+.searchbox{
     height: 60px;
 }
 
-.SearchBox input[type="text"]{
+.searchbox .searchbox__leftside{
     width: 75%;
     height: 100%;
     font-size: 12px;
 }
 
-.SearchBox .SearchBoxContent{
+.searchbox .searchbox__content{
     width: 25%;
     height: 100%;
 }
 
-.SearchBox .SearchBoxContent:hover{
+.searchbox .searchbox__content:hover{
     width: 25%;
     height: 100%;
 }
 
-.SearchBox .SearchBoxContent > i{
+.searchbox .searchbox__content .searchbox__icon{
     top: 25px;
 }
 
-.Banner{
+.banner{
     height: 200px;
 }
 
-.BannerLink,
-.BannerIcon{
+.banner__link,
+.banner__icon{
     padding-top: 20px;
     font-size: 10px;
 }
 
-.Banner .BannerText{
+.banner .banner__text{
     font-size: 20px;
 }
 
-.BannerLink{
+.banner__link{
     top: 60px;
     font-size: 10px;
     width: 80%;
 }
 
-.BannerContent{
+.banner__content{
     left: 10%;
     top: 12%;
 }
 
-.Gallery{
+.gallery{
     width: 100%;
 }
 
-.GalleryImage{
+.gallery__image{
     width: 100%;
 }
 
 
-.Info{
+.info{
     min-height: 600px;
     padding: 4%;
 }
 
-.Info > div{
+.info .info__header{
     width: 100%;
 }
 
-.Info .SecondParagraph{
+.info .info__secondParagraph{
     display: none;
 }
 
 
-.Info > div > article{
+.info__paragraph .paragraph__text{
     font-size: 12px;
     padding: 3.5%;
 }
 
-.Info h2{
+.info .info__header{
     padding-left: 3.5%; 
     padding-bottom: 2%;
     font-size: 20px;

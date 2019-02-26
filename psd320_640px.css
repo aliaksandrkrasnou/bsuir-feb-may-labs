@@ -1,22 +1,22 @@
-.SearchBoxContent .Search2xIcon{
+.searchbox__content .searchbox__icon--middlesized{
     display: block;
 }
 
-.navigation .OpenMenu{
+.navigation .smallmenu--open{
     display: block;
 }
 
-.navigation #NavLabel{
+.navigation .navigation__label{
     display: block;
     padding: 15px;
 }
 
-.navigation .OpenMenu .OpenMenu2xIcon{
+.navigation .smallmenu--open .smallmenu__icon--middlesized{
     display: block;
     padding: 10px;
 }
 
-.navigation #menu{
+.navigation .navigation__menu{
     display: none;
 }
 
@@ -25,85 +25,85 @@
     height: 52px;
 }
 
-.SearchBox{
+.searchbox{
     height: 100px;
 }
 
-.SearchBox input[type="text"]{
+.searchbox .searchbox__leftside{
     width: 75%;
     height: 100%;
     font-size: 15px;
 }
 
-.SearchBox .SearchBoxContent{
+.searchbox .searchbox__content{
     width: 25%;
     height: 100%;
 }
 
-.SearchBox .SearchBoxContent:hover{
+.searchbox .searchbox__content:hover{
     width: 25%;
     height: 100%;
 }
 
-.SearchBox .SearchBoxContent > i{
+.searchbox .searchbox__content .searchbox__icon{
     top: 35px;
 }
 
-.Banner{
+.banner{
     background-color: #13adc1;
     height: 400px;
 }
 
-.BannerLink,
-.BannerIcon{
+.banner__link,
+.banner__icon{
     padding-top: 40px;
     font-size: 30px;
 }
 
-.Banner .BannerText{
+.banner .banner__text{
     font-size: 30px;
 }
 
-.BannerLink{
+.banner__link{
     top: 60px;
     font-size: 20px;
     width: 80%;
 }
 
-.BannerContent{
+.banner__content{
     left: 10%;
     top: 15%;
 }
 
-.Gallery{
+.gallery{
     width: 100%;
 }
 
-.GalleryImage{
+.gallery__image{
     width: 100%;
 }
 
 
-.Info{
+.info{
     min-height: 600px;
     padding: 4%;
 }
 
-.Info > div{
+.info .info__paragraph{
     width: 100%;
 }
 
-.Info .SecondParagraph{
+.info .info__secondParagraph{
     display: none;
 }
 
 
-.Info > div > article{
+.info__paragraph .paragraph__text{
     font-size: 15px;
     padding: 3.5%;
 }
 
-.Info h2{
+.info .info__header{
     padding-left: 3.5%; 
     padding-bottom: 2%;
     font-size: 25px;

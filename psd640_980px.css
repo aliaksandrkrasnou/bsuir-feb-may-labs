@@ -1,103 +1,103 @@
 
-.SearchBoxContent .Search3xIcon{
+.searchbox__content .searchbox__icon--big{
     display: block;
 }
 
-.navigation #menu{
+.navigation .navigation__menu{
     display: block;
 }
 
-.navigation #menu{
+.navigation .navigation__menu{
     font-size: 15px;
 }
 
 
-.navigation #menu li a{
+.navigationmenu__reference{
     padding: 15px;
 }
 
-.navigation #menu li a:hover{
+.navigationmenu__reference:hover{
     padding: 20px;
 }
 
-.SearchBox{
+.searchbox{
     height: 200px;
 }
 
-.SearchBox input[type="text"]{
+.searchbox .searchbox__leftside{
     width: 75%;
     height: 100%;
     font-size: 30px;
 }
 
-.SearchBox .SearchBoxContent{
+.searchbox .searchbox__content{
     width: 25%;
     height: 100%;
 }
 
-.SearchBox .SearchBoxContent:hover{
+.searchbox .searchbox__content:hover{
     width: 25%;
     height: 100%;
 }
 
-.SearchBox .SearchBoxContent > i{
+.searchbox .searchbox__content .searchbox__icon{
     top: 80px;
 }
 
-.Banner{
+.banner{
     height: 800px;
 }
 
-.Banner .BannerText{
+.banner .banner__text{
     font-size: 60px;
 }
 
-.BannerLink{
+.banner__link{
     top: 60px;
     font-size: 25px;
     width: 80%;
 }
 
-.BannerContent{
+.banner__content{
     left: 10%;
     top: 40%;
 }
 
-.BannerLink,
-.BannerIcon{
+.banner__link,
+.banner__icon{
     padding-top: 40px;
     font-size: 30px;
 }
 
-.GalleryImage{
+.gallery__image{
     width: 33.33333%;
 }
 
 
-.Info{
+.info{
     min-height: 700px;
     padding: 4%;
 }
 
-.Info > div{
+.info .info__paragraph{
     width: 30%;
 }
 
-.Info .FirstParagraph{
+.info .info__firstparagraph{
     left:10%;  
 }
 
-.Info .SecondParagraph{
+.info .info__secondParagraph{
     left: 50%;   
 }
 
 
-.Info > div > article{
+.info__paragraph .paragraph__text{
     font-size: 16px;
     padding: 3.5%;
 }
 
-.Info h2{
+.info .info__header{
     padding-left: 7.5%; 
     padding-bottom: 2%;
     font-size: 40px;
