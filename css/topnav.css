@@ -1,16 +1,17 @@
 .topnav {
+    display: flex;
     align-items: center;
     color: #FFFFFF;
-    padding-left: 3vw;
     background-color: #373C3F;
 }
-.topnav span {
+.topnav h1 {
+    font-weight: normal;
     display: none;
     font-size: 4vw;
 }
 @media screen and (max-width: 640px){
     .topnav {
-        padding-left: var( --left-pad);
+        padding-left: 7%;
         height: 10vw;
         background-color: #373C3F;
         color: #FFFFFF;
@@ -18,7 +19,7 @@
     .topnav .nav-btns {
         display: none;
     }
-    .topnav span {
+    .topnav h1 {
         display: inline;
     }
 }
