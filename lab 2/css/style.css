@@ -13,9 +13,10 @@ a.link:hover {
 }
 
 header.main-header {
+   box-sizing: border-box;
    position: fixed;
    width: 100%;
-   text-transform: uppercase; 
+   padding: 0;
    background-color: #313131;
    color: #c9b8b8;
    font-family: sans-serif;
@@ -24,8 +25,9 @@ header.main-header {
 }
 
 header.main-header .menu {
+   text-transform: uppercase; 
    width: inherit;
-   height: 6vh;
+   height: auto;
    padding: 0;
    margin: 0;
    display: flex;
@@ -50,6 +52,7 @@ header.main-header .menu-item {
 }
 
 header.main-header .collapsed-menu {
+   text-transform: capitalize; 
    width: inherit;
    display: none;
    align-items: center;
@@ -90,9 +93,6 @@ header.main-header .collapsed-menu .button {
    color: white;
    font-size: 6.5vw;
     /*todo - gradient*/
-}
-.page-1 .content {
-   
 }
 
 .page-1 h1 {   
@@ -175,20 +175,16 @@ header.main-header .collapsed-menu .button {
 
 
 @media screen and (max-width: 980px) {
-   
-   header {
-      height: 5vh;
-   }
-   
-   header .menu  {
+      
+   header.main-header .menu  {
       display: none;
    }
    
-   header .menu-item {
+   header.main-header .menu-item {
       padding: 1vh;
    }
    
-   header .collapsed-menu {
+   header.main-header .collapsed-menu {
       display: flex;
    }
    
@@ -200,19 +196,22 @@ header.main-header .collapsed-menu .button {
       max-width: 100%;
    }
    
+   .page-2 .second-line {
+      flex-direction: column;
+      justify-content: flex-start;
+      font-size: 4vw;
+      height: auto;
+   }
+   
    .page-2 .second-line img {
       width: 100%;
+      height: auto;
    }
    
    .page-2 .second-line .arrow {
       min-height: 100vh;
+      flex-grow: 0;
    }
    
-   .page-2 .second-line {
-      flex-direction: column;
-      height: 100%;
-      justify-content: flex-start;
-      font-size: 4vw;
-   }
 
 }
