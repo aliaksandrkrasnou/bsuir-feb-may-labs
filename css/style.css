@@ -10,13 +10,22 @@ body {
 
 .menu {
     background-color: #373c3f;
-    display: flex;
     align-items: center;
 }
 
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
+.menu li {
+    display: block;
+    padding: 3% 1.56%;
+}
 
-.menu a:first-child {
+.menu li:first-child {
     margin-left: 5%;
 }
 
@@ -24,10 +33,10 @@ body {
     display: block;
     color: #dddddd;
     text-align: center;
-    padding: 3% 1.56%;
     text-decoration: none;
     font-size: 1.47vw;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .menu a:hover {
@@ -40,10 +49,6 @@ body {
     padding: 19% 19% 15% 7.42%;
 }
 
-.ad .container {
-
-}
-
 .ad img {
     width: 5%;
     height: 5%;
@@ -54,6 +59,8 @@ body {
     color: white;
     font-size: 6.1vw;
     line-height: 7.8vw;
+    font-weight: normal;
+    margin: 0;
 }
 
 .ad .link {
@@ -65,11 +72,12 @@ body {
     font-size: 3.12vw;
     text-decoration: none;
 }
-.text_box {
+
+.text-box {
     display: flex;
 }
 
-.text_box .quote {
+.text-box .quote {
     width: 77.64%;
     background-color: #27212C;
     color: #9282A0;
@@ -77,9 +85,11 @@ body {
     text-align: center;
     font-size: 2.9vw;
     padding: 10.5% 0;
+    font-weight: normal;
+    margin: 0;
 }
 
-.text_box .btn {
+.text-box .btn {
     float: left;
     width: 22.36%;
     margin: 0 auto;
@@ -156,7 +166,7 @@ body {
         width: 10%;
     }
 
-    .sidenav {
+    .side-nav {
         height: 100%;
         width: 0;
         position: fixed;
@@ -169,7 +179,13 @@ body {
         transition: 0.4s;
     }
 
-    .sidenav a {
+    .side-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .side-nav a {
         padding: 2% 5% 2% 10%;
         text-decoration: none;
         font-size: 3.5vw;
@@ -177,11 +193,11 @@ body {
         display: block;
     }
 
-    .sidenav a:hover {
+    .side-nav a:hover {
         color: white;
     }
 
-    .sidenav .closebtn {
+    .side-nav .close-btn {
         position: absolute;
         top: 0;
         right: 2%;
