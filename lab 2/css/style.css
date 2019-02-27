@@ -3,12 +3,12 @@ body {
    font-family: sans-serif;
 }
 
-a {
+a.link {
    text-decoration: none;
    color: white;
 }
 
-a:hover {
+a.link:hover {
    color: #c4c4c4;
 }
 
@@ -23,8 +23,11 @@ header.main-header {
    align-content: center;
 }
 
-header .menu {
+header.main-header .menu {
    width: inherit;
+   height: 6vh;
+   padding: 0;
+   margin: 0;
    display: flex;
    align-items: center;
    justify-content: flex-start;
@@ -32,12 +35,21 @@ header .menu {
    list-style-type: none;
 }
 
-header .menu-item {
+header.main-header .menu .link {
    padding: 2vh;
 }
 
+header.main-header .menu .link:hover {
+   background-color: #1a1a1a;
+}
 
-header .collapsed-menu {
+header.main-header .menu-item {
+   height: inherit;
+   display: flex;
+   align-items: center;
+}
+
+header.main-header .collapsed-menu {
    width: inherit;
    display: none;
    align-items: center;
@@ -45,7 +57,7 @@ header .collapsed-menu {
    flex-wrap: wrap;
 }
 
-header .collapsed-menu .button {
+header.main-header .collapsed-menu .button {
    display: flex;
    align-items: center;
    justify-content: center;
