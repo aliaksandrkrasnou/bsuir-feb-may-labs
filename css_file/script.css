@@ -1,0 +1,289 @@
+body{
+	font-style: normal;
+	font-family: Arial;
+	margin: 0;
+}
+
+li{
+	color: white;
+	font-size: 120%;
+}
+
+/*<!-- ===============================MAIN_HEAD=================================== -->*/
+.main_head{
+	height: 100px;
+	font-size:	100%;
+	text-transform: uppercase;
+	/*font-weight: 500;*/
+	background-color: #373c3f;
+}
+
+.main_head ul{
+	display: inline-flex;
+	flex-wrap: wrap;	
+	list-style: none;
+	margin: 45px 45px 45px 25px;
+	/*padding: 0;*/
+}
+
+.main_head a{
+	color:white;
+	text-decoration: none;
+}
+
+.main_head  a:hover
+{
+	color: red;
+	text-decoration: underline;
+}
+
+.main_head li{
+	padding: 0 1.2em;
+}
+
+.main_head li:first-child{
+	display: none;
+}
+
+.main_head div{
+	display: none;
+	background-color: black;
+	width: 100px;
+	height: 100px;	
+	float:right;
+}
+
+/*<!-- =================================FIRST_STRIP============================= -->*/
+.first_strip{
+	background: linear-gradient(#19b4d9, #078bb8);
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+
+.first_strip p{
+	margin-left: 30%;
+	letter-spacing: 5px;
+}
+
+.first_strip .first_strip_name
+{
+	font-size: 45px;
+	color: white;
+	
+	/*margin-top: 50px;*/
+}
+
+.first_strip .first_strip_link{
+	/*margin: 100 100;*/
+	color: white;
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+	display: inline-block;
+	margin-top:-30px;
+}
+
+.first_strip .first_strip_link a
+{
+	font-size: 22px;
+	color: #a7d4ee;
+	text-decoration: none;
+
+}
+.first_strip_sub_arrow
+{
+	margin-left: 200px;
+}
+
+/*<!-- ===============================SECOND_STRIP================================ -->*/
+.second_strip{
+	height: 245px;
+	padding: 0;
+	background-color: #27212c;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.second_strip p{
+	font-size: 32px;
+	margin: auto;
+	color: #9282a0;
+}
+
+.second_strip_arrow{
+
+	background-color: #bc3183;
+	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 100px;
+	color: white;
+	
+
+}
+.second_strip_arrow:hover{
+	color: red;
+	background-color: gray;
+	border-radius: 50px;
+}
+
+/*<!-- ===============================THIRD_STRIP========================= -->*/
+.third_strip{
+	display: flex;
+	margin: 0;
+	flex-direction: row;
+	object-fit: cover;
+	/*flex: 1;*/
+}
+
+.third_strip div{
+	display: flex;
+	flex-grow: 1;
+	/*width: 33%;*/
+
+}
+
+.third_strip img{
+	width: 100%;
+	height: 100%;
+}
+
+/*<!-- ===============================MAIN_FOOTER========================= -->*/
+.class_footer{
+	display: flex;
+	flex-direction: column;
+	background-color: lightgray;
+}
+
+.class_footer_link_table_list{
+	list-style: none;
+	display: flex;
+	padding: 0 0;
+}
+ 	
+.class_footer_link_table_list li{
+	height: auto;
+	flex-wrap: wrap;
+	width: 30%;
+	margin: 40px 40px;
+}
+
+.class_footer span{
+	font-size: 60px;
+	margin: 40px 40px;
+	margin-bottom: 0;	
+	color: #088ca5;
+}
+
+.class_footer_link_table_list p{
+	color: black;
+	font-size: 18px;
+}
+
+.class_footer_link: hover{
+	color: red;
+}
+
+.compressed_text 
+{
+	display: none;
+}
+
+/*<!-- =============================MEDIA SCREEN================================== -->*/
+@media screen and (max-width: 950px) {
+
+	.main_head li{
+		display: none;
+	}
+
+	.main_head li:first-child{
+		display: inline-flex;
+		font-size: 200%;
+		text-transform: capitalize;
+		margin-left: -60px;
+	}
+
+	.main_menu_list{	
+		float: right;
+		background-color: black;
+		flex-direction: column;
+		justify-content: right;
+		width: 100px;
+		height: 100px;
+		margin: auto;
+	}
+	
+	.main_menu_list div{
+		width: 20px;
+		height: 3px;
+		background-color: white;
+	}
+
+	.first_strip p{
+		margin-left: 10%;
+		letter-spacing: 0px;
+	}
+
+	.first_strip .first_strip_name{
+		font-size: 34px;
+		color: white;
+	}
+
+	.first_strip .first_strip_link{
+		font-size: 30px;
+	}
+
+	.first_strip .first_strip_link a{
+		font-size: 16px;
+	}
+
+	.first_strip_sub_arrow{
+		margin-left: 200px;
+	}
+
+	.second_strip{
+		height: 145px;
+	}
+
+	.second_strip p{
+		font-size: 22px;
+	}
+
+	.second_strip_arrow{
+		font-size: 60px;
+	}
+
+	.third_strip{
+		flex-direction: column;
+	}
+	li{
+		display: none;
+	}
+	
+	.class_footer span{
+		font-size: 30px;
+	}
+
+	.compressed_text {
+		margin: 10 10;
+		margin-left: 20px;
+		display: block;
+	}
+	.main_head div{
+		display: block;
+	}
+	.main_head img{
+		width: 100px;
+		height: 40px;
+		margin-top: 35px;
+		opacity: 0.8;
+	}	
+	.main_head .menu_icon: hover{
+		background: red;
+	}
+}
