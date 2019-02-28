@@ -1,0 +1,29 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ebebeb;
+}
+
+.menu-wrapper li a{
+    color: #8b8e8f;
+}
+
+.banner{
+    height: fit-content;
+    size: landscape;
+    background: linear-gradient(to bottom right, #19b4c6, #078aa4);
+}
+
+.banner-ref{
+    display: block;
+}
+
+.banner-content{
+
+}
+
+.banner-info{
+
+}
