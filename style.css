@@ -6,24 +6,196 @@ body{
     background-color: #ebebeb;
 }
 
-.menu-wrapper li a{
-    color: #8b8e8f;
+/*_____________nav___________________*/
+nav{
+    width: 100%;
+    position: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    background: #373c3f;
+    z-index: 1;
 }
 
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: flex;
+    height: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+    align-items: center;
+    transition: all 200ms linear;
+    float: left;
+}
+
+nav ul li a{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+nav span{
+    color: inherit;
+    display: flex;
+    align-items: center;
+    float: left;
+    height: 100%;
+    padding-left: 5%;
+}
+
+nav ul li:hover{
+    background-color: grey;
+}
+
+
+/*______________banner______________________*/
+
+
 .banner{
+    width: 100%;
     height: fit-content;
     size: landscape;
     background: linear-gradient(to bottom right, #19b4c6, #078aa4);
 }
 
-.banner-ref{
+.banner>.ref{
     display: block;
+    position: relative;
 }
 
-.banner-content{
-
+.banner>.ref>.content{
+    display: block;
+    position: absolute;
+    margin: 20% 10% 0%;
+    max-width: 80%;
 }
 
-.banner-info{
+.banner>.ref>.content>.info{
+    display: block;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.17em;
+}
 
+.banner>.ref>.content>.link{
+    float: left;
+    color: #abd5de;
+    width: 80%;
+}
+
+.banner>.ref>.content>.angle{
+    float: right;
+    width: 20%;
+    color: white;
+    text-align: right;
+}
+
+.banner>.ref>.content>.link,
+.banner>.ref>.content>.angle{
+    display: block;
+    padding-top: 1.5em;
+}
+
+/*-----------------------text--------------------------*/
+
+.text .wrapper{
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 100%;
+    background-color: #302a34;
+}
+
+.text .wrapper p{
+    position: absolute;
+    margin-top: -0.5em;
+    width: 100%;
+    top: 50%;
+    color: grey;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.text .link{
+    position: relative;
+    float: right;
+    background-color: #bc3183;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+/*-----------------------imgs--------------------------*/
+/*.angle*/
+.imgs {
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+.imgs .angle{
+    background-color: #5b0fa1;
+    height: 100%;
+    width: 100%;
+}
+
+.imgs>.img-wrap,
+.imgs>.link{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-wrap img{
+    width: 100%;
+    display: inline-block;
+}
+
+/*______________main______________________*/
+
+main{
+    width: 100%;
+    word-wrap: break-word;
+    clear: both;
+}
+
+main article{
+    display: block;
+    box-sizing: border-box;
+    line-height: 1.9em;
+    padding-top: 0;
+    padding-bottom: 3.5em;
+}
+
+main .link{
+    display: block;
+    text-decoration: none;
+    color: #37a0b4;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: bold;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+main .link,
+main article{
+    padding-left: 8%;
+    padding-right: 8%;
 }
