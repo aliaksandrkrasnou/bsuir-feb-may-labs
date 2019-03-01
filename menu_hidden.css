@@ -1,0 +1,35 @@
+nav > span {
+	display: inline-block;
+	color: white;
+	padding: 20px;
+}
+
+nav ul {
+	display: none;
+}
+
+nav ul li {
+	border-bottom: 1px solid gray;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    height: 100%;
+}
+
+.navlist-container i {
+	color: white;
+	position: absolute;
+	display: inline-block;
+	width: 10%;
+	height: 100%;
+	top: 20px;
+	left: 90%;
+}
+
+.navlist-container:hover ul {
+	display: block;
+}

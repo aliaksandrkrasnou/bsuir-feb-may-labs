@@ -1,0 +1,16 @@
+body, html {
+	font-size: 14px;
+}
+
+.gallery-item {
+	/* float: left; */
+	width: 100%;
+}
+
+main article {
+	font-size: 0.8em;
+	float: left;
+	width: 50%;
+	padding-right: 2%;
+	padding-bottom: 4%;
+}
