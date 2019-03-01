@@ -1,9 +1,13 @@
 body{
     width: 100%;
     margin: 0 auto;
-
     font-family: 'Montserrat', sans-serif;
     background-color: #ebebeb;
+}
+
+.angle{
+    color: white;
+    text-decoration: none;
 }
 
 /*_____________nav___________________*/
@@ -68,7 +72,6 @@ nav ul li:hover{
 .banner{
     width: 100%;
     height: fit-content;
-    size: landscape;
     background: linear-gradient(to bottom right, #19b4c6, #078aa4);
 }
 
@@ -80,8 +83,9 @@ nav ul li:hover{
 .banner>.ref>.content{
     display: block;
     position: absolute;
-    margin: 20% 10% 0%;
+    margin: 20% 10%;
     max-width: 80%;
+    word-wrap: break-word;
 }
 
 .banner>.ref>.content>.info{
@@ -140,16 +144,31 @@ nav ul li:hover{
     text-align: center;
 }
 
+/*.text .link .angle,*/
+/*.imgs .link .angle{*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*width: 100%;*/
+    /*text-align: center;*/
+/*}*/
+
+.text .link .angle,
+.imgs .link .angle{
+    text-align: center;
+    position: absolute;
+    top: 43%;
+}
+
+
 /*-----------------------imgs--------------------------*/
-/*.angle*/
 .imgs {
-    display: block;
+    display: flex;
     clear: both;
     width: 100%;
 }
 
 .imgs .angle{
-    background-color: #5b0fa1;
     height: 100%;
     width: 100%;
 }
@@ -157,16 +176,16 @@ nav ul li:hover{
 .imgs>.img-wrap,
 .imgs>.link{
     float: left;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    position: relative;
+    text-decoration: none;
+    background-color: #5b0fa1;
 }
 
-.img-wrap img{
+.imgs .img-wrap img,
+.imgs .link .angle{
     width: 100%;
-    display: inline-block;
+    display: block;
 }
-
 /*______________main______________________*/
 
 main{
