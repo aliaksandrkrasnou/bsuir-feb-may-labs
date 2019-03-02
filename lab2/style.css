@@ -1,0 +1,165 @@
+body {
+	margin: 0;
+	color: white;
+	font-weight: bold;
+	font-family: "Montserrat",sans-serif;
+	background-color: #ebebeb;
+}
+header {
+	width: 100%;
+	background-color: #373c3f;
+}
+.Navbar_menu {
+	box-sizing: border-box;
+	height: 100px;
+	padding-left: 50px;
+	padding-top: 40px;
+}
+.Navbar_menu a {
+	float: left;
+  	text-decoration: none;  
+  	font-size: 15px;
+  	padding: 0px 14px;
+  	color: white;
+}
+.Navbar {
+    height: auto;
+    overflow: auto; 
+	display: none;
+}
+.Navbar i {
+	color: white;
+	text-decoration: none;
+	float: right;
+	padding: 4%;
+	font-size: 5vw;
+	background-color: #202529;
+	cursor: pointer;
+}
+.Navbar p {
+  margin: 0;
+  font-size: 3.3vw;
+  font-weight: bold;
+  color: rgb( 235, 235, 235 );
+  padding: 4%;
+  text-align: left;
+  float: left;
+}
+
+.Banner {
+	background-image: -webkit-linear-gradient( 119deg, rgb(7,138,164) 0%, rgb(25,180,198) 100%);
+	height: auto;
+	overflow: auto;
+	padding-left: 7%;
+    padding-top: 28%;
+}
+.Banner h1 {
+	font-size: 6vw;  	
+  	text-align: left;
+}
+.Banner div {
+	font-size: 3vw; 
+	opacity: .5;
+	float: left;
+	padding-bottom: 15%;
+}
+.Banner a i {
+	padding-left: 37%;
+	float: left;
+	font-size: 5vw;
+	color: white;
+}
+.Text_box {
+	height: auto;
+	display: grid;
+	grid-template-columns: 75% 25%;
+	background-color: #27212c;
+}
+.Text_box .block_left {
+	float: left;
+	opacity: .5;
+  	font-size: 3vw;
+  	font-family: "Montserrat";
+  	text-align: center;
+  	padding: 10%;
+}
+.Text_box .block_right{
+	float: right;
+  	background-color: #bc3183;
+}
+.Text_box .block_right i, .Picture_box .block_left i {
+	padding-left: 40%;
+    padding-top: 25%;
+ 	font-size: 6vw;
+  	color: white;
+}
+.Picture_box .block_left i {
+	padding-top: 33%;
+	font-size: 8vw;
+ }
+.Picture_box {
+	height: auto;
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.Picture_box .block_left {
+	background-color: #5b0fa1;
+
+}
+.Picture_box img {
+	width: 100%;
+}
+
+.Paragraf {
+	height: auto;
+	display: grid;
+	grid-template-columns: 50% 50%;
+
+	padding-left: 7%;
+	margin-bottom: 5%;
+	font-size: 1.3vw;
+  	font-family: "Montserrat";
+ 	color: rgb( 81, 81, 81 );
+ 	line-height: 1.5;
+ 	letter-spacing: 0.5px;
+}
+.Paragraf > div {
+	padding-right: 20%;
+} 
+article h1 {	
+  	padding-top: 5vw;
+  	padding-left: 7%;
+  	font-size: 3vw;
+  	font-family: "Montserrat";
+  	color: rgb( 8, 140, 165 );
+}
+
+@media (max-width: 640px) {
+	.Navbar_menu {
+		display: none;
+	}
+	.Navbar {
+		display: block;
+	}
+	.Picture_box {
+		display: block;
+	}
+	.Picture_box .block_left i {
+		padding: 45%; 
+	}
+	.Paragraf {
+		display: block;
+	}
+	.Paragraf h1{
+		padding-left: 9%;
+		font-size: 4vw;
+	}
+	.Paragraf{		
+		padding: 0% 9%;
+		font-size: 3vw;
+		line-height: 2;
+	}
+	.Paragraf > div {
+		padding-right: 0;
+	}
+}
