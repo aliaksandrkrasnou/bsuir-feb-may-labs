@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-weight: bold;
+}
+
+header {
+    background-color: #373c3f;
+    overflow: auto;
+    color: white;
+    font-family: "Montserrat", sant-serif;
+    font-weight: bold;
+}
+
+header ul {
+    padding: 20px 35px;
+}
+
+header li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    vertical-align: middle;
+   }
+
+#small {
+    position: absolute;
+    font-size: 3.5vw;
+    padding: 0 3vw;
+}
+
+#menu {
+    float: right;
+    background-color: #202529;
+    padding: 3vw;
+}
+
+.banner {
+    background-image: -webkit-linear-gradient( 119deg, rgb(7,138,164) 0%, rgb(25,180,198) 100%);
+    padding: 15vw 10vw ;
+    font-family: "Montserrat", sant-serif;
+    font-weight: bold;
+    overflow: auto;
+    margin: 0;
+}
+
+.banner #caption {
+    font-size: 6.5vw;
+    color: white;
+}
+
+.banner #link {
+    font-size: 3.5vw;
+    color: rgba( 255, 255, 255, 0.502 );
+    margin: 0;
+    position: absolute;
+}
+
+.banner i {
+    float: right;
+    font-size: 5vw;
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    display: flex;
+    height: 20vw;
+}
+
+.main .left-block {
+    background-color: rgb( 39, 33, 44 );
+    width: 75%;
+}
+
+.main .left-block #text {
+    color: rgb(146, 130, 160);
+    font-size: 3.5vw;
+    text-align: center;
+    padding-top: 5vw;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.main .right-block {
+    background-color: rgb( 188, 49, 131 );
+    width: 25%;
+}
+
+.main .right-block i {
+    color: white;
+    font-size: 5vw;
+    padding-left: 42%;
+    padding-top: 34%;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: 33.3% 33.4% 33.3%;
+}
+
+.pictures .left-block {
+    background-color: #5b0fa1;
+}
+
+.pictures .left-block i {
+    color: white;
+    font-size: 5vw;
+    padding-left: 42%;
+    padding-top: 34%;
+}
+
+.text-block {
+    background-color: grey;
+    overflow: auto;
+    font-family: "Montserrat";
+    background-color: #ebebeb;
+    padding-bottom: 60px;
+}
+
+.text-block h1 {
+    margin: 0;
+    font-size: 4vw;
+    padding-top: 5vw;
+    padding-left: 7%;
+    color: rgb(8, 140, 165);
+}
+
+.text-block p {
+    font-size: 1.5vw;
+    color: rgb(81, 81, 81);
+}
+
+.text-block td {
+    width: 50%;
+    vertical-align: top;
+    padding: 1% 7%;
+}
+
+.for-small-screens {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .for-large-screens {
+        display: none;
+    }
+
+    .for-small-screens {
+        display: block;
+    }
+
+}
+
+
+@media all and (max-width: 640px) {
+    .pictures {
+        display: block;
+    }
+
+    .pictures .left-block {
+        padding: 40%;
+    }
+
+    .text-block p {
+        font-size: 3.5vw;
+        padding: 0 7.5%;
+        line-height: 1.5;
+    }
+
+    .pictures .left-block i {
+    font-size: 15vw;
+    }
+
+}
+
