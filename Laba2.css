@@ -1,0 +1,264 @@
+body {
+	font-family: sans-serif;
+}
+
+.NavigationBlock {
+	background-color: #373c3f;
+	color: white;
+}
+
+.NavigationList>ul {
+	margin: 0px;
+}
+
+.NavigationList>ul li {
+	display: inline-block;
+	padding: 40px 10px;
+	font-size: 1em;
+}
+
+.NavigationIcon {
+	display: none;
+}
+
+.HeadlineBlock {
+	color: white;
+	background-color: #18b3c6;
+	background: linear-gradient(to bottom right, #18b3c6, #078aa4)
+}
+
+.HeadlineBlock>h1 {
+	padding-top: 19.5%;
+	padding-left: 8%;
+	margin: 0px;
+	font-size: 4.5em;
+}
+
+.HeadlineBlock>h2 {
+	float: left;
+	color: #a5d3dd;
+	padding-top: 5%;
+	padding-left: 8%;
+	padding-bottom: 16%;
+	margin: 0px;
+	font-size: 2.5em;
+}
+
+.HeadlineBlock>i {
+	float: left;
+	padding-top: 5%;
+	padding-left: 370px;
+	font-size: 2.5em;
+}
+
+.InfoBlock {
+	text-align: center;
+	height: 22vw;
+	line-height: 22vw;
+}
+
+.InfoBlock p { 
+	float: left;
+	width: 78%;
+	color: #9787a6;
+	background-color: #27212c;
+	font-size: 2em;
+	margin: 0px;
+}
+
+.InfoBlock>i {
+	float: right;
+	width: 22%;
+	background-color: #bc3183;
+	color: white;
+	font-size: 37px;
+	line-height: inherit;
+}
+
+.ImageBlock>i {
+	float: left;
+	width: 33.3%;
+	background-color: #5b0fa1;
+	color: white;
+	text-align: center;
+	line-height: 27vw;
+}
+
+.ImageBlock img {
+	float: left;
+	width: 33.3%;
+	height: 27vw;
+}
+
+.ContentBlock {
+	background-color: #ebebeb;
+}
+
+.ContentBlock>h2 {
+	color: #088ca5;
+	margin: 0px;
+	font-size: 2em;
+	padding-top: 50px;
+	padding-left: 8.3%;
+	padding-bottom: 20px;
+	font-weight: 400;	
+}
+
+.FirstColumn {
+	float: left;
+	width: 50%;
+}
+
+.FirstColumn p {
+	margin: 0px;
+	padding-left: 16.6%;
+	padding-bottom: 40px;
+	padding-right: 3.9%;
+	line-height: 1.5;
+}
+
+.FirstColumn p:last-child {
+	padding-bottom: 34%;
+}
+
+.SecondColumn {
+	float: right;
+	width: 50%;
+}
+
+.SecondColumn p {
+	margin: 0px;
+	padding-left: 5.8%;
+	padding-bottom: 40px;
+	padding-right: 15.6%;
+	line-height: 1.5;
+}
+
+.SecondColumn p:last-child {
+	padding-bottom: 34%;
+}
+
+@media all and (max-width: 970px) {
+	
+.HeadlineBlock>h1 {
+	font-size: 2.5em;
+}
+
+.HeadlineBlock>h2 {
+	font-size: 1.5em;
+}
+
+.HeadlineBlock>i {
+	font-size: 1.5em;
+	padding-left: 180px;
+}
+
+.InfoBlock>p {
+	font-size: 1.25em;
+}
+		
+}
+
+@media all and (max-width: 640px) {
+
+.NavigationList>ul {
+	display: none;
+}
+
+.NavigationIcon {
+	display: block;
+	font-size: 1.5em;
+}
+
+.NavigationIcon>p {
+	float: left;
+	line-height: 11vw;
+	margin: 0px;	
+	padding-left: 6.25%;
+}
+
+.NavigationIcon>i {
+	float: right;
+	line-height: 11vw;
+	background-color: black;
+	text-align: center;
+	width: 12.5%		
+}
+
+.ImageBlock>i {
+	width: 100%;
+	line-height: 81vw;	
+}
+
+.ImageBlock>img {
+	width: 100%;
+	height: 81vw;
+}
+
+.SecondColumn {
+	display: none;
+}
+
+.FirstColumn {
+	width: 100%;
+}
+
+.FirstColumn>p {
+	font-size: 1.5em;
+	line-height: 2;
+}
+
+.FirstColumn>p:last-child {
+	padding-bottom: 17%;
+}
+
+.ContentBlock>h2 {
+	padding-left: 16.6%;
+}
+
+}
+
+@media all and (max-width: 550px) {
+
+.NavigationIcon {
+	font-size: 1em;
+}
+
+.HeadlineBlock>h1 {
+	font-size: 1.25em;
+}
+
+.HeadlineBlock>h2 {
+	font-size: 0.75em;
+}
+
+.HeadlineBlock>i {
+	font-size: 0.75em;
+	padding-left: 95px;
+}
+
+.InfoBlock>p {
+	font-size: 0.65em;
+}
+
+.InfoBlock>i {
+	font-size: 0.75em;
+}
+
+.ContentBlock>h2 {
+	font-size: 1.25em;
+	padding-top: 25px;
+	padding-left: 12%;
+}
+
+.FirstColumn>p {
+	font-size: 1em;
+	line-height: 1.25;
+	padding-left: 12%;
+}
+
+.FirstColumn>p:last-child {
+	padding-bottom: 10%;
+}
+
+}
