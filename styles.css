@@ -133,7 +133,7 @@ header a{
 	margin: 15px;
 }
 
-@media only screen and (max-width: 980px){
+@media all and (max-width: 980px){
 	.resource h2{
 		font-size: 60px !important;;
 	}
@@ -148,7 +148,7 @@ header a{
 	}
 }
 
-@media only screen and (max-width: 640px){
+@media all and (max-width: 640px){
 	header {
 		display: flex;
 		justify-content: space-between;
