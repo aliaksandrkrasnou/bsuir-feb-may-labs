@@ -12,7 +12,8 @@ header{
 .small-menu{
   display: none;
 }
-.big-menu {
+
+header ul{
   display: flex;
   justify-content: space-between;
   width: 50%;
@@ -54,7 +55,7 @@ header a{
 }
 
 .text-gallery{
-  width: 100%; /*от чего*/
+  width: 100%;
   padding: 3.2em 1em;
   background-color: #27212c;
   color: #9282a0;
