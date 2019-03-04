@@ -142,6 +142,7 @@ body{
 .banner .banner__text{
     display: block;
     color:white;
+    font-weight: lighter;
 }
 
 .banner__link{
