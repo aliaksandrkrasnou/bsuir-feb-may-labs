@@ -13,10 +13,15 @@ header {
   height: 97px;
 }
 
-#head-menu > div {
+#head-menu > ul {
 	padding-left: 53px;
 	padding-top: 42px;
 }
+
+ul > li {
+	display: inline;
+}
+
 
 header nav a {
   float: left;
@@ -78,8 +83,9 @@ header a:hover {
   text-align: left;
 }
 
-.banner #www {
-  margin:0;
+
+h2 {
+margin:0;
   font-size: 3.5vw;
   max-width: 50%;
   font-family: "Montserrat",sans-serif;
@@ -88,7 +94,7 @@ header a:hover {
   padding-left: 7%;
   padding-top: 7%;
   padding-bottom: 16%;
-  float: left;
+  float: left;	
 }
 
 .banner a i {	
