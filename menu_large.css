@@ -1,23 +1,20 @@
-/* nav ul {
-	display: flex;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-} */
-
-nav span {
+.navbar span {
 	display: none;
+}
+
+.navbar-link {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	padding: 2em;
+	margin: -2em;
 }
 
 .navlist-container i {
 	display: none;
 }
 
-nav ul li {
+.navbar ul li {
     align-items: center;
 	padding: 2em;
 }
-
-/* nav ul li:hover {
-	background-color: silver;
-} */

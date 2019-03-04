@@ -1,15 +1,22 @@
-nav > span {
+.navbar > span {
 	display: inline-block;
 	color: white;
 	padding: 20px;
 }
 
-nav ul {
+.navbar ul {
 	display: none;
 }
 
-nav ul li {
+.navbar ul li {
 	border-bottom: 1px solid gray;
+}
+
+.navbar-link {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	width: 100%;
 }
 
 .menu-wrapper {

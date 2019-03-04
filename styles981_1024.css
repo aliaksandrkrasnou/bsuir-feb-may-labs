@@ -2,7 +2,7 @@ body, html {
 	font-size: 16px;
 }
 
-.gallery-item {
+.gallery .gallery-item {
 	float: left;
 	width: 33.1%;
 }
