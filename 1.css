@@ -5,11 +5,8 @@
     margin: 0px;
     padding: 0px;
 }
-body {
-    height: 100%;
-  }
-a {
-    text-decoration: none; /* Убирает подчеркивание для ссылок */
+a{
+    text-decoration: none; 
 }
 .large_screen>ul>li{
     display: inline-block;
@@ -20,9 +17,7 @@ a {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-p:nth-child(1){
-    padding-left: 54px;
-}
+
 
 header{
     background-color:#373c3f;
@@ -175,7 +170,6 @@ header{
     font-size: 1.1em;
     font-family: 'Montserrat', sans-serif;
     color:white;
-    padding: 1%;
     padding-left: 10%;
     padding-top: 3%;
     padding-bottom: 3%;
