@@ -1,0 +1,190 @@
+body {	
+	margin: 0;
+}
+
+.navigation {
+	display: none;
+}
+
+.menu ul {
+	margin: 0; 
+    padding: 3%; 
+	background-color: #3a3939;
+}
+
+.menu a {
+	font-family: 'Open Sans', arial, sans-serif;
+	font-size: 1.3vw;
+	color: #939496;
+}
+
+.menu  ul li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 3%; /* Отступ слева */
+    padding: 1vw; 
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+.big-central-panel {
+	padding-top: 20vw;
+	padding-left: 5%;
+	background-color: #349ca8;
+	font-family: 'Open Sans', arial, sans-serif;	
+	text-align: left;
+	padding-bottom: 15%;
+}
+
+.big-central-panel a {
+	color: #b9bebf;
+	font-size: 3vw;/*vw - от ширины окна*/
+    padding-top: 40%;/*em - от размера родителя*/	
+}
+
+.big-central-panel .link {
+	padding-top: 5%;
+}
+
+.big-central-panel .text {
+	color: white;
+	font-size: 6.5vw;
+}
+
+.arrow-blue {
+	float: right;
+	padding-right: 20%;
+}
+
+.robin-hood-panel {
+	background-color: #201f21;
+	color: #695375;
+	font-family: 'Open Sans', arial, sans-serif;	
+	font-size: 3vw;
+	padding: 10%;
+	width: 60%;
+}
+
+.pink-arrow { 
+	background: #cc39b3 url("arrow.png") no-repeat center center;
+	background-size: 20%;
+	width: 20%;
+}
+
+.second-panel {  /*панель про робин гуда + панель с розовой стрелкой*/
+	display: flex;
+}
+
+.gallery {
+    display: flex;
+ }
+ 
+.gallery img {
+    display: block;
+    width: 100%;
+}
+
+ .gallery div {
+    width: calc(100% / 3);
+}
+
+.purple-arrow {
+	background: #5b0fa1 url("arrow.png") no-repeat center center;
+    background-size: 10%;
+}
+
+.linkname a{
+	font-size: 3.12vw;
+	color: #088ca5;
+	margin-bottom: 2.9%;
+	color: #349ca8;
+}
+
+.big-block-of-text {
+	font-family: 'Open Sans', arial, sans-serif;
+	background-color: #f7f9f9;
+	padding: 7%;
+	padding-top: 5%;	    
+}
+
+.big-text {
+	padding-bottom: 30%;
+	font-size: 1.5vw;
+	color: #708090;
+	line-height: 150%;
+}
+
+.first-text{
+	float: left;
+	width: 45%;
+}
+
+.second-text {
+	float: right;
+	width: 45%;
+}
+
+
+@media screen and (max-width: 640px) {
+
+.nav-menu {
+	display: none;
+}
+
+.gallery div {
+    width: 100%;
+}
+
+.gallery{
+	flex-wrap: wrap;
+}
+
+.purple-arrow{
+	width: 100%;
+	height: 90vw;
+}
+
+.first-text {
+	font-size: 4vw;
+	width: 100%;
+	line-height: 200%;
+	padding-bottom: 5%;
+}
+
+.big-block-of-text {
+	padding-top: 4vw;
+}
+
+.linkname a {
+	font-size: 5vw;
+}
+	
+.second-text {
+	display: none;
+}	
+
+.navigation {
+	display: block;	
+	background-color: #373c3f;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+.navigation .text {
+	font-size: 3vw;
+	padding: 3% 5%;
+}
+
+.hamburger-menu {
+	background: #202529 url("hamburger.png") no-repeat center center;
+	background-size: 100%;
+	width: 10%;
+}
+
+}
