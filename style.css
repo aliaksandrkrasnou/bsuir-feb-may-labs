@@ -1,4 +1,4 @@
-header {
+.main-header {
     background: #373c3f;
     height: 100px;
     font-weight: bold;    
@@ -15,16 +15,13 @@ a {
 
 /* Navigator style */
 
-nav {
-    height: inherit;
-}
-
-nav > .menu > .menu-icon,
-nav > .menu-caption {
+.menu > .menu-icon,
+.menu-caption {
     display: none;
+    margin: 0px;
 }
 
-nav > .menu{
+.menu{
     box-sizing: content-box;
     float: left;
     margin-top: 40px;
@@ -32,35 +29,41 @@ nav > .menu{
     height: 60px;
 }
 
-nav ul {
+.menu-list {
     padding: 0px;
     margin: 0px;
     display: block;
 }
 
-nav li {
+.menu-list > li {
     float: left;
     display: block;
     margin-left: 55px;
 }
 
-nav a {
+.menu-list a {
+    display: inline-block;    
+    box-sizing: border-box;
+    position: relative;    
+    z-index: 1;     
+    padding: 2em;     
+    margin: -2em; 
     color: #ebebeb;
     text-transform: uppercase;
 }
 
-nav a:hover {
+.menu-list a:hover {
     color: #fff;
 }
 
-nav .lower-menu,
-nav .menu > .lower-menu{
+.lower-menu,
+.menu > .lower-menu{
     font-size: 40px;
     display: none;
     height: inherit;
 }
 
-nav .menu-caption {   
+.menu-caption {   
     box-sizing: border-box;
     float: left;
     color: #ebebeb;
@@ -70,7 +73,7 @@ nav .menu-caption {
     height: inherit;
 }
 
-nav > .menu > .menu-icon {
+.menu > .menu-icon {
     box-sizing: border-box;
     text-align: center;
     background: #202529;
@@ -98,12 +101,16 @@ nav > .menu > .menu-icon {
 }
 
 .main-banner-text {
+    display: block;
+    margin: 0px;
     font-weight: bold;
     font-size: 5.3vw;
     letter-spacing: 0.10em;
 }
 
 .main-banner-link, .main-banner-arrow {
+    display: block;
+    margin: 0px;
     font-size: 3vw;
     padding-top: 1.5em;
 }
@@ -125,12 +132,13 @@ nav > .menu > .menu-icon {
 .text-box {
     height: 240px;
     height: 20vw;
-    line-height: 20vw; /* -_- */
+    line-height: 20vw;
     font-size: 3vw;
-
 }
 
 .text-box-text {
+    display: block;
+    margin: 0px;
     position: absolute;
     height: inherit;
     background: #27212C;
@@ -141,6 +149,8 @@ nav > .menu > .menu-icon {
 }
 
 .text-box-arrow {
+    display: block;
+    margin: 0px;
     float: right;
     width: 20%;
     height: inherit;
@@ -220,15 +230,15 @@ nav > .menu > .menu-icon {
     
     /* Navigation visible */
     
-    nav ul {
+    .menu-list {
         display: none;
     }
     
-    nav > .menu-caption {
+    .menu-caption {
         display: block;
     }
     
-    nav > .menu > .menu-icon {
+    .menu > .menu-icon {
         display: block;
     }
     
@@ -241,7 +251,7 @@ nav > .menu > .menu-icon {
         height: 100%;
     }
     
-    .menu ul{
+    .menu-list {
         top: 60px;
         padding: 0px;
         margin: 0px;
@@ -252,7 +262,7 @@ nav > .menu > .menu-icon {
         float: right;
     }
 
-    .menu ul li{
+    .menu-list li{
         display: flex;
         justify-content: center;
         background: #373c3f;
@@ -260,11 +270,11 @@ nav > .menu > .menu-icon {
         padding: 15px;
     }
     
-    .menu ul li {
+    .menu-list li {
         border-bottom: 2px solid gray;
     }
     
-    .menu ul li:first-child {
+    .menu-list li:first-child {
         border-top: 2px solid gray;
     }
 
