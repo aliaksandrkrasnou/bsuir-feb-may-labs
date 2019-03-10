@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My first web-page :)</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="icon" href="icon.ico" type="images/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" media="(max-width: 980px)" href="max-980px.css">
+        <link rel="stylesheet" media="(min-width: 980px)" href="min-980px.css">
+    </head>
+    <body>
+        <header>
+            <span class="header-title">Navigation</span>
+            <div class="menu">
+                <div class="button">
+                    <a href="">
+                        <div>
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </a>
+                </div>
+                <ul class="menu-content">
+                    <li>PSD WEBSITES</li>
+                    <li>UI KITS</li>
+                    <li>PREMIUM PSD FILES</li>
+                    <li>ABOUT</li>
+                    <li>BLOG</li>
+                </ul>
+            </div>
+            <ul>
+                <li>PSD WEBSITES</li>
+                <li>UI KITS</li>
+                <li>PREMIUM PSD FILES</li>
+                <li>ABOUT</li>
+                <li>BLOG</li>
+            </ul>
+        </header>
+        <main>
+            <a id="main-a" href="">
+                <div class="main-article">
+                    <h1>Awesome Free PSD templates & Resources</h1>
+                    <div>
+                        <span>www.BlazRobar.com</span>
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                </div>
+            </a>
+            <div class="secondary-article">
+                <span>I like the Robin Hood of PSD files.</span>
+                <a href="">
+                    <div> 
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                </a>
+            </div>
+            <section class="galery-section">
+                    <div> 
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                <div>
+                    <img src="bridge.jpeg">
+                </div>
+                <div>
+                    <img src="girl.jpg">
+                </div>
+            </section>
+            <article class="text-article">
+                <a href="">
+                    <h2>BlazRobar.com</h2>
+                </a>
+                <div class="text">
+                    <div class="article-col">
+                        <p>There are a lot of text.</p>
+                        <p>There is no specific syntax for the daytime.  It is recommended that it be limited to the ASCII printing characters, space, carriage return, and line feed.  The daytime should be just one line.</p>
+                        <p>This RFC specifies a standard for the ARPA Internet community.  Hosts on the ARPA Internet that choose to implement a Daytime Protocol are expected to adopt and implement this standard. A useful debugging and measurement tool is a daytime service. A daytime service simply sends a the current date and time as a character string without regard to the input.</p>
+                    </div>
+                    <div class="article-col">
+                        <p>One daytime service is defined as a connection based application on TCP.  A server listens for TCP connections on TCP port 13.  Once a connection is established the current date and time is sent out the connection as a ascii character string (and any data received is thrown away).  The service closes the connection after sending the quote.</p>
+                        <p>Another daytime service service is defined as a datagram based application on UDP.  A server listens for UDP datagrams on UDP port 13.  When a datagram is received, an answering datagram is sent containing the current date and time as a ASCII character string (the data in the received datagram is ignored).</p>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+ul {
+	margin-top: 0;
+	list-style: none;
+	list-style-position: initial;
+	padding: 16px;
+}
+
+li {
+	font-size: 12px;
+	display: inline;
+	text-transform: uppercase;
+	padding-left: 30px;
+}
+
+.header-title {	
+	display: none;
+}
+
+header div {
+	display: none;
+}
+
+.galery-section {
+	flex-direction: row;
+}
+
+.galery-section div {
+	width: 33%;
+}
+
+.text {
+	flex-direction: row;
+}
+
+.article-col {
+	flex: 1;
+	width: 50%;
+}
+
+.article-col:nth-child(1) {
+	padding: 0 1em 0 0;
+}
+
