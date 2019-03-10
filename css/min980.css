@@ -1,0 +1,40 @@
+/*
+Screen width >= 980px
+*/
+
+@media screen and (min-width: 980px) {
+    h1.nav-text {
+        display: none;
+    }
+
+    .nav-menu {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+    }
+
+    .nav-menu-button {
+        display: none;
+    }
+
+    ul.nav-menu-list {
+        flex-direction: row;
+    }
+
+    .images {
+        flex-direction: row;
+    }
+
+    .images a {
+        width: 33.333%;
+    }
+
+    .images > img {
+        width: 33.333%;
+    }
+
+    .articles .articles-items {
+        flex-direction: row;
+    }
+}
