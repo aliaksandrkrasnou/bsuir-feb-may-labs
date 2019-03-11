@@ -2,7 +2,7 @@ body {
 	font-family: Georgia, serif;
 	color: white;
 	margin: 0;
-        background-color:  #1B99B9;
+    background-color:  #1B99B9;
 }
 
 header {
@@ -27,7 +27,7 @@ header li:hover {
 .main-article {
 	height: auto;
 	width: auto;
-	padding: 12vw 20vw 12vw 3em;
+	padding: 12vw 20vw 12vw 10vw;
 	background: linear-gradient(to top left, #1B99B9, #56D4F4);
 }
 
@@ -45,7 +45,7 @@ header li:hover {
 
 .secondary-article span {
 	flex: 1 0 auto;
-	padding-left: 3em;
+	padding-left: 10vw;
 }
 
 .secondary-article div {
@@ -97,7 +97,7 @@ header li:hover {
 	flex-direction: column;
 	width: 100%;
 	box-sizing: border-box;
-	padding: 2em 3em 5vw 3em;
+	padding: 2em 10vw 5vw 10vw;
 	margin: 0;
 	background-color: #e6ebed;
 }
@@ -115,18 +115,12 @@ header li:hover {
 .text {
 	display: flex;
 	width: 100%;
+	justify-content: space-between;
 }
 
 .article-col {
-	flex: 1;
-	box-sizing: border-box;
 	word-wrap: break-word;
 	color: #708090;
-	padding: 1em 0;
-}
-
-.article-col p {
-	margin: 0.5em 0;
 }
 
 a {

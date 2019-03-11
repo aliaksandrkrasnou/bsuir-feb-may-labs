@@ -1,8 +1,8 @@
-ul {
+.main-menu {
 	margin-top: 0;
 	list-style: none;
 	list-style-position: initial;
-	padding: 16px;
+	padding: 16px 10vw;
 }
 
 li {
@@ -12,32 +12,15 @@ li {
 	padding-left: 30px;
 }
 
-.header-title {	
+.header-title,
+.menu {	
 	display: none;
-}
-
-.menu {
-	display: none;
-}
-
-.galery-section {
-	flex-direction: row;
 }
 
 .galery-section div {
 	width: 33%;
 }
 
-.text {
-	flex-direction: row;
-}
-
 .article-col {
-	flex: 1;
-	width: 50%;
+	width: 49%;
 }
-
-.article-col:nth-child(1) {
-	padding: 0 1em 0 0;
-}
-
