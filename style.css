@@ -145,13 +145,10 @@ a{
     width: 100%;
 }
 
-.block3-clear{
-    clear: both;
-}
-
 main{
     width: 100%;
     word-wrap: break-word;
+    clear: both;
 }
 
 main article{
