@@ -27,6 +27,7 @@
 }
 
 .gallery a {
+    height: 85vw;
     width: 100%;
 }
 
@@ -36,7 +37,7 @@
 }
 
 .gallery i {
-    height: 85vw;
+
     font-size: 7vw;
 }
 

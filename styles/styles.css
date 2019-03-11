@@ -21,6 +21,7 @@ a {
 body {
     width: 100%;
     max-width: 1080px;
+/*    min-width: 300px;*/
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     background-color: #ebebeb;
@@ -29,7 +30,7 @@ body {
 
 .menu {
 /*
-    
+
 */
     width: 100%;
     max-width: 1080px;
@@ -37,6 +38,7 @@ body {
     position: fixed;
     background-color: #373c3f;
     flex-wrap: wrap;
+    top: 0;
 }
 
 .small-screen-menu {
@@ -85,12 +87,13 @@ body {
 .banner {
     position: relative;
     background: linear-gradient(to bottom right, #23c4d7, #078aa4);
+    margin-top: 15px;
 }
 
 .banner-content {
     position: absolute;
     left: 10%;
-    top: 50%;
+    top: 60%;
     color: white;
 }
 
@@ -166,4 +169,3 @@ main article div {
 main article p {
     line-height: 2em;
 }
-
