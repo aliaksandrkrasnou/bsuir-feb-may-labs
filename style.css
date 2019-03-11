@@ -103,13 +103,14 @@ nav > .menu > .menu-icon {
 
 .banner-link, .banner-arrow {
     font-size: 3vw;
-    padding-top: 1.5em;
+    padding-top: 1em;
 }
 
 .banner-link {
     color: #a7d4dd; 
     width: 90%;
     float: left;
+	padding: 0;
 }
 
 .banner-arrow {
@@ -129,6 +130,8 @@ nav > .menu > .menu-icon {
 }
 
 .text-box-text {
+    display: block;
+    margin: 0px;
     position: absolute;
     height: inherit;
     background: #27212C;
@@ -139,6 +142,8 @@ nav > .menu > .menu-icon {
 }
 
 .text-box-arrow {
+    display: block;
+    margin: 0px;
     float: right;
     width: 20%;
     height: inherit;
