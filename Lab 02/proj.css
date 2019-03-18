@@ -33,6 +33,7 @@ color: white;
   	float: right;
     padding: 3%;
 	  font-size: 6vw;
+	text-align:center;
 }
 
 @media(max-width: 640px) {
@@ -99,6 +100,7 @@ color: white;
   padding:6.5%;
   width: auto;
   height: auto;
+  text-align:center;
 }
 
 .picktures-container {
