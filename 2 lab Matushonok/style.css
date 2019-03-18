@@ -79,6 +79,13 @@
 	padding-left: 15%;
 }
 
+.blue-rect i{
+	float: left;
+	padding-top: 5%;
+	padding-left: 30%;
+	font-size: 60px;
+}
+
 .grey{
 	float: left;
 	width: 80%;
@@ -99,25 +106,29 @@
 .pink{
 	float: right;
 	width: 20%;
-	height: 100%;	
-	display: inline-block; 
-	background-color: #bc3183;
-	color: #ffffff;
-	padding-top: 7%;
-	padding-bottom: 7%;
-	text-align: center;
-	font-size: 5em;
+	height: 100%;	 
 	font-weight: bold;
 	line-height: 5vw;
 }
 
-.image-block p {
+.pink i{
+	padding-top: 35%;
+	padding-bottom: 35%;
+	text-align: center; 
+	float: right;
+	width: 100%;
+	background-color: #bc3183;
+	color: #ffffff;
+	font-size: 70px;
+	line-height: inherit;
+}
+
+.image-block i{
 	float: left;
-	font-weight: bold;
-	font-size: 5em;
 	width: 33.3%;
 	background-color: #5b0fa1;
 	color: white;
+	font-size: 70px;
 	text-align: center;
 	line-height: 27vw;
 }
@@ -185,20 +196,20 @@
 		font-size: 1.5em;
 	}
 
-	.blue-rect p{
-		font-size: 1.5em;
+	.blue-rect i{
+		font-size: 40px;
 	}
 
 	.grey p{
 		font-size: 1.25em;
 	}
 
-	.pink{
-		font-size: 3em;
+	.pink i{
+		font-size: 40px;
 	}
 
-	.image-block p{
-		font-size: 3em;
+	.image-block i{
+		font-size: 40px;
 	}
 }
 
@@ -218,9 +229,9 @@
 	}
 
 
-	.image-block p {
+	.image-block i {
 		width: 100%;
-		font-size: 7em;
+		font-size: 200px;
 		line-height: 81vw;	
 	}
 
@@ -257,10 +268,6 @@
 	}
 
 	.blue-rect h2 {
-		font-size: 1em;
-	}
-
-	.blue-rect p{
 		font-size: 1em;
 	}
 
