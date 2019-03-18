@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 * {
 	margin: 0px;
 	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .full-navigation{
@@ -10,7 +17,6 @@
 	height: 10%;
 	background-color: #373c3f;
 	color: #ffffff;
-	font-family: 'Montserrat', sans-serif;
 }
 
 .full-navigation li{
@@ -24,7 +30,6 @@
 	height: 10%;
 	background-color: #373c3f;
 	color: #ffffff;
-	font-family: 'Montserrat', sans-serif;
 	padding: 2%;
 }
 
@@ -46,7 +51,6 @@
 	width: 100%;
 	color: #ffffff;
 	background-color: #13acc0;
-	font-family: 'Montserrat', sans-serif;
 }
 
 .blue-rect>h1 {
@@ -90,7 +94,6 @@
 	font-size: 2em;
 	color: #9787a6;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
 }
 
 .pink{
@@ -105,13 +108,11 @@
 	text-align: center;
 	font-size: 5em;
 	font-weight: bold;
-	font-family: 'Montserrat', sans-serif;
 	line-height: 5vw;
 }
 
 .image-block p {
 	float: left;
-	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 5em;
 	width: 33.3%;
