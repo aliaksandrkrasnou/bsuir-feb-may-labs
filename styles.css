@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-nav{
+  .mini_navigation{
     display: none;
 }
 .mainContainer{
@@ -16,7 +16,7 @@ nav{
     height:100px;
 }
 .headerMenuList{
-    color: #e4e5e5;
+    color: #e4e5e5; 
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -186,7 +186,7 @@ nav{
     .headerMenuList {
         display: none;   
     }
-    nav{
+       .mini_navigation{
         display: flex;
         color: white;
         justify-content: space-between;
@@ -206,7 +206,7 @@ nav{
         margin-left: 18px;
         color: #ebebeb;
     }
-    .miniMenu{
+    .mini_menu{
         box-sizing: border-box;
         padding:15px;
         background-color: #202529;
@@ -215,7 +215,7 @@ nav{
         height:70px;
         width:70px;
     }
-    .miniMenu:hover{
+    .mini_menu:hover{
         cursor: pointer;
         color: gray;
     }
@@ -263,7 +263,7 @@ nav{
     .headerMenuList {
         display: none;   
     }
-    nav{
+      .mini_navigation{
         display: flex;
         color: white;
         justify-content: space-between;
@@ -279,7 +279,7 @@ nav{
         color: #ebebeb;
         font-size: 10px;
     }
-    .miniMenu{
+    .mini_menu{
         box-sizing: border-box;
         padding:10px;
         text-align: center;
@@ -288,7 +288,7 @@ nav{
         height:40px;
         width:40px;
     }
-    .miniMenu:hover{
+    .mini_menu:hover{
         cursor: pointer;
         color: gray;
     }
