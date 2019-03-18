@@ -1,13 +1,27 @@
 .Head-menu-container-computer {
   display: flex;
-  padding-left: 4%;
   background: gray;
+  margin:0;
+  height:auto;
+  width:98%;
+  padding:1%;
+ padding-top: 20px;
+ padding-bottom: 20px;
 }
 
 .Head-menu-block-computer {
-  padding: 2%;
-  font-size: 2vw;
-  color: white;
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 20px;
+font-size: 2vw;
+color: white;
+display:inline;
+width:auto;
+text-align: center;
+}
+
+.Head-menu-container-computer li{
+list-style-type: none;
 }
 
 .Head-menu-container-phone{
