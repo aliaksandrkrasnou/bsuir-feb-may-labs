@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.full-navigation{
+	width: 100%;
+	height: 10%;
+	background-color: #373c3f;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.full-navigation li{
+	padding: 2%;
+	display: inline-block;
+}
+
+.small-navigation{
+	display: none;
+	width: 100%;
+	height: 10%;
+	background-color: #373c3f;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	padding: 2%;
+}
+
+.menu-icon{
+    float: right;
+    background-color: black;
+    padding: 4px;
+    margin-right: 20px;
+}
+
+.menu-icon div{
+    width: 35px;
+    height: 3px;
+    background-color:white;
+    margin: 6px 0;
+}
+
+.blue-rect{
+	width: 100%;
+	color: #ffffff;
+	background-color: #13acc0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.blue-rect>h1 {
+	padding-top: 10.5%;
+	padding-left: 8%;
+	margin: 0px;
+	font-size: 4.5em;
+}
+
+.blue-rect h2 {
+	float: left;
+	color: #a5d3dd;
+	padding-top: 5%;
+	padding-left: 8%;
+	padding-bottom: 13%;
+	margin: 0px;
+	font-size: 2.5em;
+}
+
+.blue-rect p{
+	float: left;
+	color: #ffffff;
+	font-size: 3em;
+	font-weight: bold;
+	padding-top: 5%;
+	padding-left: 15%;
+}
+
+.grey{
+	float: left;
+	width: 80%;
+	display: inline-block;
+	background-color: #27212c;
+	color: #ffffff;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	line-height: 5vw;
+}
+
+.grey p{
+	font-size: 2em;
+	color: #9787a6;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.pink{
+	float: right;
+	width: 20%;
+	height: 100%;	
+	display: inline-block; 
+	background-color: #bc3183;
+	color: #ffffff;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	text-align: center;
+	font-size: 5em;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 5vw;
+}
+
+.image-block p {
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 5em;
+	width: 33.3%;
+	background-color: #5b0fa1;
+	color: white;
+	text-align: center;
+	line-height: 27vw;
+}
+
+.image-block img {
+	float: left;
+	width: 33.3%;
+	height: 27vw;
+}
+
+.content-block {
+	background-color: #ebebeb;
+}
+
+.content-block>h2 {
+	color: #088ca5;
+	margin: 0px;
+	font-size: 2em;
+	padding-top: 50px;
+	padding-left: 8.3%;
+	padding-bottom: 20px;
+	font-weight: 400;	
+}
+
+.first-column {
+	float: left;
+	width: 50%;
+}
+
+.first-column p {
+	margin: 0px;
+	padding-left: 16.6%;
+	padding-bottom: 40px;
+	padding-right: 3.9%;
+	line-height: 1.5;
+}
+
+.first-column p:last-child {
+	padding-bottom: 20%;
+}
+
+.second-column {
+	float: right;
+	width: 50%;
+}
+
+.second-column p {
+	margin: 0px;
+	padding-left: 5.8%;
+	padding-bottom: 40px;
+	padding-right: 15.6%;
+	line-height: 1.5;
+}
+
+.second-column p:last-child {
+	padding-bottom: 20%;
+}
+
+@media all and (max-width: 970px){
+	.blue-rect h1 {
+		font-size: 2.5em;
+	}
+
+	.blue-rect h2 {
+		font-size: 1.5em;
+	}
+
+	.blue-rect p{
+		font-size: 1.5em;
+	}
+
+	.grey p{
+		font-size: 1.25em;
+	}
+
+	.pink{
+		font-size: 3em;
+	}
+
+	.image-block p{
+		font-size: 3em;
+	}
+}
+
+@media all and (max-width: 640px){
+	.full-navigation{
+		display: none;
+	}
+
+	.small-navigation{
+		display: block;
+	}
+
+	.small-navigation p{
+		float: left;
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+
+
+	.image-block p {
+		width: 100%;
+		font-size: 7em;
+		line-height: 81vw;	
+	}
+
+	.image-block>img {
+		width: 100%;
+		height: 81vw;
+	}
+
+	.second-column {
+		display: none;
+	}
+	
+	.first-column {
+		width: 100%;
+	}
+
+	.first-column>p {
+		font-size: 1.5em;
+		line-height: 2;
+	}
+
+	.first-column>p:last-child {
+		padding-bottom: 17%;
+	}
+
+	.content-block>h2 {
+		padding-left: 16.6%;
+	}
+}
+
+@media all and (max-width: 550px){
+	.blue-rect h1 {
+		font-size: 1.7em;
+	}
+
+	.blue-rect h2 {
+		font-size: 1em;
+	}
+
+	.blue-rect p{
+		font-size: 1em;
+	}
+
+	.grey p{
+		font-size: 1em;
+	}
+
+	.pink{
+		font-size: 1.5em;
+	}
+
+	.image-block p{
+		font-size: 7em;
+	}
+
+	.ContentBlock>h2 {
+		font-size: 1.25em;
+		padding-top: 25px;
+		padding-left: 12%;
+	}
+
+	.FirstColumn>p {
+		font-size: 1em;
+		line-height: 1.25;
+		padding-left: 12%;
+	}
+
+	.FirstColumn>p:last-child {
+		padding-bottom: 10%;
+	}
+}
