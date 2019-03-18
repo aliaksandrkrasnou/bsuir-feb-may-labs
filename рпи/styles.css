@@ -1,0 +1,159 @@
+body{
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+header{
+  background-color: #373c3f;
+  padding: 30px;
+  color: white;
+}
+
+header ul{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  list-style: none;
+}
+
+header a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.menu{
+  display: none;
+}
+
+
+.blue-box{
+  display: flex;
+  flex-direction: column;
+  background:linear-gradient(45deg, #19b4c6, #078aa4);
+  padding: 60px;
+  color: white;
+}
+.blue-box h1{
+  font-size: 90px;
+}
+
+
+.blue-box .fas{
+  font-size: 70px;
+  margin-left: 35%;
+}
+
+.robin-box{
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+  font-size: 20px;
+  background-color: #B40486;
+}
+
+.text-box{
+  width: 100%;
+  padding: 80px;
+  background-color: #27212c;
+  color: #9282a0;
+}
+
+.first-arrow-box{
+  width: 40%;
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+}
+
+.pictures-box{
+  display: flex;
+}
+
+.pictures-box img{
+  width: 33.3%;
+  height: 100%;
+}
+.second-arrow-box{
+  width:33.3%;
+  background-color:#5b0fa1;
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+}
+ .second-arrow-box i{
+  padding: 35%;
+}
+
+footer{
+  display: flex;
+  background-color: #ebebeb;
+  color: #515151;
+  font-size: 20px;
+  padding: 50px;
+}
+footer h2{
+  color: #088ca5;
+}
+
+.left-col{
+  float:left;
+  width: 40%
+}
+.right-col{
+  float:right;
+  width:40%;
+}
+
+.footer-text {
+  margin: 0 auto;
+}
+
+@media(max-width: 640px) {
+  .main-menu{
+    display: none;
+  }
+  header{
+    padding: 0%;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu p{
+    color:#f3f2f2;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0;
+  }
+  .menu a{
+    padding: 3%;
+    background-color: #202529;
+    font-size: 20px;
+  }
+  .blue-box h1 {
+    font-size: 50px;
+  }
+  .pictures-box{
+    flex-direction: column;
+  }
+  .purple-box{
+    width: 100%;
+    }
+  .purple-box i{
+    padding: 40%;
+    }
+  .pictures-box img{
+    width: 100%;
+  }
+  .second-arrow-box {
+    width: 100%;
+  }
+  .left-col, .right-col{
+    float: none;
+    width: 100%
+  }
+  footer{
+    font-size: 15px;
+  }
+
+}
