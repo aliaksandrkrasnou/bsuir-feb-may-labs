@@ -275,19 +275,19 @@
 		font-size: 7em;
 	}
 
-	.ContentBlock>h2 {
+	.content-block>h2 {
 		font-size: 1.25em;
 		padding-top: 25px;
 		padding-left: 12%;
 	}
 
-	.FirstColumn>p {
+	.first-column>p {
 		font-size: 1em;
 		line-height: 1.25;
 		padding-left: 12%;
 	}
 
-	.FirstColumn>p:last-child {
+	.first-column>p:last-child {
 		padding-bottom: 10%;
 	}
 }
