@@ -106,7 +106,7 @@ header a{
 }
 
 .arrowPic-box img{
-	width: 10% !important; 
+	width: 10% inherit; 
 }
 
 .info {
@@ -135,7 +135,7 @@ header a{
 
 @media all and (max-width: 980px){
 	.resource h2{
-		font-size: 60px !important;;
+		font-size: 60px inherit;
 	}
 
 	.resource{
@@ -152,7 +152,7 @@ header a{
 	header {
 		display: flex;
 		justify-content: space-between;
-		font-size: 21px !important;
+		font-size: 21px inherit;
 		height: 75px;
 	}
 
@@ -180,7 +180,7 @@ header a{
 	}
 		
 	.resource h2{
-		font-size: 70px !important;
+		font-size: 70px inherit;
 	}
 
 	.link-box h2{
@@ -220,7 +220,7 @@ header a{
 
 @media only screen and (max-width: 320px){
 	header {
-		font-size: 30px !important;
+		font-size: 30px inherit;
 		height: 80px;
 	}
 
@@ -236,7 +236,7 @@ header a{
 	}
 		
 	.resource h2{
-		font-size: 55px !important;
+		font-size: 55px inherit;
 	}
 	
 	
