@@ -19,14 +19,6 @@
 	width: 100%;
 }
 
-.menu-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: right;
-    height: 100%;
-}
-
 .nav-links i {
 	color: white;
 	position: absolute;
