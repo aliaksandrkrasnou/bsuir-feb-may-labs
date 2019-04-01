@@ -1,0 +1,12 @@
+.nav-head {
+	display: none;
+}
+
+.nav-links i {
+	display: none;
+}
+.nav-elem {
+	padding-right: 2em;
+	font-size: 0.8rem;
+	display: inline-block;
+}

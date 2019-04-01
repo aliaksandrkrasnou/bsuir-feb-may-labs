@@ -1,0 +1,42 @@
+.nav-head {
+	padding: 1.1rem;
+	font-size: 1.2rem;
+	color: white;
+}
+
+.nav-bar ul li:hover {
+	background-color: silver;
+}
+
+.nav-bar ul {
+	display: none;
+}
+
+.nav-elem {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    height: 100%;
+}
+
+.nav-links i {
+	color: white;
+	position: absolute;
+	display: inline-block;
+	padding: 1rem;
+	height: 100%;
+	top: 5px;
+	left: 90%;
+}
+
+.nav-links:hover ul {
+	display: block;
+}
