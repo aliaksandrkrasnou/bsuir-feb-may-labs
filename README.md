@@ -1,1 +1,1 @@
-My lab 3 solution is [here](https://www.github.com/YuzhikMariya/js-assignments)
+My lab 3 solution is [here](https://github.com/YuzhikMariya/js-assignments/tree/lab-3)
