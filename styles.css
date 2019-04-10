@@ -40,7 +40,7 @@ body::-webkit-scrollbar {
 
 .banner {
 	background-color: #18b4c6;
-	height: 25rem;
+	height: 23rem;
 }
 
 .banner-link {
@@ -55,7 +55,7 @@ body::-webkit-scrollbar {
 }
 
 .banner-small-link {
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 }
 
 .banner-text {
@@ -67,8 +67,7 @@ body::-webkit-scrollbar {
 	height: 7rem;
 	position: relative;
 	background-color: #27212c;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .text-box-content {
@@ -97,7 +96,7 @@ body::-webkit-scrollbar {
 	}
 	
 	.text-box-content {
-		font-size: 1rem;
+		font-size: 1.3rem;
 	}
 	.text-box-link {
 		font-size: 1.6em;
