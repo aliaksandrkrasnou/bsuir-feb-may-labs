@@ -1,4 +1,4 @@
-# BSUIR Labs
+# BSUIR Lab
 
 ### Fork this repository
 * Click the Fork button at the top-right corner of this page and the repository will be copied to your own account
