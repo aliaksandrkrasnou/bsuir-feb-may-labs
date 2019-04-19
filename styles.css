@@ -22,12 +22,14 @@ body::-webkit-scrollbar {
 	height: 0;
 }
 
-.nav-elem > a {
+
+
+.nav-elem a {
 	text-decoration: none;
 	color: #FDF5E6;
 }
 
-.nav-elem:first-child > a {
+.nav-elem:first-child a {
 	color: white;
 }
 

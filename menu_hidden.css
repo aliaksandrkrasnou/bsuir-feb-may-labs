@@ -5,7 +5,7 @@
 }
 
 .nav-bar ul li:hover {
-	background-color: silver;
+	background-color: lightgray;
 }
 
 .nav-bar ul {
@@ -29,6 +29,6 @@
 	left: 93%;
 }
 
-.nav-links:hover ul {
+.nav-bar:hover ul {
 	display: block;
 }
