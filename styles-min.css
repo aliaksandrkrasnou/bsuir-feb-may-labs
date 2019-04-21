@@ -1,0 +1,41 @@
+ul {
+	margin-top: 0;
+	padding: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+li {
+	font-size: 18px;
+	display: inline;
+}
+
+.header-name {	
+	display: none;
+}
+
+header div {
+	display: none;
+}
+
+.second-reference div a b{
+	position: relative;
+}
+
+.pictures {
+	flex-direction: row;
+}
+
+.pictures div {
+	width: 33%;
+}
+
+.info {
+	flex-direction: row;
+}
+
+.my-article {
+	flex: 1;
+	width: 50%;
+}
