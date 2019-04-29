@@ -1,1 +1,1 @@
-My lab 4 solution is [here](https://github.com/gulidamarta/newsApi)
+My lab 4 solution is [here](https://github.com/gulidamarta/newsPage)
