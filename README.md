@@ -1,3 +1,3 @@
 # BSUIR Labs
 
-My lab 3 solution is (https://www.github.com/Lapochka15/js-assignments)
+My lab 4 solution is (https://github.com/Lapochka15/News-site)
