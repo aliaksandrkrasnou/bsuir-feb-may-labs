@@ -1,0 +1,174 @@
+body, html {
+	margin: 0;
+	background-color: #fffff0;
+	min-width: 700px;
+	
+	color: #373c3f;
+}
+
+body::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+header {
+	max-width: 1400px;
+	margin: 0.6rem auto;
+	padding-top: 1em;
+	padding-left: 2em;
+}
+
+.head__name h2 {
+	margin-top: 0;
+	font-size: 2rem;
+}
+
+.head__body {
+	max-width: 1250px;
+	margin: 0.6rem auto;
+	width: 95%;
+	display: flex;
+	height: 45px;
+}
+
+.head__input {
+	background-color: #fffff0;
+	width: 90%;
+	padding-left: 5px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #373c3f;
+	border-right: 0;
+	font-size: 1.3rem;
+}
+
+.head__button {
+	outline: none;
+	color: #fffff0;
+    background-color: #373c3f;
+    border: none;
+	width: 100px;
+	font-size: 1.3rem;
+}
+
+.head__button:hover {
+    cursor: pointer;
+}
+
+.head__button:active {
+	color: #808080;
+}
+
+.news-end {
+	display: flex;
+    justify-content: center;
+}
+
+
+.load-news {
+	display: flex;
+	justify-content: center;
+	margin: 2rem;
+}
+
+.load-news__button {
+	background: none;
+	border: none;
+	outline: none;
+	color: #808080;
+}
+
+.load-news__button h2 {
+	margin: 0;
+}
+
+.load-news__button:active {
+	color: #808080;
+}
+
+.load-news__button:hover { 
+	cursor: pointer;
+}
+
+.news {
+	width: 95%;
+	margin: 2rem;
+}
+
+.content {
+	width: 95%;
+	display: block;
+	margin: 0.6rem auto;
+	max-width: 1250px;
+}
+
+.content__img {
+    width: 25%;
+	height: 150px;
+    background-size: cover;
+	margin: 0.5rem;
+	float: left;
+}
+
+.content__link {
+	text-decoration: none;
+	color: #373c3f;
+}
+
+.content:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.content__headline {
+	padding-top: 0.5rem;
+	margin-bottom: 0;
+}
+
+.content__src {
+	display: inline-block;	
+	color: #373c00;
+	font-size: 0.8rem;
+	padding-bottom: 1rem;
+}
+
+.navigation {
+	margin: 30px 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.navigation__body {
+	max-width: 1400px;
+	margin: 0.6rem auto;
+	display: flex;
+	flex-wrap: nowrap;
+	width: 80%;
+	height: 90px;
+    overflow: auto;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.source {
+    height: 45px;
+	background-color: #fffff0;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #373c3f;
+	font-size: 1.3rem;
+    outline: none;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+
+
+

@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<title>News Reader</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<body>
+		<header class="head">
+			<div class="head__name">
+				<h2>News Reader</h2>
+			</div>
+			<div class="head__body">
+				<input class="head__input" type="text" name="head__input" id="head__input">
+				<button class="head__button" id="head__button">Search</button>
+			</div>
+		</header>
+		
+		<div class="navigation">
+			<nav class="navigation__body" id="navigation__body"></nav>
+		</div>
+		
+		<div class="news" id="news"></div>
+		
+		<div class="news-end">
+			<h1 class="news-end__body" id="news-end__body">
+				Nothing here
+			</h1>
+		</div>
+		
+		<div class="load-news" id="load-news">
+			<button type="button" class="load-news__button" id="load-news__button">
+				<h2 class="load-news__text" id="load-news__text">
+					Load more...
+				</h2>
+			</button>
+		</div>
+		
+		<template id="content-template"> 
+            <div class="content">
+				<div class="content__body">
+					<div class="content__img"></div>
+					<div class="content__text">
+						<a class="content__link">
+							<h3 class="content__headline"></h3>
+						</a>
+						<span class="content__src"></span>
+						<article class="content__blurb"></article>
+					</div>
+				</div>
+				
+			</div>
+		</template>
+		
+		<template id="source-template">
+			<button class="source"></button>
+		</template>
+		
+		<script type="module" src="controller.js"></script>
+	</body>
+</html>
