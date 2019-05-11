@@ -1,8 +1,7 @@
 # BSUIR Labs
 
-### Fork this repository
-* Click the Fork button at the top-right corner of this page and the repository will be copied to your own account
-* Run `git clone https://github.com/<your-account>/bsuir-feb-may-labs.git` from command line to download the repo
+My lab 4 solution is https://github.com/RowanMorrison/bsuir-feb-may-labs/tree/lab4
+
 
 ### How to do tasks
 * Checkout into separate branch from master branch (Each tasks should be done into separate branch)
