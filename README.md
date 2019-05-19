@@ -1,1 +1,1 @@
-My lab 5 solution is [here](https://github.com/gulidamarta/newsPage)
+My lab 5 solution is [here](https://github.com/gulidamarta/react-website)
