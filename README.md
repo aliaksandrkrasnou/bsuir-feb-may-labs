@@ -1,1 +1,1 @@
-My lab 3 solution is [here](https://www.github.com/kyntsevichvova/js-assignments)
+My lab 4 solution is [here](https://github.com/KyntsevichVova/NewsAPI)
