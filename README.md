@@ -1,3 +1,3 @@
 # BSUIR Labs
 
-My lab 4 solution is (https://github.com/Lapochka15/News-site)
+My lab 5 solution is (https://github.com/Lapochka15/news-app-react.js-)
