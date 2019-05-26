@@ -1,9 +1,9 @@
-##Lab 04
+## Lab 04
 News App
 
-#Task description
+# Task description
 Create a client-side application that shows the latest news using NewsAPI
-#Use cases
+# Use cases
 Show a list of top news (5 at first) and a button ‘Load more’
 Decide for yourself what you’d like to show on the news card
 When clicking on the news card or button ‘Read more’ (choose one) you should be redirected to the original source of the article
