@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="icon" href = "https://img.icons8.com/color/26/000000/globe.png" type = "images/x-icon">;
+   <title>OmazNews</title>
+
+  
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   <header class="header">
+      <div class="header__wrapper">
+         <div class="logo black-logo">
+            <a href="">OmazNews</a>
+         </div>
+
+         <div class="search">
+            <select name="search-source" class="search__source" id="search__source">
+               <option value="none" selected>Any</option>
+            </select>
+            <input type="text" name="search-input" class="search__input" id="search__input">
+            <input type="button" name="search-button" value="Search" class="search__button" id="search__button">
+         </div>
+      </div>
+   </header>
+
+<main class="main">
+   <section class="news black">
+      <div class="out-news">
+         <h1 class="center">News</h1>
+         <div class="news" id="news">
+
+			</div>
+         <button type="button" name="next-news" class="next-news" id="next-news">Other news</button>
+
+      </div>
+   </section>
+</main>
+
+<footer>
+   <div class="logo black-logo">
+      <a href="">OmazNews</span></a>
+   </div>
+   
+
+</footer>
+<script type="text/javascript" src="js/news-api.js">
+</script>
+</body>
+</html>
