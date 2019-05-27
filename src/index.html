@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Rasa" rel="stylesheet">
+</head>
+<body>
+
+  <div class="wrapper">
+
+	<header class = "header__wrapper" >
+		<select  class=" sourse-selector header-item" id = "selector-sourses"></select>
+			<input class="search-text header-item " id = "search-text">
+			<button class="button-search header-item buttonColor  " id = "button-search" type = "submit">Search</button>
+	</header>
+
+	<main>
+		<div class="news" id = "news-container"></div>
+		<button class="load-more buttonColor " id ="load-more" type = "submit" >Load more</button>
+	</main>
+
+	<div class="push"></div>
+  </div>
+  <footer class="footer">
+  </footer>
+
+<script src ="../dist/app.js" ></script>	
+</body>
+</html>
