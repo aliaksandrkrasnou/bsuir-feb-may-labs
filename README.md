@@ -1,2 +1,2 @@
-My lab 4 solution is [here](https://github.com/polina-krukovich/NewsAPI)
+My lab 5 solution is [here](https://github.com/polina-krukovich/vue-news-app)
 
