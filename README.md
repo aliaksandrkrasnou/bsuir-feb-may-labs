@@ -1,2 +1,2 @@
-My lab 4 solution is [here](https://www.github.com/your-account-name/your-own-repo-for-lab-4).<br>
+My lab 4 solution is [here](https://github.com/Kot-Zakhar/NewsApp-Angular).<br>
 Deployed version is [here](https://kot-zakhar.github.io/NewsApp/).
