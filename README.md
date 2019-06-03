@@ -1,1 +1,1 @@
-Lab5 solution is [here](https://github.com/TemporarerAccount/rpi_lab5)
+Lab5 new solution is [here](https://github.com/TemporarerAccount/rpi_lab5)
