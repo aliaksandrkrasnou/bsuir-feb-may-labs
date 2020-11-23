@@ -1,3 +1,3 @@
 
-### Lab 1
-* [here](https://github.com/Den4ikMagia/lab1_1)
+### Lab 3
+* [here](https://github.com/Den4ikMagia/lab2_1)
