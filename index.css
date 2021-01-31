@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #ebebeb;
+}
+
+header {
+    background-color: #373c3f;
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    margin-left: 5%;
+    width: 80%;
+}
+.menuBtn {
+    width: 20%;
+    height: 100%;
+    background-color: #202529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btnEl {
+    width: 28px;
+    height: 4px;
+    margin-bottom: 0.5vh;
+}
+
+.banner{
+    background-color: #11abbf;
+    padding: 0 40px;
+
+}
+.bannerTitle {
+    color: white;
+}
+.bannerFooter {
+    padding-top: 20px;
+    color: white;
+    opacity: 0.5;
+    display: inline-block;
+}
+.bannerArrow {
+    font-family: 'Quicksand';
+    margin-left: 50px;
+}
+
+.textBox{
+    background-color: #27212c;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.arrowContainer {
+    width: 25%;
+    height: 100%;
+    background-color: #bc3183;
+    position: relative;
+}
+
+.arrowIcon {
+    font-family: 'Quicksand';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.textFromBox{
+    color: #9282a0;
+    text-align: center;
+    width: 75%;
+}
+
+.purpleContainer{
+    background-color: #5b0fa1;
+    height: 16vh;
+    position: relative;
+}
+.arrowfromPurple {
+    position: absolute;
+    font-family: 'Quicksand';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bridge{
+    display:table-cell;
+}
+
+.girl{
+    display:table-cell;
+}
+
+footer {
+    background-color: #ebebeb;
+    padding: 10% 10%;
+}
+
+.titleFooter {
+    color: #37a1b5;
+}
+
+.textFooter {
+    padding-top: 10%;
+    color: #515151;
+}
+
+@media screen and (max-width: 640px) {
+    .navigation {
+        font-size: 16px;
+    }
+    .bannerTitle {
+        font-size: 18px;
+        padding-top: 7vh;
+    }
+    .bannerFooter {
+        font-size: 14px;
+    }
+    .bannerArrow {
+        font-size: 16px;
+    }
+    .arrowIcon {
+        font-size: 30px;
+    }
+    .arrowfromPurple {
+        font-size: 50px;
+    }
+    .titleFooter {
+        font-size: 30px;
+    }
+    .textFooter {
+        font-size: 14px;
+    }
+    .textFromBox {
+        font-size: 12px;
+    }
+    .navList {
+        display: none;
+    }
+    header {
+        height: 5vh;
+    }
+    .banner {
+        height: 20vh;
+    }
+    .textBox {
+        height: 7vh;
+    }
+    .purpleContainer {
+        height: 16vh;
+    }
+    .bridge,.girl,.purpleContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 980px) {
+    .navigation {
+        font-size: 33px;
+    }
+    .bannerTitle {
+        font-size: 40px;
+        padding-top: 14vh;
+    }
+    .bannerFooter {
+        font-size: 28px;
+    }
+    .bannerArrow {
+        font-size: 30px;
+    }
+    .arrowIcon {
+        font-size: 45px;
+    }
+    .arrowfromPurple {
+        font-size: 75px;
+    }
+    .titleFooter {
+        font-size: 35px;
+    }
+    .textFooter {
+        font-size: 18px;
+    }
+    .textFromBox {
+        font-size: 17px;
+    }
+    .navList {
+        display: none;
+    }
+    header {
+        height: 10vh;
+    }
+    .banner {
+        height: 40vh;
+    }
+    .textBox {
+        height: 14vh;
+    }
+    .purpleContainer {
+        height: 32vh;
+    }
+    .bridge,.girl,.purpleContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1024px) {
+    .banner {
+        height: 80vh !important;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .navigation {
+        display: none;
+    }
+    .menuBtn {
+        display: none;
+    }
+    .bannerTitle {
+        font-size: 52px;
+        padding-top: 28vh;
+
+    }
+    .bannerFooter {
+        font-size: 48px;
+    }
+    .bannerArrow {
+        font-size: 60px;
+    }
+    .arrowIcon {
+        font-size: 65px;
+    }
+    .arrowfromPurple {
+        font-size: 60px;
+    }
+    .titleFooter {
+        font-size: 45px;
+    }
+    .textFooter {
+        column-count: 2;
+        font-size: 26px;
+    }
+    .textFromBox {
+        font-size: 34px;
+    }
+    .navList {
+        display: flex;
+        margin-left: 40px;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+    }
+    header {
+        height: 13vh;
+    }
+    .banner {
+        height: 85vh;
+    }
+    .textBox {
+        height: 28vh;
+    }
+    .purpleContainer {
+        height: 100%;    
+    }
+    .flexContainer{
+        height: 23vh;
+        display: flex;
+    }
+    .bridge,.girl,.purpleContainer {
+        width: calc(100% / 3);
+    }
+}
