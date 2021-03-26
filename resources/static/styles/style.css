@@ -1,0 +1,295 @@
+body {
+    background-color: #EAEAEA;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header {
+    justify-content: space-between;
+    background-color: #393F41;
+    padding: 15px;
+    display: flex;
+}
+
+.header-menu {
+    align-items: center;
+    display: flex;
+}
+
+.header-menu-mobile {
+    display: none;
+}
+
+.navigation-link {
+    padding: 25px 10px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.slogan {
+    padding: 150px 80px;
+    background: linear-gradient(to bottom right, #00B4C5, #008BA2);
+    color: #FFFFFF;
+}
+
+.slogan-text p {
+    font-size: 62px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.slogan-text a {
+    font-size: 36px;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+.lovelyPSD {
+    display: flex;
+    height: 250px;
+    align-items: center;
+    background-color: #2C2630;
+}
+
+.lovelyPSD-text {
+    flex: 3;
+    padding: 0 60px;
+    background-color: #2C2630;
+    font-size: 29px;
+    color: #9586A3;
+}
+
+.lovelyPSD-arrow {
+    flex: 1;
+    background-color: #C13380;
+    text-align: center;
+    height: 250px;
+}
+
+.arrow-link {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+}
+
+.images {
+    display: flex;
+}
+
+.image {
+    flex: 1;
+}
+
+.auto-image {
+    width: 100%;
+}
+
+.text {
+    padding: 20px 80px;
+}
+
+.text-title p {
+    font-size: 29px;
+    font-weight: bold;
+    color: #008CA3;
+}
+
+.text-content {
+    margin-top: -25px;
+    display: flex;
+    font-size: 16px;
+    line-height: 26px;
+    color: #525252;
+}
+
+.col1 {
+    flex: 1;
+    padding-right: 60px;
+}
+
+.col2 {
+    flex: 1;
+}
+
+.row1, .row2 {
+    padding-bottom: 3px;
+}
+
+@media screen and (max-width: 640px) {
+    .header-menu {
+        display: none;
+    }
+
+    .header-menu-mobile {
+        display: flex;
+        width: 100%;
+        margin: -20px;
+        padding: 0 30px;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 22px;
+    }
+
+    .mobile-navigation {
+        color: #FFFFFF;
+    }
+
+    .mobile-menu-icon {
+        margin: -30px;
+        padding: 16px 32px;
+        font-size: 33px;
+        color: #EAEAEA;
+        background-color: #252A2D;
+    }
+
+    .slogan {
+        padding: 75px 50px;
+    }
+
+    .slogan-text p {
+        font-size: 40px;
+    }
+
+    .slogan-text a {
+        font-size: 22px;
+    }
+
+    .lovelyPSD {
+        height: 150px;
+    }
+
+    .lovelyPSD-text {
+        margin-left: -20px;
+        font-size: 16px;
+    }
+
+    .lovelyPSD-arrow {
+        flex: 1.2;
+        height: 150px;
+    }
+
+    .arrow-link {
+        font-size: 48px;
+    }
+
+    .images {
+        display: block;
+    }
+
+    .text-content {
+        line-height: 44px;
+    }
+
+    .col1 {
+        padding-right: 0;
+        font-size: 24px;
+    }
+
+    .col2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header-menu {
+        display: none;
+    }
+
+    .header-menu-mobile {
+        display: flex;
+        width: 100%;
+        margin: -20px;
+        padding: 0 30px;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .mobile-navigation {
+        color: #FFFFFF;
+    }
+
+    .mobile-menu-icon {
+        margin: -30px;
+        padding: 9px 18px;
+        font-size: 14px;
+        color: #EAEAEA;
+        background-color: #252A2D;
+    }
+
+    .slogan {
+        padding: 35px 15px 50px;
+    }
+
+    .slogan-text p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .slogan-text a {
+        font-size: 11px;
+    }
+
+    .lovelyPSD {
+        height: 75px;
+    }
+
+    .lovelyPSD-text {
+        padding-left: 40px;
+        padding-right: 0;
+        font-size: 8px;
+    }
+
+    .lovelyPSD-arrow {
+        flex: 1.2;
+        height: 75px;
+    }
+
+    .arrow-link {
+        font-size: 22px;
+    }
+
+    .images {
+        display: block;
+    }
+
+    .text {
+        padding: 28px;
+    }
+
+    .text p {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .text-title {
+        padding-bottom: 20px;
+    }
+
+    .text-title p {
+        font-size: 19px;
+    }
+
+    .text-content {
+        line-height: 20px;
+        padding-left: 0;
+    }
+
+    .col1 {
+        padding-right: 0;
+        font-size: 16px;
+    }
+
+    .col2 {
+        display: none;
+    }
+}
