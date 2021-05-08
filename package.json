@@ -5,7 +5,8 @@
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js --env=prod --progress",
-    "lint": "eslint ./src/**.js"
+    "lint": "eslint ./src/**.js",
+    "publish": "node publish.js"
   },
   "devDependencies": {
     "babel-core": "6.26.3",
@@ -17,6 +18,7 @@
     "css-loader": "1.0.1",
     "eslint": "7.25.0",
     "eslint-loader": "4.0.2",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^1.6.0",
     "optimize-css-assets-webpack-plugin": "^5.0.4",
