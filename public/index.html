@@ -1,0 +1,135 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>PewNews</title>
+    <base href="./" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <h1>PewNews</h1>
+    </header>
+    <div class="sub-nav">
+      <div class="filter">
+        <form id="filterForm" novalidate="" class="filters-form">
+          <fieldset>
+            <div class="form-control">
+              <label for="filterValue">Search query:</label>
+              <input
+                id="filterValue"
+                name="filterValue"
+                placeholder="Filter"
+                type="text"
+                class="ng-untouched ng-pristine ng-valid"
+              />
+            </div>
+            <div class="form-control">
+              <label for="category">Category:</label>
+              <select name="category" id="category">
+                <option value="" selected>-</option>
+                <option value="business">business</option>
+                <option value="entertainment">entertainment</option>
+                <option value="general">general</option>
+                <option value="health">health</option>
+                <option value="science">science</option>
+                <option value="sports">sports</option>
+                <option value="technology">technology</option>
+              </select>
+            </div>
+            <div class="form-control">
+              <label for="language">Language:</label>
+              <select name="language" id="language">
+                <option value="en" selected>en</option>
+                <option value="ru">ru</option>
+                <option value="ar">ar</option>
+                <option value="de">de</option>
+                <option value="es">es</option>
+                <option value="fr">fr</option>
+                <option value="he">he</option>
+                <option value="it">it</option>
+                <option value="nl">nl</option>
+                <option value="no">no</option>
+                <option value="pt">pt</option>
+                <option value="se">se</option>
+                <option value="ud">ud</option>
+                <option value="zh">zh</option>
+              </select>
+            </div>
+            <div class="form-control">
+              <label for="country">Country:</label>
+              <select name="country" id="country">
+                <option value="" selected>-</option>
+                <option value="ae">ae</option>
+                <option value="ar">ar</option>
+                <option value="at">at</option>
+                <option value="au">au</option>
+                <option value="be">be</option>
+                <option value="bg">bg</option>
+                <option value="br">br</option>
+                <option value="ca">ca</option>
+                <option value="ch">ch</option>
+                <option value="cn">cn</option>
+                <option value="co">co</option>
+                <option value="cu">cu</option>
+                <option value="cz">cz</option>
+                <option value="de">de</option>
+                <option value="eg">eg</option>
+                <option value="fr">fr</option>
+                <option value="gb">gb</option>
+                <option value="gr">gr</option>
+                <option value="hk">hk</option>
+                <option value="hu">hu</option>
+                <option value="id">id</option>
+                <option value="ie">ie</option>
+                <option value="il">il</option>
+                <option value="in">in</option>
+                <option value="it">it</option>
+                <option value="jp">jp</option>
+                <option value="kr">kr</option>
+                <option value="lt">lt</option>
+                <option value="lv">lv</option>
+                <option value="ma">ma</option>
+                <option value="mx">mx</option>
+                <option value="my">my</option>
+                <option value="ng">ng</option>
+                <option value="nl">nl</option>
+                <option value="no">no</option>
+                <option value="nz">nz</option>
+                <option value="ph">ph</option>
+                <option value="pl">pl</option>
+                <option value="pt">pt</option>
+                <option value="ro">ro</option>
+                <option value="rs">rs</option>
+                <option value="ru">ru</option>
+                <option value="sa">sa</option>
+                <option value="se">se</option>
+                <option value="sg">sg</option>
+                <option value="si">si</option>
+                <option value="sk">sk</option>
+                <option value="th">th</option>
+                <option value="tr">tr</option>
+                <option value="tw">tw</option>
+                <option value="ua">ua</option>
+                <option value="us">us</option>
+                <option value="ve">ve</option>
+                <option value="za">za</option>
+              </select>
+            </div>
+            <div class="form-control">
+              <button class="button" id="filterSubmit">Filter</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="sub-header">News</div>
+
+    <div id="content">
+      <!-- script output here -->
+    </div>
+    <div class="load-more-btn">Load More</div>
+    <footer>
+      <p class="copyright">Copyright <a href="https://newsapi.org">NewsAPI</a></p>
+    </footer>
+  </body>
+</html>
