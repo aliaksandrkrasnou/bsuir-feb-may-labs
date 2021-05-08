@@ -33,7 +33,7 @@ export class ArticlesController {
     this.elements.loadMore.classList.toggle('hidden');
 
     const url = appState.getNextUrl();
-    return fetch(url)
+    return fetch(url, { mode: 'cors' })
       .then((res) => res.json())
       .then((data) => {
         appState.addArticles(data);

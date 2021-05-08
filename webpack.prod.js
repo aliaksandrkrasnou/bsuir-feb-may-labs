@@ -4,6 +4,10 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const CommonConfig = require('./webpack.common.js');
 
 module.exports = Merge(CommonConfig, {
+  output: {
+    publicPath: '/bsuir-feb-may-labs/',
+  },
+
   mode: 'production',
   optimization: {
     minimize: true,
