@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-Medium.woff2') format('woff2'),
+        url('../font/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
