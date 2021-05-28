@@ -1,0 +1,328 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.fl-r {
+    float: right;
+}
+
+.r-arr {
+    font-family: Quicksand;
+    color: #fff;
+}
+
+.clearfix {
+    clear: both;
+    content: "";
+}
+
+.menu {
+    color: #fff;
+    overflow: hidden;
+    text-transform: uppercase;
+    display: block;
+    background-color: #373c3f;
+    min-height: 100px;
+    line-height: 100px;
+    padding: 0 55px
+}
+
+.menu li {
+    float: left;
+    padding: 0 15px;
+}
+
+.menu li:last-of-type {
+    display: none;
+    background-color: #000;
+    float: right;
+}
+
+.menu li:last-of-type:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menu li:last-of-type a {
+    border-bottom: none !important;
+    cursor: pointer;
+}
+
+.menu li:first-of-type {
+    display: none;
+}
+
+.menu a {
+    color: #fff;
+    transition: all 0.5s linear;
+    border-bottom: 2px solid transparent;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+
+.linker:hover {
+    cursor: pointer;
+}
+
+.linker .r-arr {
+    transition: all 0.5s ease;
+}
+
+.linker:hover .r-arr {
+    color: rgba(136, 128, 128, 0.856)(255, 255, 255, 0.5);
+}
+
+#banner {
+    background-color: #16b1c4;
+    color: #fff;
+    position: relative;
+}
+
+#banner .overlay {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: linear-gradient(to top left, #000, #fff);
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#banner .container {
+    padding: 15% 0;
+    margin: 0 70px;
+    display: inline-block;
+    position: relative;
+}
+
+#banner .r-arr {
+    float: right;
+}
+
+#banner h1 {
+    font-size: 65px;
+}
+
+#banner h2 {
+    font-size: 45px;
+}
+
+#text-block h2 {
+    background-color: #27212c;
+    color: #9282a0;
+    height: 100%;
+    width: calc(75% - 70px);
+    margin: 0;
+    float: left;
+    padding-left: 70px;
+}
+
+#text-block {
+    line-height: 235px;
+    height: 235px;
+}
+
+#text-block a {
+    float: left;
+    background-color: #bc3183;
+    color: #fff;
+    width: 25%;
+    height: 100%;
+    display: block;
+    font-size: 65px;
+    text-align: center;
+}
+
+#blocks {
+    overflow: hidden;
+}
+
+#blocks .block .r-arr {
+    font-size: 120px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blocks .block {
+    position: relative;
+}
+
+#blocks .block > .pad {
+    padding-bottom: 85%;
+}
+
+#blocks .block:nth-child(1) {
+    background-color: #5b0fa1;
+}
+
+#blocks .block:nth-child(2) {
+    background: url("img/2.jpg") center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#blocks .block:nth-child(3) {
+    background: url("img/3.jpg") center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+}
+
+.col-2 {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 25px;
+}
+
+.col-3 {
+    float: left;
+    width: 33.33333333333333333333333%;
+}
+
+#text {
+    background-color: #ebebeb;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+#text p {
+    margin-top: 25px;
+}
+
+#text h2 {
+    padding: 0 25px;
+    color: #088ca5;
+    margin: 0;
+}
+
+.container {
+    margin: 0 50px;
+}
+
+@media all and (max-width: 640px) {
+    .menu {
+        padding-right: 0;
+    }
+
+    .menu li {
+        display: none;
+        text-transform: none;
+    }
+
+    .menu li:last-of-type, .menu li:first-of-type {
+        display: block;
+    }
+
+    #banner h1 {
+        font-size: 35px;
+    }
+
+    #banner h2 {
+        font-size: 25px;
+    }
+
+    #text-block {
+        height: 135px;
+        line-height: 135px;
+    }
+
+    #text-block h2 {
+        font-size: 18px !important;
+    }
+
+    #text-block a {
+        font-size: 35px;
+    }
+
+    #blocks .block {
+        width: 100%;
+    }
+
+    #text .text {
+        width: 100%;
+    }
+
+    #text .text:last-of-type {
+        display: none;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .container {
+        margin: 0 10px;
+    }
+
+    .menu {
+        padding: 0 0px 0 10px;
+    }
+
+    #banner h1 {
+        font-size: 15px;
+    }
+
+    #banner h2 {
+        font-size: 13px;
+    }
+
+    #banner .container {
+        margin: 0 25px;
+    }
+
+    #text-block {
+        height: 80px;
+        line-height: 80px;
+    }
+
+    #text-block h2 {
+        font-size: 10px !important;
+        padding-left: 25px;
+        width: calc(75% - 25px);
+    }
+
+    #text-block a {
+        font-size: 35px;
+    }
+
+    #blocks .block {
+        width: 100%;
+    }
+
+    #text .text {
+        width: 100%;
+    }
+
+    #text .text:last-of-type {
+        display: none;
+    }
+}
