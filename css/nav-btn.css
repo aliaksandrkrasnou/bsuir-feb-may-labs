@@ -1,0 +1,39 @@
+.nav-btns {
+    display: flex;
+    list-style-type: none;
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 0;
+    -webkit-padding-start: 0;
+    -webkit-padding-start: 0;
+    margin: 0;
+}
+
+.nav-btns li {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-btns li a {
+    text-decoration: none;
+    display: flex;
+    padding: 4vw 2vw;
+    color: white;
+    font-size: 1.8vw;
+    transition: font-size 0.5s;
+}
+
+.nav-btns ul li:first-child a {
+    padding-left: 6vw;
+}
+
+.nav-btns li a:hover {
+    font-size: 3vw;
+    box-shadow: inset 0 -1vw 0 0 cyan;
+    background-color: #202529;
+}
+
+@media screen and (max-width: 640px) {
+    .nav-btns ul li:first-child a {
+        padding-left: 2vw;
+    }
+}

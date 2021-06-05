@@ -1,0 +1,132 @@
+body {
+    font-family: "fira-sans", Helvetica, Arial, sans-serif;
+}
+
+.banner {
+    text-decoration: none;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 16%;
+    padding-left: 7%;
+    padding-bottom: 12%;
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom right, #19B4C6, #078AA4);
+}
+
+.banner-content h1 {
+    font-size: 7vw;
+    font-weight: normal;
+}
+
+.banner-content h2 {
+    font-size: 4vw;
+    font-weight: normal;
+    margin-top: 5%;
+    color: #9AD2DD;
+}
+
+.link-text i {
+    padding-left: 32vw;
+    font-size: 4.5vw;
+    color: white;
+}
+
+.link-box {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    background-color: #27212C;
+}
+
+.link-box-text {
+    flex-direction: column;
+    justify-content: center;
+    padding: 9% 0%;
+    font-size: 3vw;
+    font-weight: normal;
+    color: #81728D;
+}
+
+.arrow-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-size: 7vw;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: #BC3183;
+    transition: all 0.5s;
+}
+
+.arrow-box:hover {
+    width: 20%;
+}
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media .item {
+    width: 33.333%;
+}
+
+.media a .item {
+    width: 100%;
+    display: block;
+}
+
+article {
+    flex-direction: column;
+    padding: 3vw 7vw;
+    background-color: #EBEBEB;
+    color: #7B7B7B;
+}
+
+article h1 {
+    -webkit-margin-after: 0;
+    font-size: 4vw;
+    color: #088CA5;
+}
+
+.content {
+    display: flex;
+    font-size: 2vw;
+}
+
+.content span:first-child {
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 640px) {
+    .media {
+        flex-direction: column;
+    }
+
+    .media .item {
+        width: 100%;
+    }
+
+    .media-link {
+        height: 81vw;
+    }
+
+    article h1 {
+        font-size: 5vw;
+    }
+
+    .content {
+        flex-direction: column;
+        font-size: 4vw;
+    }
+
+    .content span:first-child {
+        margin-right: unset;
+    }
+}
