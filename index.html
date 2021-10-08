@@ -2,11 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlazRobar - Awesome Free PSD Templates & Resources</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<ul class="navigation">
+<div class="navigation mobile-only">
+    <span class="navigation_item">Navigation</span>
+    <span class="navigation_menu flex-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" viewBox="0 0 24 24">
+            <path stroke="#fff" fill="#fff" d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
+        </svg>
+    </span>
+</div>
+<ul class="navigation widescreen-only">
     <li class="navigation_item">PSD WEBSITES</li>
     <li class="navigation_item">UI KITS</li>
     <li class="navigation_item">PREMIUM PSD FILES</li>
@@ -31,13 +40,17 @@
     </span>
 </div>
 <div class="gallery">
-    <span class="gallery_item flex-center">
+    <div class="gallery_item flex-center">
         <svg width="50%" height="50%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10.5 15.75L14.25 12L10.5 8.25" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-    </span>
-    <img class="gallery_item" src="img/bridge.jpg" alt="bridge">
-    <img class="gallery_item" src="img/girl.jpg" alt="girl">
+    </div>
+    <div class="gallery_item flex-center">
+        <img class="image" src="img/bridge.jpg" alt="bridge">
+    </div>
+    <div class="gallery_item flex-center">
+        <img class="image" src="img/girl.jpg" alt="girl">
+    </div>
 </div>
 <div class="footer">
     <h1 class="footer_title">BlazRobar.com</h1>
@@ -49,7 +62,7 @@
             Euismod quis viverra nibh cras pulvinar mattis nunc sed.
             Lorem dolor sed viverra ipsum nunc aliquet bibendum enim.
         </p>
-        <p>
+        <p class="widescreen-only">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua.
             Sem integer vitae justo eget magna. Metus vulputate eu scelerisque felis imperdiet proin.
@@ -63,7 +76,7 @@
             Lectus mauris ultrices eros in cursus.
             Sem fringilla ut morbi tincidunt augue interdum.
         </p>
-        <p>
+        <p class="widescreen-only">
             Fames ac turpis egestas maecenas pharetra convallis posuere morbi.
             Lectus mauris ultrices eros in cursus.
             Sem fringilla ut morbi tincidunt augue interdum.
