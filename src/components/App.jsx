@@ -64,7 +64,7 @@ function App() {
             <input type="submit" value="Search" />
           </div>
           <select value={currentSource} onChange={handleSourceChange}>
-            {sources.map(source => {
+            {sources && sources.map(source => {
               return (<option key={source.id} value={source.id}>{source.name}</option>);
             })}
           </select>
@@ -72,12 +72,14 @@ function App() {
       </form>
       <main>
         <ul className="cards" >
-          {articles.map(article => {
+          {articles && articles.map(article => {
             return <li key={article.url} className="cards__item">
               <NewsCard article={article} />
             </li>
           })}
-          {articles.length < 1 && <p className="cards__empty">Articles not found. Clear search and try again</p>}
+          {articles && articles.length < 1 && <p className="cards__empty">Articles not found. Clear search and try again</p>}
+          
+          {!articles && <p className="cards__empty">Requests from the browser are not allowed on the Developer plan, except from localhost.</p>}
         </ul>
         <div className="cards__more">
           <button className="cards__more-button" type="button" onClick={handleButtonClick} disabled={!isActive}>Load more...</button>
