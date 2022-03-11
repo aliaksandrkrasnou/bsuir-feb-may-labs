@@ -40,7 +40,8 @@ class NewsService {
     loadArticles() {
         return this.fetch(this.articlesUri, this.articleParams)
             .then(({ totalResults, articles }) => {
-                this.articles = this.articles.concat(articles);
+                if(articles)
+                    this.articles = this.articles.concat(articles);
             });
     }
 
