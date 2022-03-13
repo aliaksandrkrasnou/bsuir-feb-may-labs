@@ -1,0 +1,24 @@
+<body>
+    <div class="app">
+        <header class="header">
+            <p>News Feed</p>
+        </header>
+        <form id="search-form" class="search-form">
+            <div class="search-form__container">
+                <div>
+                    <input id="search-query" type="text" value="">
+                    <input type="submit" value="Search">
+                </div>
+                <select id="sources"></select>
+            </div>
+        </form>
+        <main>
+            <ul id="articles" class="cards">
+            </ul>
+            <p id="articles-empty" class="cards__empty">Articles not found. Clear search and try again</p>
+            <div class="cards__more">
+                <button id="load-more-btn" class="cards__more-button" type="button">Load more...</button>
+            </div>
+        </main>
+    </div>
+</body>
