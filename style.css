@@ -1,0 +1,378 @@
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: Montserrat, sans-serif;
+}
+
+.nav {
+    background: #2e3031;
+}
+
+.navControls {
+    display: flex;
+}
+
+.navTitle {
+    flex-grow: 1;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media (min-width:640px) {
+    .navTitle {
+        font-size: 24px;
+        padding: 22px 37px;
+    }
+}
+
+@media (min-width:980px) {
+    .navTitle {
+        display: none;
+    }
+}
+
+.navOpen {
+    background: #000000;
+    padding: 9px 11px;
+    color: #ffffff;
+}
+
+@media (min-width:640px) {
+    .navOpen {
+        padding: 24px 21px;
+    }
+}
+
+@media (min-width:980px) {
+    .navOpen {
+        display: none;
+    }
+}
+
+.navOpenIcon {
+    width: 15px;
+    height: 10px;
+}
+
+@media (min-width:640px) {
+    .navOpenerIcon {
+        width: 31px;
+        height: 20px;
+    }
+}
+
+.navItems {
+    display: none;
+}
+
+@media (min-width:980px) {
+    .navItems {
+        display: flex;
+        padding: 0 39px;
+    }
+}
+
+.navItem {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ebebeb;
+    padding: 39px 14px;
+}
+
+.navItemHome {
+    color: #fff;
+}
+
+
+
+.footer {
+    background: #ddd8d8;
+    padding: 35px;
+}
+
+@media (min-width:640px) {
+    .footer {
+        padding: 75px;
+    }
+}
+
+.footerSite {
+    font-weight: 600;
+    font-size: 19px;
+    color: #19acd1;
+}
+
+@media (min-width:640px) {
+    .footerSite {
+        font-size: 30px;
+    }
+}
+
+.footerTexts {
+    font-size: 9pt;
+    line-height: 1.58;
+    color: #000000;
+}
+
+@media (min-width:640px) {
+    .footerTexts {
+        font-size: 22px;
+    }
+}
+
+@media (min-width:980px) {
+    .footerTexts {
+        font-size: 14px;
+        line-height: 1.8571;
+        -moz-column-count: 2;
+        column-count: 2;
+        grid-column-gap: 70px;
+        -moz-column-gap: 70px;
+        column-gap: 70px;
+    }
+}
+
+.footerX2 {
+    display: none
+}
+
+@media (min-width:980px) {
+    .footerX2 {
+        display: block;
+    }
+}
+
+
+
+.Banner {
+    padding: 57px 55px 50px 25px;
+    background: #0ca3b9 linear-gradient(119deg, #19b4c6, #078aa4);
+    color: white;
+}
+
+@media (min-width:640px) {
+    .Banner {
+        padding: 95px 125px 92px 52px;
+    }
+}
+
+@media (min-width:980px) {
+    .Banner {
+        padding: 153px 190px 149px 5pc;
+    }
+}
+
+@media (min-width:1024px) {
+    .Banner {
+        padding: 163px 200px 158px 86px;
+    }
+}
+
+.BannerTitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+@media (min-width:640px) {
+    .BannerTitle {
+        font-size: 39px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width:980px) {
+    .BannerTitle {
+        font-size: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width:1024px) {
+    .BannerTitle {
+        font-size: 62px;
+        margin-bottom: 62px;
+    }
+}
+
+.BannerSite {
+    font-size: 10px;
+}
+
+@media (min-width:640px) {
+    .BannerSite {
+        font-size: 22px;
+    }
+}
+
+@media (min-width:980px) {
+    .BannerSite {
+        font-size: 34px;
+    }
+}
+
+@media (min-width:1024px) {
+    .BannerSite {
+        font-size: 35px;
+    }
+}
+
+.BannerArrow {
+    float: right;
+    width: 6px;
+    height: 10px;
+}
+
+@media (min-width:640px) {
+    .BannerArrow {
+        width: 9pt;
+        height: 20px;
+    }
+}
+
+@media (min-width:980px) {
+    .BannerArrow {
+        width: 15px;
+        height: 25px;
+    }
+}
+
+@media (min-width:1024px) {
+    .BannerArrow {
+        width: 19px;
+        height: 28px;
+    }
+}
+
+.RobinHood {
+    display: flex;
+    background: #241d29;
+}
+
+.RobinHoodText {
+    flex-grow: 1;
+    color: #8b779c;
+    padding: 31px 25px;
+    font-size: 10px;
+}
+
+@media (min-width:640px) {
+    .RobinHoodText {
+        padding: 63px 55px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:980px) {
+    .RobinHoodText {
+        padding: 99px 84px 6pc;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1024px) {
+    .RobinHoodText {
+        padding: 103px 88px;
+        font-size: 31px;
+    }
+}
+
+.RobinHoodBoxArrow {
+    background: #c23997;
+    padding: 28px 30px;
+}
+
+
+@media (min-width:640px) {
+    .RobinHoodBoxArrow {
+        padding: 60px 67px 59px;
+    }
+}
+
+@media (min-width:980px) {
+    .RobinHoodBoxArrow {
+        padding: 97px 105px 6pc;
+    }
+}
+
+@media (min-width:1024px) {
+    .RobinHoodBoxArrow {
+        padding: 75pt 110px 101px;
+    }
+}
+
+.RobinHoodArrow {
+    width: 9px;
+    height: 14px;
+    color: white;
+    font-size: 40px;
+}
+
+
+.Boxes {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+@media (min-width:980px) {
+    .Boxes {
+        flex-direction: row;
+        align-content: normal;
+    }
+}
+
+.BridgeBox,
+.BigArrowBox,
+.SmileBox {
+    position: relative;
+}
+
+@media (min-width:980px) {
+    .BridgeBox,
+    .BigArrowBox,
+    .SmileBox {
+        flex: 1 1 0;
+    }
+}
+
+.BigArrowBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6413af;
+    height: 86.87vw;
+}
+
+@media (min-width:980px) {
+    .BigArrowBox {
+        height: auto;
+    }
+}
+
+.BigArrow {
+    color: white;
+    align-items: center;
+    font-size: 70px;
+}
+
+
+.Images {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
