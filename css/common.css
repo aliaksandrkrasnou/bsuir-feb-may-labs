@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap);
+@import url('./navigation.css');
+@import url('./banner.css');
+@import url('./cta.css');
+@import url('./slides.css');
+@import url('./text.css');
+
+* {
+  box-sizing: border-box;
+  appearance: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
