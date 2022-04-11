@@ -1,0 +1,137 @@
+.navigation {
+  background: #3b3e41;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 639px) {
+  .navigation {
+    height: 37px;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 979px) {
+  .navigation {
+    height: 74px;
+    padding-left: 37px;
+  }
+}
+
+@media (min-width: 980px) {
+  .navigation {
+    height: 97px;
+    padding-left: 39px;
+  }
+}
+
+.navigation__title {
+  flex-grow: 1;
+  color: #fff;
+  font-weight: 500;
+}
+
+@media (max-width: 639px) {
+  .navigation__title {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 979px){
+  .navigation__title {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 980px) {
+  .navigation__title {
+    display: none;
+  }
+}
+
+.navigation__menu-button {
+  background-color: #202529;
+  height: 100%;
+  background-image: url("../assets/icons/menu.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: none;
+}
+
+.navigation__menu-button.navigation__menu-button_active {
+  position: absolute;
+  background-color: transparent;
+  background-image: url("../assets/icons/cross.svg");
+  right: 0;
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+}
+
+@media (max-width: 639px) {
+  .navigation__menu-button {
+    width: 41px;
+    background-size: 10px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 979px) {
+  .navigation__menu-button {
+    width: 82px;
+    background-size: 20px;
+  }
+}
+
+@media (min-width: 980px) {
+  .navigation__menu-button {
+    display: none;
+  }
+}
+
+.navigation__menu {
+  margin: 0;
+  display: flex;
+}
+
+@media (max-width: 979px) {
+  .navigation__menu {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background: #202529;
+    padding: 20px;
+    transition: right ease-out .3s;
+  }
+
+  .navigation__menu.navigation__menu_active {
+    right: 0;
+  }
+}
+
+.navigation__menu-item {
+  list-style: none;
+}
+
+.navigation__menu-item-link {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 5px;
+}
+
+.navigation__menu-item-link, .navigation__menu-item-link:visited {
+  color: #ebebeb;
+}
+
+.navigation__menu-item-link:hover {
+  background: #1e2226;
+  color: #f2f2f2;
+}
+
+.navigation__menu-item-link.navigation__menu-item-link_active {
+  color: #fff;
+}

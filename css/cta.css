@@ -1,0 +1,128 @@
+.cta {
+  display: flex;
+  align-items: center;
+  background: #27212c;
+}
+
+@media (max-width: 639px) {
+  .cta {
+    height: 75px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 979px) {
+  .cta {
+    height: 150px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1024px) {
+  .cta {
+    height: 234px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cta {
+    height: 245px;
+  }
+}
+
+.cta__text {
+  flex-grow: 1;
+  color: #9282a0;
+}
+
+@media (max-width: 639px) {
+  .cta__text {
+    padding: 0 25px;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 979px) {
+  .cta__text {
+    padding: 0 55px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1024px) {
+  .cta__text {
+    padding: 0 84px;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cta__text {
+    padding: 0 88px;
+    font-size: 31px;
+  }
+}
+
+.cta__link {
+  background: #a23480;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+}
+
+.cta__link:hover {
+  background: #9e337c;
+}
+
+@media (max-width: 639px) {
+  .cta__link {
+    width: 71px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 979px)  {
+  .cta__link {
+    width: 143px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1024px) {
+  .cta__link {
+    width: 218px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cta__link {
+    width: 228px;
+  }
+}
+
+.cta__link:after {
+  content: url("../assets/icons/chevron.svg");
+  display: block;
+}
+
+@media (max-width: 639px) {
+  .cta__link:after {
+    width: 10px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 979px)  {
+  .cta__link:after {
+    width: 16px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1024px) {
+  .cta__link:after {
+    width: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cta__link:after {
+    width: 24px;
+  }
+}
