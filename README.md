@@ -1,1 +1,1 @@
-My lab 3 solution is [here](https://github.com/feeblelight/js-assignments)
+My lab 2 solution is [here](https://github.com/feeblelight/IPR1_1_kh)
