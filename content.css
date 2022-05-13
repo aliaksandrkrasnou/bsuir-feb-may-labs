@@ -1,0 +1,189 @@
+.banner {
+    height: 9em;
+    font-size: 1.25rem;
+    line-height: 1.1em;
+    background-color: #0CA2B8;
+}
+
+.banner a {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 1.625em;
+}
+
+.banner h1 {
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0 0 0.8em 0;
+}
+
+.banner p {
+    font-size: 0.6em;
+    margin: 0;
+}
+
+.banner span {
+    opacity: 0.5;
+    margin-right: 8em;
+}
+
+.link {
+    height: 7.7em;
+    font-size: 0.625rem;
+    background-color: #27212C;
+}
+
+.link a {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 2.8em;
+}
+
+.link h2 {
+    font-size: 1em;
+    font-weight: 400;
+    color: #9282A0;
+    margin: 0;
+}
+
+.link div {
+    height: 100%;
+    width: 4.8125em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    background-color: #BC3183;
+}
+
+.link-img {
+    font-size: 2.5rem;
+}
+
+.link-img a {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-img div {
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #5B0FA1;
+}
+
+.link-img img {
+    height: 8em;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-container {
+    font-size: 0.875rem;
+    line-height: 1.5em;
+    background-color: #EBEBEB;
+    filter: drop-shadow(0px 1px 0px #FFFFFF);
+    padding: 2.5em;
+}
+
+.text-container h3 {
+    font-size: 1.35em;
+    font-weight: 400;
+    color: #088CA5;
+    margin: 0 0 1.7em 0;
+}
+
+.text-container .text div:last-of-type {
+    display: none;
+}
+
+.text-container p {
+    color: #515151;
+    margin: 0;
+}
+
+.text-container p ~ p {
+    margin-top: 2em;
+}
+
+@media screen and (min-width: 640px) {
+    .banner {
+        font-size: 2.5rem;
+    }
+
+    .link {
+        font-size: 1.25rem;
+    }
+
+    .link-img {
+        font-size: 4.875rem;
+    }
+
+    .text-container {
+        font-size: 1.375rem;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .banner {
+        font-size: 3.75rem;
+    }
+
+    .link {
+        font-size: 1.875rem;
+    }
+
+    .link-img {
+        font-size: 2.5rem;
+    }
+
+    .link-img a {
+        flex-direction: row;
+    }
+
+    .link-img a > * {
+        width: 0;
+        flex: 1 1 0;
+    }
+
+    .text-container {
+        font-size: 0.875rem;
+    }
+
+    .text-container .text {
+        display: flex;
+    }
+
+    .text-container .text div:first-of-type {
+        margin-right: 2em;
+    }
+
+    .text-container .text div:last-of-type {
+        display: block;
+        margin-left: 2em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        font-size: 3.875rem;
+    }
+
+    .link {
+        font-size: 2rem;
+    }
+
+    .link-img {
+        font-size: 2.6rem;
+    }
+}
