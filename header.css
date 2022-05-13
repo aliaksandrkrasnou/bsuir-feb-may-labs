@@ -1,0 +1,76 @@
+header {
+    height: 3em;
+    font-size: 0.75rem;
+    color: #EBEBEB;
+    background-color: #373B3F;
+}
+
+header div,
+header ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header div {
+    justify-content: space-between;
+    padding: 0 0 0 1.5em;
+}
+
+header h4 {
+    font-weight: 400;
+    margin: 0;
+}
+
+header button {
+    height: 100%;
+    width: 3em;
+    font-size: 1em;
+    color: #FFFFFF;
+    background-color: #1F2529;
+    border: none;
+    cursor: pointer;
+}
+
+header nav {
+    height: 100%;
+    display: none;
+    padding: 0 2.375em;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    margin: 0 1em;
+}
+
+header a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 640px) {
+    header {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    header {
+        height: 6.125em;
+        font-size: 1rem;
+    }
+
+    header div {
+        display: none;
+    }
+
+    header nav {
+        display: block;
+    }
+}
