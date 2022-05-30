@@ -15,3 +15,7 @@
 ### Materials and resources
 * [Labs are located here](https://drive.google.com/drive/folders/1JK_D8e9rPVdysKW2-_SmxNN40WG68_QC)
 * [Creating a pull request from a fork](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+* [Creating a pull request from a fork](https://github.com/avkhmeleva/bsuir-feb-may-labs)
+* [My IPR 1 Task 2 solution is here](https://github.com/Vitali-Kazhaneuski/IPR_1_2)
+* [My IPR 2 Task 1 solution is here](https://github.com/Vitali-Kazhaneuski/IPR_2_1)
+* [My IPR 2 Task 2 solution is here](https://github.com/Vitali-Kazhaneuski/IPR_2_2)
