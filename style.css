@@ -1,0 +1,230 @@
+body {
+  margin: 0px auto;
+  max-width: 1024px;
+  font-family: "Montserrat";
+}
+
+.header {
+  height: 98px;
+  line-height: 98px;
+  padding-left: 55px;
+  background-color: #373b3f;
+  color: white;
+}
+
+.header > span {
+  margin-right: 20px;
+}
+
+.header-nav {
+  background-color: #373b3f;
+  display: none;
+  height: 78px;
+  line-height: 78px;
+  padding-left: 38px;
+  color: white;
+}
+
+.header-nav-control {
+  float: right;
+  height: 78px;
+  width: 78px;
+  font-size: 24px;
+  text-align: center;
+  background-color: #222222;
+}
+
+.promo {
+  height: 646px;
+  background-image: linear-gradient(-29deg, #0789a2 0%, #18b3c5 100%);;
+  padding-left: 79px;
+  padding-right: 10%;
+  box-sizing: border-box;
+  color: white;
+}
+
+.promo .promo-top {
+  display: inline-block;
+  margin-top: 268px;
+  font-size: 60px;
+}
+
+.promo .promo-web {
+  opacity: 0.5;
+  font-size: 34px;
+}
+
+.grid-feedback {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.grid-feedback > div {
+  height: 234px;
+  line-height: 234px;
+}
+
+.quote {
+  background-color: #27212c;
+  color: #9282a0;
+  font-size: 30px;
+  padding-left: 84px;
+}
+
+.redirect {
+  background-color: #bc3183;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.grid-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-media > div {
+  height: 340px;
+  line-height: 340px;
+}
+
+.purple {
+  background-color: #5a0ea0;
+  color: white;
+  text-align: center;
+  font-size: 118px;
+}
+
+.bridge {
+  background-image: url("148157989.png");
+  background-position: 20%;
+  background-size: cover;
+}
+
+.lady {
+  background-image: url("Background.png");
+  background-position: 30%;
+  background-size: cover;
+}
+
+.robar {
+  background-color: lightgray;
+  font-size: 30px;
+  line-height: 44px;
+  color: #088ca5;
+  padding-top: 70px;
+  padding-left: 80px;
+}
+
+.grid-lorem {
+  display: grid;
+  background-color: lightgray;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+  padding: 0px 80px;
+  color: #515151;
+}
+
+@media (max-width: 640px) {
+  .header {
+    display: none;
+  }
+
+  .header-nav {
+    display: block;
+  }
+
+  .promo {
+    height: 444px;
+    padding-left: 44px;
+    color: white;
+  }
+
+  .promo .promo-top {
+    margin-top: 188px;
+    font-size: 40px;
+  }
+
+  .promo .promo-web {
+    font-size: 20px;
+  }
+
+  .grid-media {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-media > div {
+    height: 556px;
+    line-height: 556px;
+  }
+
+  .grid-lorem {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-feedback > div {
+    height: 154px;
+    line-height: 154px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-nav {
+    height: 37px;
+    line-height: 37px;
+  }
+
+  .header-nav-control {
+    height: 37px;
+    width: 37px;
+    font-size: 18px;
+  }
+
+  .promo {
+    height: 211px;
+    padding-left: 38px;
+    color: white;
+  }
+
+  .promo .promo-top {
+    margin-top: 56px;
+    font-size: 24px;
+  }
+
+  .promo .promo-web {
+    font-size: 16px;
+  }
+
+  .grid-feedback > div {
+    height: 77px;
+    line-height: 77px;
+  }
+
+  .quote {
+    color: #9282a0;
+    font-size: 18px;
+    padding-left: 18px;
+  }
+
+  .redirect {
+    font-size: 22px;
+  }
+
+  .grid-media > div {
+    height: 278px;
+    line-height: 278px;
+  }
+
+  .robar {
+    font-size: 18px;
+    line-height: 18px;
+    color: #088ca5;
+    padding-top: 26px;
+    padding-left: 28px;
+  }
+
+  .grid-lorem {
+    padding: 0px 28px;
+    font-size: 12px;
+  }
+}
