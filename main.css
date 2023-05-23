@@ -1,0 +1,286 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.heading-primary {
+  color: #ffffff;
+}
+
+.heading-secondary {
+  color: rgba(234, 232, 231, 0.8);
+}
+
+.navigation {
+  /* font-size: 15px; */
+  height: 4vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #312c30;
+}
+
+.navigation__title {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-size: 0.7rem;
+}
+
+.navigation__btn {
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d1a1d;
+}
+
+.navigation__list {
+  display: none;
+}
+
+.header {
+  background: linear-gradient(
+    to right bottom,
+    rgba(47, 184, 202, 0.8),
+    rgba(21, 145, 171, 0.8)
+  );
+  height: 22vh;
+}
+
+.header__text-box {
+  width: 78vw;
+  padding-top: 40px;
+  /* padding-left: 20px; */
+  margin: 0 auto;
+}
+
+.header__title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.header__link {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.section-overview {
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview__title {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.55rem;
+  font-weight: 300;
+  background-color: #27212c;
+}
+
+.overview__arrow {
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #bc3183;
+}
+
+.section-gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-about {
+  background-color: #ebebeb;
+  padding: 35px;
+}
+
+.about__title {
+  color: #0295ad;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.about__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__col-2 {
+  display: none;
+}
+
+p {
+  line-height: 1.7;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #565656;
+}
+
+@media only screen and (min-width: 640px) {
+  .navigation {
+    height: 6vh;
+  }
+  .navigation__title {
+    font-size: 1rem;
+  }
+  .navigation__btn {
+    font-size: 2rem;
+  }
+
+  .header {
+    height: 32vh;
+  }
+
+  .header__text-box {
+    width: 65vw;
+    padding-top: 70px;
+    padding-right: 120px;
+  }
+
+  .header__title {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 25px;
+  }
+
+  .header__link {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  .section-overview {
+    height: 13vh;
+  }
+
+  .overview__title {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .overview__arrow {
+    font-size: 3rem;
+  }
+
+  p {
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 980px) {
+  .navigation {
+    height: 8vh;
+    /* display: block; */
+  }
+
+  .navigation__title {
+    display: none;
+  }
+
+  .navigation__btn {
+    display: none;
+  }
+
+  .navigation__nav {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+  }
+
+  .navigation__list {
+    list-style: none;
+    display: flex;
+  }
+
+  .navigation__item {
+    text-transform: uppercase;
+    padding-right: 25px;
+    font-size: 0.8rem;
+  }
+
+  .header {
+    height: 40vh;
+  }
+
+  .header__text-box {
+    width: 53vw;
+    padding-top: 140px;
+    padding-right: 350px;
+  }
+
+  .header__title {
+    font-size: 2.5rem;
+  }
+
+  .header__link {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .section-overview {
+    height: 15vh;
+  }
+
+  .overview__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .overview__arrow {
+    font-size: 4.5rem;
+  }
+
+  .section-gallery {
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+  }
+
+  .gallery__image {
+    width: 33.333333%;
+    object-fit: cover;
+  }
+
+  .section-about {
+    padding-bottom: 100px;
+  }
+
+  .about__description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about__col {
+    width: 45vw;
+  }
+
+  .about__col-2 {
+    display: block;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    height: 45vh;
+  }
+
+  .header__text-box {
+    width: 51vw;
+  }
+}
